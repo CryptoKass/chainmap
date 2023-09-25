@@ -1,0 +1,12 @@
+{
+  "name": "rpclist",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest",
+    "ethers": "^6.7.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
