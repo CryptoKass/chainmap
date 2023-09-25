@@ -7,4 +7,8 @@ export default {
   11155111: { network: "ethereum", chain: "sepolia" },
   56: { network: "smartchain", chain: "mainnet" },
   97: { network: "smartchain", chain: "testnet" },
+  42161: { network: "arbitrum", chain: "mainnet" },
+  421613: { network: "arbitrum", chain: "goerli" },
+  421614: { network: "arbitrum", chain: "sepolia" },
+  42170: { network: "arbitrum", chain: "nova" },
 }

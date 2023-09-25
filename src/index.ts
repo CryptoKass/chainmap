@@ -6,8 +6,10 @@ import chainIds from "./chainIds";
 
 import ethereum from "./ethereum";
 import smartchain from "./smartchain";
+import arbitrum from "./arbitrum";
 
 export default asProxyWithChainId({
   ethereum,
   smartchain,
+  arbitrum,
 }, chainIds);
