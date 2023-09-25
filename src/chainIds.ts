@@ -11,4 +11,8 @@ export default {
   421613: { network: "arbitrum", chain: "goerli" },
   421614: { network: "arbitrum", chain: "sepolia" },
   42170: { network: "arbitrum", chain: "nova" },
+  137: { network: "polygon", chain: "mainnet" },
+  1101: { network: "polygon", chain: "zkevm" },
+  80001: { network: "polygon", chain: "mumbai" },
+  1442: { network: "polygon", chain: "zkevmtest" },
 }
