@@ -4,7 +4,7 @@ import { ChainMap } from "./types";
 export default {
   mainnet: {
     chainId: 56,
-    name: "mainnet",
+    name: "Binance SmartChain mainnet",
     rpc: {
       Binance: "https://bsc-dataseed1.binance.org",
       Binance2: "https://bsc-dataseed2.binance.org",
@@ -13,12 +13,12 @@ export default {
       PublicNode: "https://bsc.publicnode.com",
       LLamaNodes: "https://binance.llamarpc.com",
       Blast: "https://bsc.public.blastapi.io",
-      MeowRPC: "https://bsc.meowrpc.com",
+      Meow: "https://bsc.meowrpc.com",
     },
   },
   testnet: {
     chainId: 97,
-    name: "testnet",
+    name: "Binance SmartChain testnet",
     rpc: {
       Binance: "https://data-seed-prebsc-1-s1.binance.org:8545",
       Binance2: "https://data-seed-prebsc-2-s1.binance.org:8545",
