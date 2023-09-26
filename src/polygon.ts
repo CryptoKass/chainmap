@@ -16,7 +16,6 @@ const mainnetInfo = {
     "https://polygon-bor.publicnode.com",
     "https://polygon.llamarpc.com",
     "https://polygon-mainnet.public.blastapi.io",
-    "https://rpc.ankr.com/polygon",
     "https://polygon.meowrpc.com",
     "https://1rpc.io/matic"
   ]
@@ -27,8 +26,8 @@ const zkevmInfo = {
   "chainId": 1101,
   "name": "polygon zkevm",
   "currency": {
-    "name": "Polygon",
-    "symbol": "MATIC",
+    "name": "Ethereum",
+    "symbol": "ETH",
     "decimals": 18
   },
   "explorerUrl": "https://zkevm.polygonscan.com",
@@ -60,8 +59,8 @@ const zkevmtestInfo = {
   "chainId": 1442,
   "name": "polygon zkevm testnet",
   "currency": {
-    "name": "Polygon",
-    "symbol": "MATIC",
+    "name": "Ethereum",
+    "symbol": "ETH",
     "decimals": 18
   },
   "rpc": [
