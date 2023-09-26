@@ -1,5 +1,5 @@
 import { JsonRpcProvider } from "ethers";
-import type { NetworkMap } from "../src/types";
+import type { NetworkMap } from "../data/types";
 import fs from "fs";
 
 export const getWorkingRPCs = async (rpcs: string[]) => {
@@ -31,7 +31,7 @@ export const getWorkingRPCs = async (rpcs: string[]) => {
   return working;
 };
 
-export const loadRawNetworkMap = async () => {
+export const loadNetworkMap = async () => {
   let networkMap: NetworkMap = {};
 
   // read all json files in the data folder
@@ -51,6 +51,22 @@ export const loadRawNetworkMap = async () => {
 
 export const writeFile = async (path: string, data: string) => {
   const res = Bun.write(path, data);
-  res.then(() => console.log(`Created File '${path}' ✔️`));
+  res
+    .then(() => console.log(`Created File '${path}' ✔️`))
+    .catch((e) => console.error(`Failed to create file '${path}' ❌`, e));
   return res;
+};
+
+export const toCamelCase = (str: string) => {
+  if (!str) return "";
+
+  return str
+    .toLowerCase()
+    .split(" ")
+    .map((word, i) => {
+      if (i === 0) return word;
+      if (!word[0]) return word;
+      return word[0].toUpperCase() + word.slice(1);
+    })
+    .join("");
 };
