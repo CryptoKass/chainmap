@@ -28,3 +28,9 @@ export const getWorkingRPCs = async (rpcs: string[]) => {
 
   return working;
 };
+
+export const writeFile = async (path: string, data: string) => {
+  const res = Bun.write(path, data);
+  res.then(() => console.log(`Created File '${path}' ✔️`));
+  return res;
+};
