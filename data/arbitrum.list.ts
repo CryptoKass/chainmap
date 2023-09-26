@@ -7,14 +7,14 @@ export default {
     name: "Arbitrum mainnet",
     currency: ETH,
     explorerUrl: "https://arbiscan.io",
-    rpc: {
-      Arbitrum: "https://arb1.arbitrum.io/rpc",
-      PublicNode: "https://arbitrum-one.publicnode.com",
-      LLamaNodes: "https://arbitrum.llamarpc.com",
-      Blast: "https://arbitrum-one.public.blastapi.io",
-      Meow: "https://arbitrum.meowrpc.com",
-      Ankr: "https://rpc.ankr.com/arbitrum",
-    },
+    rpc: [
+      "https://arb1.arbitrum.io/rpc",
+      "https://arbitrum-one.publicnode.com",
+      "https://arbitrum.llamarpc.com",
+      "https://arbitrum-one.public.blastapi.io",
+      "https://arbitrum.meowrpc.com",
+      "https://rpc.ankr.com/arbitrum",
+    ],
   },
 
   goerli: {
@@ -22,11 +22,11 @@ export default {
     name: "Arbitrum goerli",
     currency: ETH,
     explorerUrl: "https://goerli.arbiscan.io",
-    rpc: {
-      Arbitrum: "https://goerli-rollup.arbitrum.io/rpc",
-      PublicNode: "https://arbitrum-goerli.publicnode.com",
-      Blast: "https://arbitrum-goerli.public.blastapi.io",
-    },
+    rpc: [
+      "https://goerli-rollup.arbitrum.io/rpc",
+      "https://arbitrum-goerli.publicnode.com",
+      "https://arbitrum-goerli.public.blastapi.io",
+    ],
   },
 
   sepolia: {
@@ -34,9 +34,7 @@ export default {
     name: "Arbitrum sepolia",
     currency: ETH,
     explorerUrl: "https://sepolia.arbiscan.io",
-    rpc: {
-      Arbitrum: "https://sepolia-rollup.arbitrum.io/rpc",
-    },
+    rpc: ["https://sepolia-rollup.arbitrum.io/rpc"],
   },
 
   nova: {
@@ -44,10 +42,10 @@ export default {
     name: "Arbitrum nova",
     currency: ETH,
     explorerUrl: "https://nova.arbiscan.io",
-    rpc: {
-      Arbitrum: "https://nova.arbitrum.io/rpc",
-      PublicNode: "https://arbitrum-nova.publicnode.com",
-      Blast: "https://arbitrum-nova.public.blastapi.io",
-    },
+    rpc: [
+      "https://nova.arbitrum.io/rpc",
+      "https://arbitrum-nova.publicnode.com",
+      "https://arbitrum-nova.public.blastapi.io",
+    ],
   },
 } as ChainMap;

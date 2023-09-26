@@ -13,14 +13,14 @@ export default {
     name: "polygon",
     currency: MATIC,
     explorerUrl: "https://polygonscan.com",
-    rpc: {
-      PublicNode: "https://polygon-bor.publicnode.com",
-      LlamaNodes: "https://polygon.llamarpc.com",
-      Blast: "https://polygon-mainnet.public.blastapi.io",
-      Ankr: "https://rpc.ankr.com/polygon",
-      Meow: "https://polygon.meowrpc.com",
-      OneRPC: "https://1rpc.io/matic",
-    },
+    rpcs: [
+      "https://polygon-bor.publicnode.com",
+      "https://polygon.llamarpc.com",
+      "https://polygon-mainnet.public.blastapi.io",
+      "https://rpc.ankr.com/polygon",
+      "https://polygon.meowrpc.com",
+      "https://1rpc.io/matic",
+    ],
   },
 
   zkevm: {
@@ -28,30 +28,29 @@ export default {
     name: "polygon zkevm",
     currency: MATIC,
     explorerUrl: "https://zkevm.polygonscan.com",
-    rpc: {
-      PublicNode: "https://polygon-zkevm.publicnode.com",
-      Blast: "https://polygon-zkevm-mainnet.public.blastapi.io",
-      OneRPC: "https://1rpc.io/polygon/zkevm",
-    },
+    rpcs: [
+      "https://polygon-zkevm.publicnode.com",
+      "https://polygon-zkevm-mainnet.public.blastapi.io",
+      "https://1rpc.io/polygon/zkevm",
+    ],
   },
 
   mumbai: {
     chainId: 80001,
     name: "polygon mumbai",
     currency: MATIC,
-    rpc: {
-      PublicNode: "https://polygon-mumbai-bor.publicnode.com",
-      Blast: "https://polygon-testnet.public.blastapi.io",
-      Ankr: "https://rpc.ankr.com/polygon_mumbai",
-    },
+    explorerUrl: "https://mumbai.polygonscan.com",
+    rpcs: [
+      "https://polygon-mumbai-bor.publicnode.com",
+      "https://polygon-testnet.public.blastapi.io",
+      "https://rpc.ankr.com/polygon_mumbai",
+    ],
   },
 
   zkevmtest: {
     chainId: 1442,
     name: "polygon zkevm testnet",
     currency: MATIC,
-    rpc: {
-      ZkevmTest: "https://rpc.public.zkevm-test.net",
-    },
+    rpcs: ["https://rpc.public.zkevm-test.net"],
   },
 } as ChainMap;

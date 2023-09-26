@@ -1,7 +1,7 @@
 export interface ChainInfo {
   name: string;
   chainId: number;
-  rpcs: string[];
+  rpc: string[];
   currency: CurrencyInfo;
   explorerUrl?: string;
   iconUrl?: string;

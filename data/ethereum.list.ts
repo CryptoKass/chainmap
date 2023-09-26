@@ -12,14 +12,14 @@ export default {
     name: "Ethereum mainnet",
     currency: ETH,
     explorerUrl: "https://etherscan.io",
-    rpc: {
-      PublicNode: "https://ethereum.publicnode.com",
-      LlamaNodes: "https://eth.llamarpc.com",
-      Blast: "https://eth-mainnet.public.blastapi.io",
-      Ankr: "https://rpc.ankr.com/eth",
-      Flashbots: "https://rpc.flashbots.net/",
-      CloudFlare: "https://cloudflare-eth.com",
-    },
+    rpc: [
+      "https://ethereum.publicnode.com",
+      "https://eth.llamarpc.com",
+      "https://eth-mainnet.public.blastapi.io",
+      "https://rpc.ankr.com/eth",
+      "https://rpc.flashbots.net/",
+      "https://cloudflare-eth.com",
+    ],
   },
 
   goerli: {
@@ -27,12 +27,12 @@ export default {
     name: "Ethereum goerli",
     currency: ETH,
     explorerUrl: "https://goerli.etherscan.io",
-    rpc: {
-      PublicNode: "https://ethereum-goerli.publicnode.com",
-      Ankr: "https://rpc.ankr.com/eth_goerli",
-      Blast: "https://eth-goerli.public.blastapi.io",
-      NotADegen: "https://rpc.notadegen.com/eth/goerli",
-    },
+    rpc: [
+      "https://ethereum-goerli.publicnode.com",
+      "https://rpc.ankr.com/eth_goerli",
+      "https://eth-goerli.public.blastapi.io",
+      "https://rpc.notadegen.com/eth/goerli",
+    ],
   },
 
   sepolia: {
@@ -40,12 +40,12 @@ export default {
     name: "Ethereum sepolia",
     currency: ETH,
     explorerUrl: "https://sepolia.etherscan.io",
-    rpc: {
-      Sepolia: "https://rpc.sepolia.org",
-      Sepolia2: "https://rpc2.sepolia.org",
-      Blast: "https://eth-sepolia.public.blastapi.io",
-      NotADegen: "https://rpc.notadegen.com/eth/sepolia",
-      Tenderly: "https://gateway.tenderly.co/public/sepolia",
-    },
+    rpc: [
+      "https://rpc.sepolia.org",
+      "https://rpc2.sepolia.org",
+      "https://eth-sepolia.public.blastapi.io",
+      "https://rpc.notadegen.com/eth/sepolia",
+      "https://gateway.tenderly.co/public/sepolia",
+    ],
   },
 } as ChainMap;
