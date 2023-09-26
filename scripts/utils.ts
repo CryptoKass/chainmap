@@ -1,11 +1,10 @@
-import { RpcMap } from "../data/types";
 import { JsonRpcProvider } from "ethers";
 
-export const getWorkingRPCs = async (rpcs: RpcMap) => {
-  const working: RpcMap = {};
+export const getWorkingRPCs = async (rpcs: string[]) => {
+  const working: string[] = [];
 
   // Check if RPCs are working
-  const promises = Object.entries(rpcs).map(async ([k, v]) => {
+  const promises = rpcs.map(async (v) => {
     const provider = new JsonRpcProvider(v, undefined, { polling: false });
 
     try {
@@ -15,7 +14,7 @@ export const getWorkingRPCs = async (rpcs: RpcMap) => {
       ]);
       provider.destroy();
       console.log(` + RPC ${v} is working`);
-      return [k, v];
+      return v;
     } catch (e) {
       console.log(` - RPC ${v} is not working.`);
       return null;
@@ -24,10 +23,7 @@ export const getWorkingRPCs = async (rpcs: RpcMap) => {
 
   const results = await Promise.all(promises);
   results.forEach((result) => {
-    if (result) {
-      const [k, v] = result;
-      working[k] = v;
-    }
+    if (result) working.push(result);
   });
 
   return working;
