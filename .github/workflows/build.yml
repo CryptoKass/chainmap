@@ -29,5 +29,6 @@ jobs:
         run: |
           git config --global user.name 'Bot'
           git config --global user.email 'cryptokass@users.noreply.github.com'
-          git commit -am "🧹 chore: generate & build"
+          git add .
+          git commit -m "🧹 chore: generate & build"
           git push
