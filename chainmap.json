@@ -43,7 +43,6 @@
       },
       "explorerUrl": "https://sepolia.etherscan.io",
       "rpc": [
-        "https://rpc.sepolia.org",
         "https://rpc2.sepolia.org",
         "https://eth-sepolia.public.blastapi.io",
         "https://rpc.notadegen.com/eth/sepolia"
@@ -130,7 +129,9 @@
         "decimals": 18
       },
       "explorerUrl": "https://sepolia.arbiscan.io",
-      "rpc": ["https://sepolia-rollup.arbitrum.io/rpc"]
+      "rpc": [
+        "https://sepolia-rollup.arbitrum.io/rpc"
+      ]
     },
     "nova": {
       "chainId": 42170,
@@ -191,8 +192,7 @@
       "explorerUrl": "https://mumbai.polygonscan.com",
       "rpc": [
         "https://polygon-mumbai-bor.publicnode.com",
-        "https://polygon-testnet.public.blastapi.io",
-        "https://rpc.ankr.com/polygon_mumbai"
+        "https://polygon-testnet.public.blastapi.io"
       ]
     },
     "zkevmtest": {
@@ -203,7 +203,9 @@
         "symbol": "ETH",
         "decimals": 18
       },
-      "rpc": ["https://rpc.public.zkevm-test.net"]
+      "rpc": [
+        "https://rpc.public.zkevm-test.net"
+      ]
     }
   }
 }

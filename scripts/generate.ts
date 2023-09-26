@@ -73,6 +73,20 @@ const generateIndexCode = (networks: NetworkMap) => {
   return indexSrc;
 };
 
+const generateReadMe = async (networks: NetworkMap) => {
+  const chains = Object.values(networks)
+    .map((network) => Object.values(network))
+    .flat();
+
+  let readmeTxt = await Bun.file("./data/README.tmpl.md").text();
+  readmeTxt = readmeTxt.replace(
+    "#SUPPORTED_NETWORKS#",
+    chains.map((chain) => `${chain.name} (${chain.chainId})`).join(", ")
+  );
+
+  return readmeTxt;
+};
+
 const main = async () => {
   // 1. Filter out non-working RPCs
   const workingNetworks = await filterWorkingNetworks(networks);
@@ -90,6 +104,9 @@ const main = async () => {
 
   // 5. Create a json file containing the all the chainInfos
   await writeFile("./chainmap.json", JSON.stringify(workingNetworks, null, 2));
+
+  // 6. Generate the README
+  await writeFile("./README.md", await generateReadMe(workingNetworks));
 };
 
 main()

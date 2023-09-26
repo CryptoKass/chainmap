@@ -27,7 +27,7 @@ npm install chainmap
 
 ## Supported Networks
 
-Ethereum mainnet (1), Ethereum goerli (5), Ethereum sepolia (11155111), Binance SmartChain mainnet (56), Binance SmartChain testnet (97), Arbitrum mainnet (42161), Arbitrum goerli (421613), Arbitrum sepolia (421614), Arbitrum nova (42170), polygon (137), polygon zkevm (1101), polygon mumbai (80001), polygon zkevm testnet (1442)
+#SUPPORTED_NETWORKS#
 
 ## Usage
 
