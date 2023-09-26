@@ -16,6 +16,7 @@ const mainnetInfo = {
     "https://polygon-bor.publicnode.com",
     "https://polygon.llamarpc.com",
     "https://polygon-mainnet.public.blastapi.io",
+    "https://rpc.ankr.com/polygon",
     "https://polygon.meowrpc.com",
     "https://1rpc.io/matic"
   ]
@@ -32,6 +33,7 @@ const zkevmInfo = {
   },
   "explorerUrl": "https://zkevm.polygonscan.com",
   "rpc": [
+    "https://polygon-zkevm.publicnode.com",
     "https://polygon-zkevm-mainnet.public.blastapi.io",
     "https://1rpc.io/polygon/zkevm"
   ]
