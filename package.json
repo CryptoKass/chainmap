@@ -1,7 +1,12 @@
 {
   "name": "rpclist",
-  "module": "index.ts",
+  "module": "dist/index.js",
   "type": "module",
+  "scripts": {
+    "generate": "bun run scripts/generate.ts",
+    "build": "tsc --declaration --declarationMap --outDir ./dist src/index.ts",
+    "test": "bun test"
+  },
   "devDependencies": {
     "bun-types": "latest",
     "ethers": "^6.7.1"
