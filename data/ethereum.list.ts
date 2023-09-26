@@ -1,9 +1,17 @@
-import { ChainMap } from "./types";
+import { ChainMap, CurrencyInfo } from "./types";
+
+export const ETH: CurrencyInfo = {
+  name: "Ethereum",
+  symbol: "ETH",
+  decimals: 18,
+};
 
 export default {
   mainnet: {
     chainId: 1,
-    name: "mainnet",
+    name: "Ethereum mainnet",
+    currency: ETH,
+    explorerUrl: "https://etherscan.io",
     rpc: {
       PublicNode: "https://ethereum.publicnode.com",
       LlamaNodes: "https://eth.llamarpc.com",
@@ -16,7 +24,9 @@ export default {
 
   goerli: {
     chainId: 5,
-    name: "goerli",
+    name: "Ethereum goerli",
+    currency: ETH,
+    explorerUrl: "https://goerli.etherscan.io",
     rpc: {
       PublicNode: "https://ethereum-goerli.publicnode.com",
       Ankr: "https://rpc.ankr.com/eth_goerli",
@@ -27,7 +37,9 @@ export default {
 
   sepolia: {
     chainId: 11155111,
-    name: "sepolia",
+    name: "Ethereum sepolia",
+    currency: ETH,
+    explorerUrl: "https://sepolia.etherscan.io",
     rpc: {
       Sepolia: "https://rpc.sepolia.org",
       Sepolia2: "https://rpc2.sepolia.org",

@@ -1,11 +1,10 @@
-export interface RpcMap {
-  [key: string]: string;
-}
-
 export interface ChainInfo {
   name: string;
   chainId: number;
-  rpc: RpcMap;
+  rpcs: string[];
+  currency: CurrencyInfo;
+  explorerUrl?: string;
+  iconUrl?: string;
 }
 
 export interface ChainMap {
@@ -14,4 +13,11 @@ export interface ChainMap {
 
 export interface NetworkMap {
   [key: string]: ChainMap;
+}
+
+export interface CurrencyInfo {
+  name: string;
+  symbol: string;
+  decimals: number;
+  iconUrl?: string;
 }
