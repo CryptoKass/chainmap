@@ -17,6 +17,7 @@ var mainnetInfo = {
         "https://eth.llamarpc.com",
         "https://eth-mainnet.public.blastapi.io",
         "https://rpc.ankr.com/eth",
+        "https://rpc.flashbots.net/",
         "https://cloudflare-eth.com"
     ]
 };
@@ -51,7 +52,8 @@ var sepoliaInfo = {
         "https://rpc.sepolia.org",
         "https://rpc2.sepolia.org",
         "https://eth-sepolia.public.blastapi.io",
-        "https://rpc.notadegen.com/eth/sepolia"
+        "https://rpc.notadegen.com/eth/sepolia",
+        "https://gateway.tenderly.co/public/sepolia"
     ]
 };
 exports.default = {
