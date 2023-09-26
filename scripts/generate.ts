@@ -83,13 +83,15 @@ const generateSource = async (networks: NetworkMap) => {
 
 const main = async () => {
   const workingNetworks = await getWorkingNetworks(networks);
-  const files = await generateSource(workingNetworks);
 
+  const files = await generateSource(workingNetworks);
   for (let [filename, src] of Object.entries(files)) {
     const filepath = `./src/${filename}`;
     await Bun.write(filepath, src);
     console.log(`Wrote ${filepath} ✔️`);
   }
+
+  await Bun.write("./rpclist.json", JSON.stringify(workingNetworks, null, 2));
 };
 
 main()
