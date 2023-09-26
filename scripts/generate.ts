@@ -1,5 +1,18 @@
 import { NetworkMap, ChainMap } from "../data/types";
-import { getWorkingRPCs, loadNetworkMap, writeFile } from "./utils";
+import {
+  capitalizeWords,
+  getWorkingRPCs,
+  loadNetworkMap,
+  writeFile,
+} from "./utils";
+
+const formatNetworkMap = (networks: NetworkMap) => {
+  for (let [networkName, networkMap] of Object.entries(networks)) {
+    for (let [chainName, chainInfo] of Object.entries(networkMap)) {
+      chainInfo.name = capitalizeWords(chainInfo.name);
+    }
+  }
+};
 
 /** Returns a network map containing only working network RPCs */
 const filterWorkingNetworks = async (networks: NetworkMap) => {
@@ -91,6 +104,7 @@ const generateReadMe = async (networks: NetworkMap) => {
 
 const main = async () => {
   const networks = await loadNetworkMap();
+  formatNetworkMap(networks);
 
   // 1. Filter out non-working RPCs
   const workingNetworks = await filterWorkingNetworks(networks);
