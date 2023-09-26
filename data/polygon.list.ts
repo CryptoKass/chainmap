@@ -1,3 +1,4 @@
+import { ETH } from "./ethereum.list";
 import { ChainMap } from "./types";
 
 export const MATIC = {
@@ -26,7 +27,7 @@ export default {
   zkevm: {
     chainId: 1101,
     name: "polygon zkevm",
-    currency: MATIC,
+    currency: ETH,
     explorerUrl: "https://zkevm.polygonscan.com",
     rpc: [
       "https://polygon-zkevm.publicnode.com",
@@ -50,7 +51,7 @@ export default {
   zkevmtest: {
     chainId: 1442,
     name: "polygon zkevm testnet",
-    currency: MATIC,
+    currency: ETH,
     rpc: ["https://rpc.public.zkevm-test.net"],
   },
 } as ChainMap;
