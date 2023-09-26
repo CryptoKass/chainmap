@@ -11,13 +11,8 @@
       },
       "explorerUrl": "https://gnosisscan.io",
       "rpc": [
-        "https://rpc.gnosischain.com",
-        "https://rpc.gnosis.gateway.fm",
-        "https://rpc.ankr.com/gnosis",
         "https://gnosischain-rpc.gateway.pokt.network",
-        "https://gnosis-mainnet.public.blastapi.io",
-        "https://gnosis.api.onfinality.io/public",
-        "https://gnosis.blockpi.network/v1/rpc/public"
+        "https://gnosis.api.onfinality.io/public"
       ]
     }
   },
@@ -245,8 +240,7 @@
         "https://rpc.sepolia.org",
         "https://rpc2.sepolia.org",
         "https://eth-sepolia.public.blastapi.io",
-        "https://rpc.notadegen.com/eth/sepolia",
-        "https://gateway.tenderly.co/public/sepolia"
+        "https://rpc.notadegen.com/eth/sepolia"
       ]
     }
   },
@@ -415,7 +409,9 @@
         "symbol": "ONE",
         "decimals": 18
       },
-      "rpc": [],
+      "rpc": [
+        "https://api.s0.b.hmny.io"
+      ],
       "infoUrl": "https://www.harmony.one/",
       "faucets": [
         "https://faucet.pops.one"
@@ -493,8 +489,7 @@
       },
       "rpc": [
         "https://mainnet.base.org/",
-        "https://developer-access-mainnet.base.org/",
-        "https://base.publicnode.com"
+        "https://developer-access-mainnet.base.org/"
       ],
       "infoUrl": "https://base.org",
       "faucets": []
