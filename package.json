@@ -1,11 +1,12 @@
 {
   "name": "chainmap",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "module": "dist/index.js",
   "type": "module",
   "scripts": {
     "generate": "bun run scripts/generate.ts",
     "build": "tsc --declaration --declarationMap --outDir ./dist src/index.ts",
+    "bump": "bun run scripts/bump.ts",
     "test": "bun test"
   },
   "files": [
