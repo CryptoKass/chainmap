@@ -27,7 +27,6 @@
       },
       "explorerUrl": "https://goerli.etherscan.io",
       "rpc": [
-        "https://ethereum-goerli.publicnode.com",
         "https://rpc.ankr.com/eth_goerli",
         "https://eth-goerli.public.blastapi.io",
         "https://rpc.notadegen.com/eth/goerli"
