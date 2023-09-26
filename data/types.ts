@@ -3,8 +3,13 @@ export interface ChainInfo {
   chainId: number;
   rpc: string[];
   currency: CurrencyInfo;
+
+  // Optional fields
   explorerUrl?: string;
   iconUrl?: string;
+  infoUrl?: string;
+  ensAddress?: string;
+  facuets?: string[];
 }
 
 export interface ChainMap {

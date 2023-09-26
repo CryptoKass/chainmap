@@ -1,6 +1,5 @@
-import networks from "../data/networks.list.ts";
 import { NetworkMap, ChainMap } from "../data/types";
-import { getWorkingRPCs, writeFile } from "./utils";
+import { getWorkingRPCs, loadRawNetworkMap, writeFile } from "./utils";
 
 /** Returns a network map containing only working network RPCs */
 const filterWorkingNetworks = async (networks: NetworkMap) => {
@@ -88,6 +87,8 @@ const generateReadMe = async (networks: NetworkMap) => {
 };
 
 const main = async () => {
+  const networks = await loadRawNetworkMap();
+
   // 1. Filter out non-working RPCs
   const workingNetworks = await filterWorkingNetworks(networks);
 
