@@ -4,6 +4,7 @@
 import { asProxyWithChainId } from "./utils";
 import chainIds from "./chainIds";
 
+// Supported Networks
 import ethereum from "./ethereum";
 import smartchain from "./smartchain";
 import arbitrum from "./arbitrum";

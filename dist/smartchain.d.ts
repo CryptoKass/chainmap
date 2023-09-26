@@ -1,21 +1,24 @@
 declare const _default: {
-    mainnet: import("./types").Proxied<{
-        Binance: string;
-        Binance2: string;
-        Binance3: string;
-        Binance4: string;
-        PublicNode: string;
-        LLamaNodes: string;
-        Meow: string;
-    }, string>;
-    testnet: import("./types").Proxied<{
-        Binance: string;
-        Binance2: string;
-        Binance3: string;
-        Binance4: string;
-        PublicNode: string;
-        Blast: string;
-    }, string>;
+    mainnet: {
+        chainId: number;
+        name: string;
+        currency: {
+            name: string;
+            symbol: string;
+            decimals: number;
+        };
+        rpc: string[];
+    };
+    testnet: {
+        chainId: number;
+        name: string;
+        currency: {
+            name: string;
+            symbol: string;
+            decimals: number;
+        };
+        rpc: string[];
+    };
 };
 export default _default;
 //# sourceMappingURL=smartchain.d.ts.map

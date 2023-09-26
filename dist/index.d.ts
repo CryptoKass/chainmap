@@ -1,89 +1,152 @@
 declare const _default: import("./types").Proxied<{
     ethereum: {
-        mainnet: import("./types").Proxied<{
-            PublicNode: string;
-            LlamaNodes: string;
-            Blast: string;
-            Ankr: string;
-            CloudFlare: string;
-        }, string>;
-        goerli: import("./types").Proxied<{
-            PublicNode: string;
-            Ankr: string;
-            Blast: string;
-            NotADegen: string;
-        }, string>;
-        sepolia: import("./types").Proxied<{
-            Sepolia: string;
-            Sepolia2: string;
-            Blast: string;
-            NotADegen: string;
-        }, string>;
+        mainnet: {
+            chainId: number;
+            name: string;
+            currency: {
+                name: string;
+                symbol: string;
+                decimals: number;
+            };
+            explorerUrl: string;
+            rpc: string[];
+        };
+        goerli: {
+            chainId: number;
+            name: string;
+            currency: {
+                name: string;
+                symbol: string;
+                decimals: number;
+            };
+            explorerUrl: string;
+            rpc: string[];
+        };
+        sepolia: {
+            chainId: number;
+            name: string;
+            currency: {
+                name: string;
+                symbol: string;
+                decimals: number;
+            };
+            explorerUrl: string;
+            rpc: string[];
+        };
     };
     smartchain: {
-        mainnet: import("./types").Proxied<{
-            Binance: string;
-            Binance2: string;
-            Binance3: string;
-            Binance4: string;
-            PublicNode: string;
-            LLamaNodes: string;
-            Meow: string;
-        }, string>;
-        testnet: import("./types").Proxied<{
-            Binance: string;
-            Binance2: string;
-            Binance3: string;
-            Binance4: string;
-            PublicNode: string;
-            Blast: string;
-        }, string>;
+        mainnet: {
+            chainId: number;
+            name: string;
+            currency: {
+                name: string;
+                symbol: string;
+                decimals: number;
+            };
+            rpc: string[];
+        };
+        testnet: {
+            chainId: number;
+            name: string;
+            currency: {
+                name: string;
+                symbol: string;
+                decimals: number;
+            };
+            rpc: string[];
+        };
     };
     arbitrum: {
-        mainnet: import("./types").Proxied<{
-            Arbitrum: string;
-            PublicNode: string;
-            LLamaNodes: string;
-            Blast: string;
-            Meow: string;
-            Ankr: string;
-        }, string>;
-        goerli: import("./types").Proxied<{
-            Arbitrum: string;
-            PublicNode: string;
-            Blast: string;
-        }, string>;
-        sepolia: import("./types").Proxied<{
-            Arbitrum: string;
-        }, string>;
-        nova: import("./types").Proxied<{
-            Arbitrum: string;
-            PublicNode: string;
-            Blast: string;
-        }, string>;
+        mainnet: {
+            chainId: number;
+            name: string;
+            currency: {
+                name: string;
+                symbol: string;
+                decimals: number;
+            };
+            explorerUrl: string;
+            rpc: string[];
+        };
+        goerli: {
+            chainId: number;
+            name: string;
+            currency: {
+                name: string;
+                symbol: string;
+                decimals: number;
+            };
+            explorerUrl: string;
+            rpc: string[];
+        };
+        sepolia: {
+            chainId: number;
+            name: string;
+            currency: {
+                name: string;
+                symbol: string;
+                decimals: number;
+            };
+            explorerUrl: string;
+            rpc: string[];
+        };
+        nova: {
+            chainId: number;
+            name: string;
+            currency: {
+                name: string;
+                symbol: string;
+                decimals: number;
+            };
+            explorerUrl: string;
+            rpc: string[];
+        };
     };
     polygon: {
-        mainnet: import("./types").Proxied<{
-            PublicNode: string;
-            LlamaNodes: string;
-            Blast: string;
-            Ankr: string;
-            Meow: string;
-            OneRPC: string;
-        }, string>;
-        zkevm: import("./types").Proxied<{
-            Blast: string;
-            OneRPC: string;
-        }, string>;
-        mumbai: import("./types").Proxied<{
-            PublicNode: string;
-            Blast: string;
-            Ankr: string;
-        }, string>;
-        zkevmtest: import("./types").Proxied<{
-            ZkevmTest: string;
-        }, string>;
+        mainnet: {
+            chainId: number;
+            name: string;
+            currency: {
+                name: string;
+                symbol: string;
+                decimals: number;
+            };
+            explorerUrl: string;
+            rpc: string[];
+        };
+        zkevm: {
+            chainId: number;
+            name: string;
+            currency: {
+                name: string;
+                symbol: string;
+                decimals: number;
+            };
+            explorerUrl: string;
+            rpc: string[];
+        };
+        mumbai: {
+            chainId: number;
+            name: string;
+            currency: {
+                name: string;
+                symbol: string;
+                decimals: number;
+            };
+            explorerUrl: string;
+            rpc: string[];
+        };
+        zkevmtest: {
+            chainId: number;
+            name: string;
+            currency: {
+                name: string;
+                symbol: string;
+                decimals: number;
+            };
+            rpc: string[];
+        };
     };
-}, import("./types").Proxied<import("./types").RpcMap, string>>;
+}, import("./types").ChainInfo>;
 export default _default;
 //# sourceMappingURL=index.d.ts.map
