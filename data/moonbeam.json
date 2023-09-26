@@ -1,0 +1,67 @@
+{
+  "beam": {
+    "explorerUrl": "https://moonbeam.moonscan.io",
+    "chainId": 1284,
+    "name": "moonbeam",
+    "currency": {
+      "name": "Glimmer",
+      "symbol": "GLMR",
+      "decimals": 18
+    },
+    "rpc": [
+      "https://rpc.api.moonbeam.network",
+      "wss://wss.api.moonbeam.network"
+    ],
+    "infoUrl": "https://moonbeam.network/networks/moonbeam/",
+    "faucets": []
+  },
+  "river": {
+    "explorerUrl": "https://moonriver.moonscan.io",
+    "chainId": 1285,
+    "name": "moonriver",
+    "currency": {
+      "name": "Moonriver",
+      "symbol": "MOVR",
+      "decimals": 18
+    },
+    "rpc": [
+      "https://rpc.api.moonriver.moonbeam.network",
+      "wss://wss.api.moonriver.moonbeam.network"
+    ],
+    "infoUrl": "https://moonbeam.network/networks/moonriver/",
+    "faucets": []
+  },
+
+  "testnet": {
+    "explorerUrl": "https://moonbase.moonscan.io",
+    "chainId": 1287,
+    "name": "moonbase alpha",
+    "currency": {
+      "name": "Dev",
+      "symbol": "DEV",
+      "decimals": 18
+    },
+    "rpc": [
+      "https://rpc.api.moonbase.moonbeam.network",
+      "wss://wss.api.moonbase.moonbeam.network"
+    ],
+    "infoUrl": "https://docs.moonbeam.network/networks/testnet/",
+    "faucets": []
+  },
+
+  "rock": {
+    "chainId": 1288,
+    "name": "moonrock",
+    "currency": {
+      "name": "Rocs",
+      "symbol": "ROC",
+      "decimals": 18
+    },
+    "rpc": [
+      "https://rpc.api.moonrock.moonbeam.network",
+      "wss://wss.api.moonrock.moonbeam.network"
+    ],
+    "infoUrl": "https://docs.moonbeam.network/learn/platform/networks/overview/",
+    "faucets": []
+  }
+}

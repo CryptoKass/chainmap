@@ -9,7 +9,7 @@ export interface ChainInfo {
   iconUrl?: string;
   infoUrl?: string;
   ensAddress?: string;
-  facuets?: string[];
+  faucets?: string[];
 }
 
 export interface ChainMap {

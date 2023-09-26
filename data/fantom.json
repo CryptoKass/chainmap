@@ -1,0 +1,37 @@
+{
+  "mainnet": {
+    "explorerUrl": "https://ftmscan.com",
+    "chainId": 250,
+    "name": "fantom opera",
+    "currency": {
+      "name": "Fantom",
+      "symbol": "FTM",
+      "decimals": 18
+    },
+    "rpc": [
+      "https://rpc.ftm.tools",
+      "https://fantom.publicnode.com",
+      "wss://fantom.publicnode.com"
+    ],
+    "infoUrl": "https://fantom.foundation",
+    "faucets": []
+  },
+
+  "testnet": {
+    "explorerUrl": "https://testnet.ftmscan.com",
+    "chainId": 4002,
+    "name": "fantom testnet",
+    "currency": {
+      "name": "Fantom",
+      "symbol": "FTM",
+      "decimals": 18
+    },
+    "rpc": [
+      "https://rpc.testnet.fantom.network",
+      "https://fantom-testnet.publicnode.com",
+      "wss://fantom-testnet.publicnode.com"
+    ],
+    "infoUrl": "https://docs.fantom.foundation/quick-start/short-guide#fantom-testnet",
+    "faucets": ["https://faucet.fantom.network"]
+  }
+}
