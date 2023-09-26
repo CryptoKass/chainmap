@@ -1,0 +1,20 @@
+{
+  "mainnet": {
+    "chainId": 10,
+    "name": "OP mainnet",
+    "infoURL": "https://optimism.io",
+    "currency": {
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "explorerUrl": "https://optimistic.etherscan.io",
+    "rpc": [
+      "https://mainnet.optimism.io",
+      "https://optimism.publicnode.com",
+      "wss://optimism.publicnode.com",
+      "https://optimism.gateway.tenderly.co",
+      "wss://optimism.gateway.tenderly.co"
+    ]
+  }
+}
