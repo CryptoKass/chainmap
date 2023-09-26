@@ -5,7 +5,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // ETHEREUM MAINNET
 var mainnetInfo = {
     "chainId": 1,
-    "name": "Ethereum mainnet",
+    "name": "Ethereum Mainnet",
     "currency": {
         "name": "Ethereum",
         "symbol": "ETH",
@@ -24,7 +24,7 @@ var mainnetInfo = {
 // ETHEREUM GOERLI
 var goerliInfo = {
     "chainId": 5,
-    "name": "Ethereum goerli",
+    "name": "Ethereum Goerli",
     "currency": {
         "name": "Ethereum",
         "symbol": "ETH",
@@ -41,7 +41,7 @@ var goerliInfo = {
 // ETHEREUM SEPOLIA
 var sepoliaInfo = {
     "chainId": 11155111,
-    "name": "Ethereum sepolia",
+    "name": "Ethereum Sepolia",
     "currency": {
         "name": "Ethereum",
         "symbol": "ETH",

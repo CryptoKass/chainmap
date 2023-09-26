@@ -5,7 +5,7 @@
 // ARBITRUM MAINNET
 const mainnetInfo = {
   "chainId": 42161,
-  "name": "Arbitrum mainnet",
+  "name": "Arbitrum Mainnet",
   "currency": {
     "name": "Ethereum",
     "symbol": "ETH",
@@ -25,7 +25,7 @@ const mainnetInfo = {
 // ARBITRUM GOERLI
 const goerliInfo = {
   "chainId": 421613,
-  "name": "Arbitrum goerli",
+  "name": "Arbitrum Goerli",
   "currency": {
     "name": "Ethereum",
     "symbol": "ETH",
@@ -42,7 +42,7 @@ const goerliInfo = {
 // ARBITRUM SEPOLIA
 const sepoliaInfo = {
   "chainId": 421614,
-  "name": "Arbitrum sepolia",
+  "name": "Arbitrum Sepolia",
   "currency": {
     "name": "Ethereum",
     "symbol": "ETH",
@@ -57,7 +57,7 @@ const sepoliaInfo = {
 // ARBITRUM NOVA
 const novaInfo = {
   "chainId": 42170,
-  "name": "Arbitrum nova",
+  "name": "Arbitrum Nova",
   "currency": {
     "name": "Ethereum",
     "symbol": "ETH",

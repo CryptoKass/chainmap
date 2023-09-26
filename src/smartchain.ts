@@ -5,7 +5,7 @@
 // BINANCE SMARTCHAIN MAINNET
 const mainnetInfo = {
   "chainId": 56,
-  "name": "Binance SmartChain mainnet",
+  "name": "Binance SmartChain Mainnet",
   "currency": {
     "name": "BNB",
     "symbol": "BNB",
@@ -26,7 +26,7 @@ const mainnetInfo = {
 // BINANCE SMARTCHAIN TESTNET
 const testnetInfo = {
   "chainId": 97,
-  "name": "Binance SmartChain testnet",
+  "name": "Binance SmartChain Testnet",
   "currency": {
     "name": "BNB",
     "symbol": "BNB",

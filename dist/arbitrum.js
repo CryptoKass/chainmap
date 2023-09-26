@@ -5,7 +5,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // ARBITRUM MAINNET
 var mainnetInfo = {
     "chainId": 42161,
-    "name": "Arbitrum mainnet",
+    "name": "Arbitrum Mainnet",
     "currency": {
         "name": "Ethereum",
         "symbol": "ETH",
@@ -24,7 +24,7 @@ var mainnetInfo = {
 // ARBITRUM GOERLI
 var goerliInfo = {
     "chainId": 421613,
-    "name": "Arbitrum goerli",
+    "name": "Arbitrum Goerli",
     "currency": {
         "name": "Ethereum",
         "symbol": "ETH",
@@ -40,7 +40,7 @@ var goerliInfo = {
 // ARBITRUM SEPOLIA
 var sepoliaInfo = {
     "chainId": 421614,
-    "name": "Arbitrum sepolia",
+    "name": "Arbitrum Sepolia",
     "currency": {
         "name": "Ethereum",
         "symbol": "ETH",
@@ -54,7 +54,7 @@ var sepoliaInfo = {
 // ARBITRUM NOVA
 var novaInfo = {
     "chainId": 42170,
-    "name": "Arbitrum nova",
+    "name": "Arbitrum Nova",
     "currency": {
         "name": "Ethereum",
         "symbol": "ETH",

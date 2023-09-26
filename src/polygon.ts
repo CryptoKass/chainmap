@@ -5,7 +5,7 @@
 // POLYGON
 const mainnetInfo = {
   "chainId": 137,
-  "name": "polygon",
+  "name": "Polygon",
   "currency": {
     "name": "Polygon",
     "symbol": "MATIC",
@@ -25,7 +25,7 @@ const mainnetInfo = {
 // POLYGON ZKEVM
 const zkevmInfo = {
   "chainId": 1101,
-  "name": "polygon zkevm",
+  "name": "Polygon Zkevm",
   "currency": {
     "name": "Ethereum",
     "symbol": "ETH",
@@ -42,7 +42,7 @@ const zkevmInfo = {
 // POLYGON MUMBAI
 const mumbaiInfo = {
   "chainId": 80001,
-  "name": "polygon mumbai",
+  "name": "Polygon Mumbai",
   "currency": {
     "name": "Polygon",
     "symbol": "MATIC",
@@ -59,7 +59,7 @@ const mumbaiInfo = {
 // POLYGON ZKEVM TESTNET
 const zkevmtestInfo = {
   "chainId": 1442,
-  "name": "polygon zkevm testnet",
+  "name": "Polygon Zkevm Testnet",
   "currency": {
     "name": "Ethereum",
     "symbol": "ETH",
