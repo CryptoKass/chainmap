@@ -1,5 +1,6 @@
 {
   "name": "chainmap",
+  "version": "0.0.1",
   "module": "dist/index.js",
   "type": "module",
   "scripts": {
@@ -7,9 +8,16 @@
     "build": "tsc --declaration --declarationMap --outDir ./dist src/index.ts",
     "test": "bun test"
   },
+  "files": [
+    "dist",
+    "README.md",
+    "chainmap.json"
+  ],
   "devDependencies": {
+    "@types/semver": "^7.5.3",
     "bun-types": "latest",
     "ethers": "^6.7.1",
+    "semver": "^7.5.4",
     "typescript": "^5.2.2"
   },
   "peerDependencies": {
