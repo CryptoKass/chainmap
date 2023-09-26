@@ -13,7 +13,7 @@ export default {
     name: "polygon",
     currency: MATIC,
     explorerUrl: "https://polygonscan.com",
-    rpcs: [
+    rpc: [
       "https://polygon-bor.publicnode.com",
       "https://polygon.llamarpc.com",
       "https://polygon-mainnet.public.blastapi.io",
@@ -28,7 +28,7 @@ export default {
     name: "polygon zkevm",
     currency: MATIC,
     explorerUrl: "https://zkevm.polygonscan.com",
-    rpcs: [
+    rpc: [
       "https://polygon-zkevm.publicnode.com",
       "https://polygon-zkevm-mainnet.public.blastapi.io",
       "https://1rpc.io/polygon/zkevm",
@@ -40,7 +40,7 @@ export default {
     name: "polygon mumbai",
     currency: MATIC,
     explorerUrl: "https://mumbai.polygonscan.com",
-    rpcs: [
+    rpc: [
       "https://polygon-mumbai-bor.publicnode.com",
       "https://polygon-testnet.public.blastapi.io",
       "https://rpc.ankr.com/polygon_mumbai",
@@ -51,6 +51,6 @@ export default {
     chainId: 1442,
     name: "polygon zkevm testnet",
     currency: MATIC,
-    rpcs: ["https://rpc.public.zkevm-test.net"],
+    rpc: ["https://rpc.public.zkevm-test.net"],
   },
 } as ChainMap;
