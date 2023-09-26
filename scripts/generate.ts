@@ -77,6 +77,9 @@ const generateReadMe = async (networks: NetworkMap) => {
     .map((network) => Object.values(network))
     .flat();
 
+  // sort into alphabetical order
+  chains.sort((a, b) => a.name.localeCompare(b.name));
+
   let readmeTxt = await Bun.file("./data/README.tmpl.md").text();
   readmeTxt = readmeTxt.replace(
     "#SUPPORTED_NETWORKS#",
