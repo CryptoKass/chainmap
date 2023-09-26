@@ -5,7 +5,7 @@
 // ETHEREUM MAINNET
 const mainnetInfo = {
   "chainId": 1,
-  "name": "Ethereum mainnet",
+  "name": "Ethereum Mainnet",
   "currency": {
     "name": "Ethereum",
     "symbol": "ETH",
@@ -25,7 +25,7 @@ const mainnetInfo = {
 // ETHEREUM GOERLI
 const goerliInfo = {
   "chainId": 5,
-  "name": "Ethereum goerli",
+  "name": "Ethereum Goerli",
   "currency": {
     "name": "Ethereum",
     "symbol": "ETH",
@@ -43,7 +43,7 @@ const goerliInfo = {
 // ETHEREUM SEPOLIA
 const sepoliaInfo = {
   "chainId": 11155111,
-  "name": "Ethereum sepolia",
+  "name": "Ethereum Sepolia",
   "currency": {
     "name": "Ethereum",
     "symbol": "ETH",

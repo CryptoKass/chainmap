@@ -5,7 +5,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // POLYGON
 var mainnetInfo = {
     "chainId": 137,
-    "name": "polygon",
+    "name": "Polygon",
     "currency": {
         "name": "Polygon",
         "symbol": "MATIC",
@@ -24,7 +24,7 @@ var mainnetInfo = {
 // POLYGON ZKEVM
 var zkevmInfo = {
     "chainId": 1101,
-    "name": "polygon zkevm",
+    "name": "Polygon Zkevm",
     "currency": {
         "name": "Ethereum",
         "symbol": "ETH",
@@ -40,7 +40,7 @@ var zkevmInfo = {
 // POLYGON MUMBAI
 var mumbaiInfo = {
     "chainId": 80001,
-    "name": "polygon mumbai",
+    "name": "Polygon Mumbai",
     "currency": {
         "name": "Polygon",
         "symbol": "MATIC",
@@ -56,7 +56,7 @@ var mumbaiInfo = {
 // POLYGON ZKEVM TESTNET
 var zkevmtestInfo = {
     "chainId": 1442,
-    "name": "polygon zkevm testnet",
+    "name": "Polygon Zkevm Testnet",
     "currency": {
         "name": "Ethereum",
         "symbol": "ETH",

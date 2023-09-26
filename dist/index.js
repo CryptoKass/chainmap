@@ -5,13 +5,31 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var utils_1 = require("./utils");
 var chainIds_1 = require("./chainIds");
 // Supported Networks
-var ethereum_1 = require("./ethereum");
-var smartchain_1 = require("./smartchain");
+var gnosis_1 = require("./gnosis");
+var zora_1 = require("./zora");
 var arbitrum_1 = require("./arbitrum");
 var polygon_1 = require("./polygon");
+var smartchain_1 = require("./smartchain");
+var ethereum_1 = require("./ethereum");
+var celo_1 = require("./celo");
+var optimism_1 = require("./optimism");
+var avax_1 = require("./avax");
+var fantom_1 = require("./fantom");
+var harmony_1 = require("./harmony");
+var moonbeam_1 = require("./moonbeam");
+var base_1 = require("./base");
 exports.default = (0, utils_1.asProxyWithChainId)({
-    ethereum: ethereum_1.default,
-    smartchain: smartchain_1.default,
+    gnosis: gnosis_1.default,
+    zora: zora_1.default,
     arbitrum: arbitrum_1.default,
     polygon: polygon_1.default,
+    smartchain: smartchain_1.default,
+    ethereum: ethereum_1.default,
+    celo: celo_1.default,
+    optimism: optimism_1.default,
+    avax: avax_1.default,
+    fantom: fantom_1.default,
+    harmony: harmony_1.default,
+    moonbeam: moonbeam_1.default,
+    base: base_1.default,
 }, chainIds_1.default);

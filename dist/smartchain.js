@@ -5,7 +5,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // BINANCE SMARTCHAIN MAINNET
 var mainnetInfo = {
     "chainId": 56,
-    "name": "Binance SmartChain mainnet",
+    "name": "Binance SmartChain Mainnet",
     "currency": {
         "name": "BNB",
         "symbol": "BNB",
@@ -25,7 +25,7 @@ var mainnetInfo = {
 // BINANCE SMARTCHAIN TESTNET
 var testnetInfo = {
     "chainId": 97,
-    "name": "Binance SmartChain testnet",
+    "name": "Binance SmartChain Testnet",
     "currency": {
         "name": "BNB",
         "symbol": "BNB",
