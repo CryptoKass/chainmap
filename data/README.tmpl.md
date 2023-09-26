@@ -1,5 +1,7 @@
 # 🗺️ ChainMap
 
+[![npm](https://img.shields.io/npm/v/chainmap?logo=npm&label=npm&style=flat&color=blue)](https://www.npmjs.com/package/chainmap)
+
 ChainMap provides a comprehensive map of EVM blockchain networks and their associated data. It includes information such as chain IDs, network names, RPC URLs, and currency details.
 
 ```ts
