@@ -1,0 +1,37 @@
+{
+  "mainnet": {
+    "explorerUrl": "https://snowtrace.io",
+    "chainId": 43114,
+    "name": "avalanche c-chain",
+    "currency": {
+      "name": "Avalanche",
+      "symbol": "AVAX",
+      "decimals": 18
+    },
+    "rpc": [
+      "https://api.avax.network/ext/bc/C/rpc",
+      "https://avalanche-c-chain.publicnode.com",
+      "wss://avalanche-c-chain.publicnode.com"
+    ],
+    "infoUrl": "https://www.avax.network/",
+    "faucets": []
+  },
+
+  "testnet": {
+    "explorerUrl": "https://testnet.snowtrace.io",
+    "chainId": 43113,
+    "name": "avalanche fuji testnet",
+    "currency": {
+      "name": "Avalanche",
+      "symbol": "AVAX",
+      "decimals": 18
+    },
+    "rpc": [
+      "https://api.avax-test.network/ext/bc/C/rpc",
+      "https://avalanche-fuji-c-chain.publicnode.com",
+      "wss://avalanche-fuji-c-chain.publicnode.com"
+    ],
+    "infoUrl": "https://cchain.explorer.avax-test.network",
+    "faucets": ["https://faucet.avax-test.network/"]
+  }
+}
