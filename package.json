@@ -1,5 +1,5 @@
 {
-  "name": "rpclist",
+  "name": "chainmap",
   "module": "dist/index.js",
   "type": "module",
   "scripts": {

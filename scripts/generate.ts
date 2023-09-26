@@ -90,7 +90,7 @@ const main = async () => {
     console.log(`Wrote ${filepath} ✔️`);
   }
 
-  await Bun.write("./rpclist.json", JSON.stringify(workingNetworks, null, 2));
+  await Bun.write("./chainmap.json", JSON.stringify(workingNetworks, null, 2));
 };
 
 main()
