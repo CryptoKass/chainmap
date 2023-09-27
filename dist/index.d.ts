@@ -230,7 +230,7 @@ declare const _default: import("./types").Proxied<{
             rpc: string[];
         };
     };
-    avax: {
+    avalanche: {
         mainnet: {
             explorerUrl: string;
             chainId: number;

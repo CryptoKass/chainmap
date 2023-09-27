@@ -13,7 +13,7 @@ import smartchain from "./smartchain";
 import ethereum from "./ethereum";
 import celo from "./celo";
 import optimism from "./optimism";
-import avax from "./avax";
+import avalanche from "./avalanche";
 import fantom from "./fantom";
 import harmony from "./harmony";
 import moonbeam from "./moonbeam";
@@ -28,7 +28,7 @@ export default asProxyWithChainId({
   ethereum,
   celo,
   optimism,
-  avax,
+  avalanche,
   fantom,
   harmony,
   moonbeam,

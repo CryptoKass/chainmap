@@ -13,7 +13,7 @@ var smartchain_1 = require("./smartchain");
 var ethereum_1 = require("./ethereum");
 var celo_1 = require("./celo");
 var optimism_1 = require("./optimism");
-var avax_1 = require("./avax");
+var avalanche_1 = require("./avalanche");
 var fantom_1 = require("./fantom");
 var harmony_1 = require("./harmony");
 var moonbeam_1 = require("./moonbeam");
@@ -27,7 +27,7 @@ exports.default = (0, utils_1.asProxyWithChainId)({
     ethereum: ethereum_1.default,
     celo: celo_1.default,
     optimism: optimism_1.default,
-    avax: avax_1.default,
+    avalanche: avalanche_1.default,
     fantom: fantom_1.default,
     harmony: harmony_1.default,
     moonbeam: moonbeam_1.default,
