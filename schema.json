@@ -1,0 +1,61 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "patternProperties": {
+    "^[a-zA-Z0-9]*$": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "chainId": {
+          "type": "number"
+        },
+        "rpc": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "currency": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "symbol": {
+              "type": "string"
+            },
+            "decimals": {
+              "type": "number"
+            },
+            "iconUrl": {
+              "type": "string"
+            }
+          },
+          "required": ["name", "symbol", "decimals"]
+        },
+        "explorerUrl": {
+          "type": "string"
+        },
+        "iconUrl": {
+          "type": "string"
+        },
+        "infoUrl": {
+          "type": "string"
+        },
+        "ensAddress": {
+          "type": "string"
+        },
+        "faucets": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": ["name", "chainId", "rpc", "currency"]
+    }
+  },
+  "additionalProperties": false
+}
