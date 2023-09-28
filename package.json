@@ -1,9 +1,13 @@
 {
   "name": "chainmap",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "module": "dist/index.js",
   "main": "dist/index.js",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/CryptoKass/chainmap"
+  },
   "scripts": {
     "generate": "bun run scripts/generate.ts",
     "build": "tsc --declaration --declarationMap --outDir ./dist src/index.ts",
