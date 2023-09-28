@@ -1,4 +1,8 @@
 declare const _default: {
+    8217: {
+        network: string;
+        chain: string;
+    };
     100: {
         network: string;
         chain: string;

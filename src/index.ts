@@ -5,6 +5,7 @@ import { asProxyWithChainId } from "./utils";
 import chainIds from "./chainIds";
 
 // Supported Networks
+import klayton from "./klayton";
 import gnosis from "./gnosis";
 import zora from "./zora";
 import arbitrum from "./arbitrum";
@@ -20,6 +21,7 @@ import moonbeam from "./moonbeam";
 import base from "./base";
 
 export default asProxyWithChainId({
+  klayton,
   gnosis,
   zora,
   arbitrum,

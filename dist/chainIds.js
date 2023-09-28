@@ -3,6 +3,7 @@
 // DO NOT EDIT
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.default = {
+    8217: { network: "klayton", chain: "mainnet" },
     100: { network: "gnosis", chain: "mainnet" },
     7777777: { network: "zora", chain: "mainnet" },
     42161: { network: "arbitrum", chain: "mainnet" },

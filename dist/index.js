@@ -5,6 +5,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var utils_1 = require("./utils");
 var chainIds_1 = require("./chainIds");
 // Supported Networks
+var klayton_1 = require("./klayton");
 var gnosis_1 = require("./gnosis");
 var zora_1 = require("./zora");
 var arbitrum_1 = require("./arbitrum");
@@ -19,6 +20,7 @@ var harmony_1 = require("./harmony");
 var moonbeam_1 = require("./moonbeam");
 var base_1 = require("./base");
 exports.default = (0, utils_1.asProxyWithChainId)({
+    klayton: klayton_1.default,
     gnosis: gnosis_1.default,
     zora: zora_1.default,
     arbitrum: arbitrum_1.default,

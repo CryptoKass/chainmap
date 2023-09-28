@@ -1,4 +1,18 @@
 declare const _default: import("./types").Proxied<{
+    klayton: {
+        mainnet: {
+            chainId: number;
+            name: string;
+            currency: {
+                name: string;
+                symbol: string;
+                decimals: number;
+            };
+            infoUrl: string;
+            explorerUrl: string;
+            rpc: string[];
+        };
+    };
     gnosis: {
         mainnet: {
             chainId: number;
