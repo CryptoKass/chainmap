@@ -6,10 +6,17 @@ import {
   writeFile,
 } from "./utils";
 
+const ASSET_URL = "https://raw.githubusercontent.com/CryptoKass/chainmap/main";
+
 const formatNetworkMap = (networks: NetworkMap) => {
   for (let [networkName, networkMap] of Object.entries(networks)) {
     for (let [chainName, chainInfo] of Object.entries(networkMap)) {
+      // format name
       chainInfo.name = capitalizeWords(chainInfo.name);
+
+      // make iconURL absolute
+      if (chainInfo.iconUrl != undefined)
+        chainInfo.iconUrl = `${ASSET_URL}/${chainInfo.iconUrl}`;
     }
   }
 };
