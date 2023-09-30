@@ -6,6 +6,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var mainnetInfo = {
     "chainId": 1,
     "name": "Ethereum Mainnet",
+    "iconUrl": "https://raw.githubusercontent.com/CryptoKass/chainmap/main/assets/img/network/ethereum.png",
     "currency": {
         "name": "Ethereum",
         "symbol": "ETH",

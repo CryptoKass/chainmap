@@ -2,6 +2,7 @@ declare const _default: {
     mainnet: {
         chainId: number;
         name: string;
+        iconUrl: string;
         currency: {
             name: string;
             symbol: string;
