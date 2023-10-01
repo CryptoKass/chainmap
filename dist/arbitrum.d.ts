@@ -2,6 +2,7 @@ declare const _default: {
     mainnet: {
         chainId: number;
         name: string;
+        iconUrl: string;
         currency: {
             name: string;
             symbol: string;
@@ -13,6 +14,7 @@ declare const _default: {
     goerli: {
         chainId: number;
         name: string;
+        iconUrl: string;
         currency: {
             name: string;
             symbol: string;
@@ -24,6 +26,7 @@ declare const _default: {
     sepolia: {
         chainId: number;
         name: string;
+        iconUrl: string;
         currency: {
             name: string;
             symbol: string;

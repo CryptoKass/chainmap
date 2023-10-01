@@ -251,6 +251,7 @@ declare const _default: import("./types").Proxied<{
         mainnet: {
             chainId: number;
             name: string;
+            iconUrl: string;
             currency: {
                 name: string;
                 symbol: string;
@@ -262,6 +263,7 @@ declare const _default: import("./types").Proxied<{
         goerli: {
             chainId: number;
             name: string;
+            iconUrl: string;
             currency: {
                 name: string;
                 symbol: string;
@@ -273,6 +275,7 @@ declare const _default: import("./types").Proxied<{
         sepolia: {
             chainId: number;
             name: string;
+            iconUrl: string;
             currency: {
                 name: string;
                 symbol: string;

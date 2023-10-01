@@ -6,6 +6,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var mainnetInfo = {
     "chainId": 42161,
     "name": "Arbitrum Mainnet",
+    "iconUrl": "https://raw.githubusercontent.com/CryptoKass/chainmap/main/assets/img/networks/arbitrum.png",
     "currency": {
         "name": "Ethereum",
         "symbol": "ETH",
@@ -25,6 +26,7 @@ var mainnetInfo = {
 var goerliInfo = {
     "chainId": 421613,
     "name": "Arbitrum Goerli",
+    "iconUrl": "https://raw.githubusercontent.com/CryptoKass/chainmap/main/assets/img/networks/arbitrum.png",
     "currency": {
         "name": "Ethereum",
         "symbol": "ETH",
@@ -41,6 +43,7 @@ var goerliInfo = {
 var sepoliaInfo = {
     "chainId": 421614,
     "name": "Arbitrum Sepolia",
+    "iconUrl": "https://raw.githubusercontent.com/CryptoKass/chainmap/main/assets/img/networks/arbitrum.png",
     "currency": {
         "name": "Ethereum",
         "symbol": "ETH",

@@ -10,7 +10,17 @@
         "symbol": "ONE",
         "decimals": 18
       },
-      "rpc": [],
+      "rpc": [
+        "https://api.harmony.one",
+        "https://a.api.s0.t.hmny.io",
+        "https://api.s0.t.hmny.io",
+        "https://rpc.ankr.com/harmony",
+        "https://harmony.api.onfinality.io/public",
+        "https://1rpc.io/one",
+        "https://api.s1.t.hmny.io",
+        "https://api.s2.t.hmny.io",
+        "https://api.s3.t.hmny.io"
+      ],
       "infoUrl": "https://www.harmony.one/",
       "faucets": []
     },
@@ -121,7 +131,8 @@
         "decimals": 18
       },
       "rpc": [
-        "https://rpc.ftm.tools"
+        "https://rpc.ftm.tools",
+        "https://fantom.publicnode.com"
       ],
       "infoUrl": "https://fantom.foundation",
       "faucets": []
@@ -158,6 +169,7 @@
         "https://bsc-dataseed2.binance.org",
         "https://bsc-dataseed3.binance.org",
         "https://bsc-dataseed4.binance.org",
+        "https://bsc.publicnode.com",
         "https://binance.llamarpc.com",
         "https://bsc.meowrpc.com"
       ]
@@ -227,7 +239,10 @@
         "decimals": 18
       },
       "explorerUrl": "https://gnosisscan.io",
-      "rpc": []
+      "rpc": [
+        "https://rpc.ankr.com/gnosis",
+        "https://gnosis-mainnet.public.blastapi.io"
+      ]
     }
   },
   "polygon": {
@@ -312,6 +327,7 @@
     "mainnet": {
       "chainId": 42161,
       "name": "Arbitrum Mainnet",
+      "iconUrl": "https://raw.githubusercontent.com/CryptoKass/chainmap/main/assets/img/networks/arbitrum.png",
       "currency": {
         "name": "Ethereum",
         "symbol": "ETH",
@@ -320,7 +336,6 @@
       "explorerUrl": "https://arbiscan.io",
       "rpc": [
         "https://arb1.arbitrum.io/rpc",
-        "https://arbitrum-one.publicnode.com",
         "https://arbitrum.llamarpc.com",
         "https://arbitrum-one.public.blastapi.io",
         "https://arbitrum.meowrpc.com",
@@ -330,6 +345,7 @@
     "goerli": {
       "chainId": 421613,
       "name": "Arbitrum Goerli",
+      "iconUrl": "https://raw.githubusercontent.com/CryptoKass/chainmap/main/assets/img/networks/arbitrum.png",
       "currency": {
         "name": "Ethereum",
         "symbol": "ETH",
@@ -345,6 +361,7 @@
     "sepolia": {
       "chainId": 421614,
       "name": "Arbitrum Sepolia",
+      "iconUrl": "https://raw.githubusercontent.com/CryptoKass/chainmap/main/assets/img/networks/arbitrum.png",
       "currency": {
         "name": "Ethereum",
         "symbol": "ETH",
@@ -366,6 +383,7 @@
       "explorerUrl": "https://nova.arbiscan.io",
       "rpc": [
         "https://nova.arbitrum.io/rpc",
+        "https://arbitrum-nova.publicnode.com",
         "https://arbitrum-nova.public.blastapi.io"
       ]
     }
@@ -382,6 +400,7 @@
       "infoUrl": "https://klaytn.foundation",
       "explorerUrl": "https://scope.klaytn.com/",
       "rpc": [
+        "https://public-en-cypress.klaytn.net",
         "https://klaytn-mainnet-rpc.allthatnode.com:8551",
         "https://klaytn.blockpi.network/v1/rpc/public",
         "https://klaytn.api.onfinality.io/public"
@@ -417,6 +436,7 @@
       },
       "explorerUrl": "https://goerli.etherscan.io",
       "rpc": [
+        "https://ethereum-goerli.publicnode.com",
         "https://rpc.ankr.com/eth_goerli",
         "https://eth-goerli.public.blastapi.io",
         "https://rpc.notadegen.com/eth/goerli"

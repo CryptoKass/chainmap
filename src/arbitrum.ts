@@ -6,6 +6,7 @@
 const mainnetInfo = {
   "chainId": 42161,
   "name": "Arbitrum Mainnet",
+  "iconUrl": "https://raw.githubusercontent.com/CryptoKass/chainmap/main/assets/img/networks/arbitrum.png",
   "currency": {
     "name": "Ethereum",
     "symbol": "ETH",
@@ -26,6 +27,7 @@ const mainnetInfo = {
 const goerliInfo = {
   "chainId": 421613,
   "name": "Arbitrum Goerli",
+  "iconUrl": "https://raw.githubusercontent.com/CryptoKass/chainmap/main/assets/img/networks/arbitrum.png",
   "currency": {
     "name": "Ethereum",
     "symbol": "ETH",
@@ -43,6 +45,7 @@ const goerliInfo = {
 const sepoliaInfo = {
   "chainId": 421614,
   "name": "Arbitrum Sepolia",
+  "iconUrl": "https://raw.githubusercontent.com/CryptoKass/chainmap/main/assets/img/networks/arbitrum.png",
   "currency": {
     "name": "Ethereum",
     "symbol": "ETH",
