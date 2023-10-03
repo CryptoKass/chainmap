@@ -6,6 +6,7 @@ var utils_1 = require("./utils");
 var chainIds_1 = require("./chainIds");
 // Supported Networks
 var harmony_1 = require("./harmony");
+var cronos_1 = require("./cronos");
 var moonbeam_1 = require("./moonbeam");
 var base_1 = require("./base");
 var fantom_1 = require("./fantom");
@@ -21,6 +22,7 @@ var celo_1 = require("./celo");
 var zora_1 = require("./zora");
 exports.default = (0, utils_1.asProxyWithChainId)({
     harmony: harmony_1.default,
+    cronos: cronos_1.default,
     moonbeam: moonbeam_1.default,
     base: base_1.default,
     fantom: fantom_1.default,

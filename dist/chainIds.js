@@ -5,6 +5,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.default = {
     1666600000: { network: "harmony", chain: "mainnet" },
     1666700000: { network: "harmony", chain: "testnet" },
+    25: { network: "cronos", chain: "mainnet" },
     1284: { network: "moonbeam", chain: "beam" },
     1285: { network: "moonbeam", chain: "river" },
     1287: { network: "moonbeam", chain: "testnet" },

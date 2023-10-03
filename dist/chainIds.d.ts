@@ -7,6 +7,10 @@ declare const _default: {
         network: string;
         chain: string;
     };
+    25: {
+        network: string;
+        chain: string;
+    };
     1284: {
         network: string;
         chain: string;

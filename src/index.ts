@@ -6,6 +6,7 @@ import chainIds from "./chainIds";
 
 // Supported Networks
 import harmony from "./harmony";
+import cronos from "./cronos";
 import moonbeam from "./moonbeam";
 import base from "./base";
 import fantom from "./fantom";
@@ -22,6 +23,7 @@ import zora from "./zora";
 
 export default asProxyWithChainId({
   harmony,
+  cronos,
   moonbeam,
   base,
   fantom,

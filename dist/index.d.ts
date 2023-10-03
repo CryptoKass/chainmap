@@ -28,6 +28,19 @@ declare const _default: import("./types").Proxied<{
             faucets: string[];
         };
     };
+    cronos: {
+        mainnet: {
+            chainId: number;
+            name: string;
+            currency: {
+                name: string;
+                symbol: string;
+                decimals: number;
+            };
+            rpc: string[];
+            explorerUrl: string;
+        };
+    };
     moonbeam: {
         beam: {
             explorerUrl: string;
