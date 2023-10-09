@@ -128,7 +128,6 @@
       "rpc": [
         "https://mainnet.base.org/",
         "https://developer-access-mainnet.base.org/",
-        "https://base.gateway.tenderly.co",
         "https://base.publicnode.com"
       ],
       "infoUrl": "https://base.org",
@@ -255,7 +254,13 @@
         "decimals": 18
       },
       "explorerUrl": "https://gnosisscan.io",
-      "rpc": []
+      "rpc": [
+        "https://rpc.ankr.com/gnosis",
+        "https://gnosischain-rpc.gateway.pokt.network",
+        "https://gnosis.api.onfinality.io/public",
+        "https://gnosis.blockpi.network/v1/rpc/public",
+        "https://gnosis.oat.farm"
+      ]
     }
   },
   "polygon": {
@@ -273,6 +278,7 @@
         "https://polygon.llamarpc.com",
         "https://polygon-mainnet.public.blastapi.io",
         "https://rpc.ankr.com/polygon",
+        "https://polygon.meowrpc.com",
         "https://1rpc.io/matic"
       ]
     },
@@ -414,7 +420,9 @@
       "explorerUrl": "https://scope.klaytn.com/",
       "rpc": [
         "https://public-en-cypress.klaytn.net",
+        "https://archive-en.cypress.klaytn.net",
         "https://klaytn-mainnet-rpc.allthatnode.com:8551",
+        "https://klaytn.blockpi.network/v1/rpc/public",
         "https://klaytn.api.onfinality.io/public"
       ]
     }
@@ -465,8 +473,7 @@
       "rpc": [
         "https://rpc.sepolia.org",
         "https://rpc2.sepolia.org",
-        "https://eth-sepolia.public.blastapi.io",
-        "https://gateway.tenderly.co/public/sepolia"
+        "https://eth-sepolia.public.blastapi.io"
       ]
     }
   },
