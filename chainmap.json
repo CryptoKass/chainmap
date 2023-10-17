@@ -12,13 +12,8 @@
       },
       "rpc": [
         "https://api.harmony.one",
-        "https://a.api.s0.t.hmny.io",
         "https://api.s0.t.hmny.io",
-        "https://rpc.ankr.com/harmony",
-        "https://harmony.api.onfinality.io/public",
-        "https://api.s1.t.hmny.io",
-        "https://api.s2.t.hmny.io",
-        "https://api.s3.t.hmny.io"
+        "https://rpc.ankr.com/harmony"
       ],
       "infoUrl": "https://www.harmony.one/",
       "faucets": []
@@ -188,8 +183,7 @@
         "https://bsc-dataseed3.binance.org",
         "https://bsc-dataseed4.binance.org",
         "https://bsc.publicnode.com",
-        "https://binance.llamarpc.com",
-        "https://bsc.meowrpc.com"
+        "https://binance.llamarpc.com"
       ]
     },
     "testnet": {
@@ -261,8 +255,7 @@
         "https://rpc.ankr.com/gnosis",
         "https://gnosischain-rpc.gateway.pokt.network",
         "https://gnosis-mainnet.public.blastapi.io",
-        "https://gnosis.blockpi.network/v1/rpc/public",
-        "https://gnosis.oat.farm"
+        "https://gnosis.api.onfinality.io/public"
       ]
     }
   },
