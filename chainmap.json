@@ -29,6 +29,7 @@
       "explorerUrl": "https://goerli.etherscan.io",
       "rpc": [
         "https://ethereum-goerli.publicnode.com",
+        "https://rpc.ankr.com/eth_goerli",
         "https://eth-goerli.public.blastapi.io"
       ]
     },
@@ -172,7 +173,9 @@
         "symbol": "ONE",
         "decimals": 18
       },
-      "rpc": [],
+      "rpc": [
+        "https://rpc.ankr.com/harmony"
+      ],
       "infoUrl": "https://www.harmony.one/",
       "faucets": []
     },
@@ -222,6 +225,7 @@
       },
       "rpc": [
         "https://cronos-evm.publicnode.com",
+        "https://evm.cronos.org",
         "https://cronos.blockpi.network/v1/rpc/public"
       ],
       "explorerUrl": "https://cronoscan.com"
@@ -239,6 +243,7 @@
       "infoUrl": "https://klaytn.foundation",
       "explorerUrl": "https://scope.klaytn.com/",
       "rpc": [
+        "https://public-en-cypress.klaytn.net",
         "https://klaytn-mainnet-rpc.allthatnode.com:8551",
         "https://klaytn.blockpi.network/v1/rpc/public",
         "https://klaytn.api.onfinality.io/public"
@@ -354,11 +359,7 @@
       },
       "explorerUrl": "https://gnosisscan.io",
       "rpc": [
-        "https://rpc.ankr.com/gnosis",
-        "https://gnosischain-rpc.gateway.pokt.network",
-        "https://gnosis-mainnet.public.blastapi.io",
-        "https://gnosis.blockpi.network/v1/rpc/public",
-        "https://gnosis.oat.farm"
+        "https://rpc.ankr.com/gnosis"
       ]
     }
   },
