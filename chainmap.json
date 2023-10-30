@@ -24,8 +24,7 @@
         "decimals": 18
       },
       "rpc": [
-        "https://api.avax.network/ext/bc/C/rpc",
-        "https://avalanche-c-chain.publicnode.com"
+        "https://api.avax.network/ext/bc/C/rpc"
       ],
       "infoUrl": "https://www.avax.network/",
       "faucets": []
@@ -60,7 +59,6 @@
       },
       "rpc": [
         "https://cronos-evm.publicnode.com",
-        "https://evm.cronos.org",
         "https://cronos.blockpi.network/v1/rpc/public"
       ],
       "explorerUrl": "https://cronoscan.com"
@@ -507,7 +505,9 @@
         "symbol": "ONE",
         "decimals": 18
       },
-      "rpc": [],
+      "rpc": [
+        "https://api.s0.b.hmny.io"
+      ],
       "infoUrl": "https://www.harmony.one/",
       "faucets": [
         "https://faucet.pops.one"
