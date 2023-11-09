@@ -138,7 +138,6 @@
       },
       "explorerUrl": "https://optimistic.etherscan.io",
       "rpc": [
-        "https://mainnet.optimism.io",
         "https://optimism.publicnode.com",
         "https://optimism.gateway.tenderly.co"
       ]
@@ -444,9 +443,7 @@
         "decimals": 18
       },
       "explorerUrl": "https://gnosisscan.io",
-      "rpc": [
-        "https://rpc.ankr.com/gnosis"
-      ]
+      "rpc": []
     }
   },
   "klayton": {
@@ -515,7 +512,15 @@
         "symbol": "ONE",
         "decimals": 18
       },
-      "rpc": [],
+      "rpc": [
+        "https://api.harmony.one",
+        "https://a.api.s0.t.hmny.io",
+        "https://api.s0.t.hmny.io",
+        "https://rpc.ankr.com/harmony",
+        "https://harmony.api.onfinality.io/public",
+        "https://1rpc.io/one",
+        "https://api.s1.t.hmny.io"
+      ],
       "infoUrl": "https://www.harmony.one/",
       "faucets": []
     },
