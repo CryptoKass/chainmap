@@ -43,7 +43,8 @@
       "explorerUrl": "https://mumbai.polygonscan.com",
       "rpc": [
         "https://polygon-mumbai-bor.publicnode.com",
-        "https://polygon-testnet.public.blastapi.io"
+        "https://polygon-testnet.public.blastapi.io",
+        "https://rpc.ankr.com/polygon_mumbai"
       ]
     },
     "zkevmtest": {
@@ -254,7 +255,6 @@
         "https://ethereum.publicnode.com",
         "https://eth.llamarpc.com",
         "https://eth-mainnet.public.blastapi.io",
-        "https://rpc.ankr.com/eth",
         "https://cloudflare-eth.com"
       ]
     },
@@ -338,7 +338,6 @@
       },
       "rpc": [
         "https://cronos-evm.publicnode.com",
-        "https://evm.cronos.org",
         "https://cronos.blockpi.network/v1/rpc/public"
       ],
       "explorerUrl": "https://cronoscan.com"
@@ -446,7 +445,7 @@
       "rpc": [
         "https://rpc.gnosischain.com",
         "https://rpc.gnosis.gateway.fm",
-        "https://gnosis.api.onfinality.io/public",
+        "https://gnosis-mainnet.public.blastapi.io",
         "https://gnosis.blockpi.network/v1/rpc/public",
         "https://gnosis.oat.farm"
       ]
@@ -464,8 +463,6 @@
       "infoUrl": "https://klaytn.foundation",
       "explorerUrl": "https://scope.klaytn.com/",
       "rpc": [
-        "https://public-en-cypress.klaytn.net",
-        "https://archive-en.cypress.klaytn.net",
         "https://klaytn-mainnet-rpc.allthatnode.com:8551",
         "https://klaytn.blockpi.network/v1/rpc/public",
         "https://klaytn.api.onfinality.io/public"
@@ -487,8 +484,7 @@
         "https://bsc-dataseed3.binance.org",
         "https://bsc-dataseed4.binance.org",
         "https://bsc.publicnode.com",
-        "https://binance.llamarpc.com",
-        "https://bsc.meowrpc.com"
+        "https://binance.llamarpc.com"
       ]
     },
     "testnet": {
@@ -520,15 +516,7 @@
         "symbol": "ONE",
         "decimals": 18
       },
-      "rpc": [
-        "https://api.harmony.one",
-        "https://a.api.s0.t.hmny.io",
-        "https://api.s0.t.hmny.io",
-        "https://rpc.ankr.com/harmony",
-        "https://harmony.api.onfinality.io/public",
-        "https://1rpc.io/one",
-        "https://api.s1.t.hmny.io"
-      ],
+      "rpc": [],
       "infoUrl": "https://www.harmony.one/",
       "faucets": []
     },
@@ -541,9 +529,7 @@
         "symbol": "ONE",
         "decimals": 18
       },
-      "rpc": [
-        "https://api.s0.b.hmny.io"
-      ],
+      "rpc": [],
       "infoUrl": "https://www.harmony.one/",
       "faucets": [
         "https://faucet.pops.one"
