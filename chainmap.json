@@ -255,6 +255,7 @@
         "https://ethereum.publicnode.com",
         "https://eth.llamarpc.com",
         "https://eth-mainnet.public.blastapi.io",
+        "https://rpc.ankr.com/eth",
         "https://cloudflare-eth.com"
       ]
     },
@@ -443,9 +444,9 @@
       },
       "explorerUrl": "https://gnosisscan.io",
       "rpc": [
-        "https://rpc.gnosischain.com",
-        "https://rpc.gnosis.gateway.fm",
+        "https://rpc.ankr.com/gnosis",
         "https://gnosis-mainnet.public.blastapi.io",
+        "https://gnosis.api.onfinality.io/public",
         "https://gnosis.blockpi.network/v1/rpc/public",
         "https://gnosis.oat.farm"
       ]
@@ -478,14 +479,7 @@
         "symbol": "BNB",
         "decimals": 18
       },
-      "rpc": [
-        "https://bsc-dataseed1.binance.org",
-        "https://bsc-dataseed2.binance.org",
-        "https://bsc-dataseed3.binance.org",
-        "https://bsc-dataseed4.binance.org",
-        "https://bsc.publicnode.com",
-        "https://binance.llamarpc.com"
-      ]
+      "rpc": []
     },
     "testnet": {
       "chainId": 97,
@@ -529,7 +523,9 @@
         "symbol": "ONE",
         "decimals": 18
       },
-      "rpc": [],
+      "rpc": [
+        "https://api.s0.b.hmny.io"
+      ],
       "infoUrl": "https://www.harmony.one/",
       "faucets": [
         "https://faucet.pops.one"
