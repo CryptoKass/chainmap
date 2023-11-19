@@ -270,7 +270,6 @@
       "explorerUrl": "https://goerli.etherscan.io",
       "rpc": [
         "https://ethereum-goerli.publicnode.com",
-        "https://rpc.ankr.com/eth_goerli",
         "https://eth-goerli.public.blastapi.io"
       ]
     },
@@ -338,6 +337,7 @@
         "decimals": 18
       },
       "rpc": [
+        "https://cronos-evm.publicnode.com",
         "https://evm.cronos.org",
         "https://cronos.blockpi.network/v1/rpc/public"
       ],
@@ -446,8 +446,7 @@
       "rpc": [
         "https://rpc.ankr.com/gnosis",
         "https://gnosis.api.onfinality.io/public",
-        "https://gnosis.blockpi.network/v1/rpc/public",
-        "https://gnosis.oat.farm"
+        "https://gnosis.blockpi.network/v1/rpc/public"
       ]
     }
   },
@@ -521,12 +520,8 @@
       },
       "rpc": [
         "https://api.harmony.one",
-        "https://a.api.s0.t.hmny.io",
         "https://api.s0.t.hmny.io",
-        "https://rpc.ankr.com/harmony",
-        "https://harmony.api.onfinality.io/public",
-        "https://1rpc.io/one",
-        "https://api.s1.t.hmny.io"
+        "https://rpc.ankr.com/harmony"
       ],
       "infoUrl": "https://www.harmony.one/",
       "faucets": []
