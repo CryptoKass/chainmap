@@ -115,12 +115,8 @@
       },
       "rpc": [
         "https://api.harmony.one",
-        "https://a.api.s0.t.hmny.io",
         "https://api.s0.t.hmny.io",
-        "https://rpc.ankr.com/harmony",
-        "https://harmony.api.onfinality.io/public",
-        "https://1rpc.io/one",
-        "https://api.s1.t.hmny.io"
+        "https://rpc.ankr.com/harmony"
       ],
       "infoUrl": "https://www.harmony.one/",
       "faucets": []
@@ -268,7 +264,6 @@
       "explorerUrl": "https://scope.klaytn.com/",
       "rpc": [
         "https://public-en-cypress.klaytn.net",
-        "https://archive-en.cypress.klaytn.net",
         "https://klaytn-mainnet-rpc.allthatnode.com:8551",
         "https://klaytn.blockpi.network/v1/rpc/public",
         "https://klaytn.api.onfinality.io/public"
@@ -478,6 +473,7 @@
         "https://rpc.sepolia.org",
         "https://rpc2.sepolia.org",
         "https://eth-sepolia.public.blastapi.io",
+        "https://rpc.notadegen.com/eth/sepolia",
         "https://gateway.tenderly.co/public/sepolia"
       ]
     }
