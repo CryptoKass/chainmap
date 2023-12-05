@@ -126,7 +126,9 @@
         "symbol": "ONE",
         "decimals": 18
       },
-      "rpc": [],
+      "rpc": [
+        "https://api.s0.b.hmny.io"
+      ],
       "infoUrl": "https://www.harmony.one/",
       "faucets": [
         "https://faucet.pops.one"
@@ -175,7 +177,10 @@
         "symbol": "AVAX",
         "decimals": 18
       },
-      "rpc": [],
+      "rpc": [
+        "https://api.avax.network/ext/bc/C/rpc",
+        "https://avalanche-c-chain.publicnode.com"
+      ],
       "infoUrl": "https://www.avax.network/",
       "faucets": []
     },
@@ -212,7 +217,9 @@
         "https://bsc-dataseed2.binance.org",
         "https://bsc-dataseed3.binance.org",
         "https://bsc-dataseed4.binance.org",
-        "https://binance.llamarpc.com"
+        "https://bsc.publicnode.com",
+        "https://binance.llamarpc.com",
+        "https://bsc.meowrpc.com"
       ]
     },
     "testnet": {
@@ -227,7 +234,9 @@
         "https://data-seed-prebsc-1-s1.binance.org:8545",
         "https://data-seed-prebsc-2-s1.binance.org:8545",
         "https://data-seed-prebsc-1-s2.binance.org:8545",
-        "https://data-seed-prebsc-2-s2.binance.org:8545"
+        "https://data-seed-prebsc-2-s2.binance.org:8545",
+        "https://bsc-testnet.publicnode.com",
+        "https://bsc-testnet.public.blastapi.io"
       ]
     }
   },
@@ -243,6 +252,8 @@
       "infoUrl": "https://klaytn.foundation",
       "explorerUrl": "https://scope.klaytn.com/",
       "rpc": [
+        "https://public-en-cypress.klaytn.net",
+        "https://archive-en.cypress.klaytn.net",
         "https://klaytn-mainnet-rpc.allthatnode.com:8551",
         "https://klaytn.blockpi.network/v1/rpc/public",
         "https://klaytn.api.onfinality.io/public"
@@ -293,8 +304,7 @@
       "explorerUrl": "https://mumbai.polygonscan.com",
       "rpc": [
         "https://polygon-mumbai-bor.publicnode.com",
-        "https://polygon-testnet.public.blastapi.io",
-        "https://rpc.ankr.com/polygon_mumbai"
+        "https://polygon-testnet.public.blastapi.io"
       ]
     },
     "zkevmtest": {
