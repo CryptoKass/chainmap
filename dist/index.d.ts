@@ -1,7 +1,6 @@
 declare const _default: import("./types").Proxied<{
-    base: {
+    cronos: {
         mainnet: {
-            explorerUrl: string;
             chainId: number;
             name: string;
             currency: {
@@ -10,23 +9,7 @@ declare const _default: import("./types").Proxied<{
                 decimals: number;
             };
             rpc: string[];
-            infoUrl: string;
-            faucets: any[];
-        };
-    };
-    zora: {
-        mainnet: {
             explorerUrl: string;
-            chainId: number;
-            name: string;
-            currency: {
-                name: string;
-                symbol: string;
-                decimals: number;
-            };
-            rpc: string[];
-            infoUrl: string;
-            faucets: any[];
         };
     };
     arbitrum: {
@@ -78,10 +61,9 @@ declare const _default: import("./types").Proxied<{
             rpc: string[];
         };
     };
-    harmony: {
+    celo: {
         mainnet: {
             explorerUrl: string;
-            ensAddress: string;
             chainId: number;
             name: string;
             currency: {
@@ -93,8 +75,20 @@ declare const _default: import("./types").Proxied<{
             infoUrl: string;
             faucets: any[];
         };
-        testnet: {
+        alfajores: {
             explorerUrl: string;
+            chainId: number;
+            name: string;
+            currency: {
+                name: string;
+                symbol: string;
+                decimals: number;
+            };
+            rpc: string[];
+            infoUrl: string;
+            faucets: string[];
+        };
+        baklava: {
             chainId: number;
             name: string;
             currency: {
@@ -108,20 +102,6 @@ declare const _default: import("./types").Proxied<{
         };
     };
     optimism: {
-        mainnet: {
-            chainId: number;
-            name: string;
-            infoURL: string;
-            currency: {
-                name: string;
-                symbol: string;
-                decimals: number;
-            };
-            explorerUrl: string;
-            rpc: string[];
-        };
-    };
-    gnosis: {
         mainnet: {
             chainId: number;
             name: string;
@@ -161,87 +141,6 @@ declare const _default: import("./types").Proxied<{
             rpc: string[];
             infoUrl: string;
             faucets: string[];
-        };
-    };
-    smartchain: {
-        mainnet: {
-            chainId: number;
-            name: string;
-            currency: {
-                name: string;
-                symbol: string;
-                decimals: number;
-            };
-            rpc: string[];
-        };
-        testnet: {
-            chainId: number;
-            name: string;
-            currency: {
-                name: string;
-                symbol: string;
-                decimals: number;
-            };
-            rpc: string[];
-        };
-    };
-    klayton: {
-        mainnet: {
-            chainId: number;
-            name: string;
-            currency: {
-                name: string;
-                symbol: string;
-                decimals: number;
-            };
-            infoUrl: string;
-            explorerUrl: string;
-            rpc: string[];
-        };
-    };
-    polygon: {
-        mainnet: {
-            chainId: number;
-            name: string;
-            currency: {
-                name: string;
-                symbol: string;
-                decimals: number;
-            };
-            explorerUrl: string;
-            rpc: string[];
-        };
-        zkevm: {
-            chainId: number;
-            name: string;
-            currency: {
-                name: string;
-                symbol: string;
-                decimals: number;
-            };
-            explorerUrl: string;
-            rpc: string[];
-        };
-        mumbai: {
-            chainId: number;
-            name: string;
-            currency: {
-                name: string;
-                symbol: string;
-                decimals: number;
-            };
-            explorerUrl: string;
-            rpc: string[];
-        };
-        zkevmtest: {
-            chainId: number;
-            name: string;
-            currency: {
-                name: string;
-                symbol: string;
-                decimals: number;
-            };
-            rpc: string[];
         };
     };
     moonbeam: {
@@ -297,9 +196,8 @@ declare const _default: import("./types").Proxied<{
             faucets: any[];
         };
     };
-    fantom: {
+    smartchain: {
         mainnet: {
-            explorerUrl: string;
             chainId: number;
             name: string;
             currency: {
@@ -308,11 +206,8 @@ declare const _default: import("./types").Proxied<{
                 decimals: number;
             };
             rpc: string[];
-            infoUrl: string;
-            faucets: any[];
         };
         testnet: {
-            explorerUrl: string;
             chainId: number;
             name: string;
             currency: {
@@ -321,8 +216,20 @@ declare const _default: import("./types").Proxied<{
                 decimals: number;
             };
             rpc: string[];
-            infoUrl: string;
-            faucets: string[];
+        };
+    };
+    gnosis: {
+        mainnet: {
+            chainId: number;
+            name: string;
+            infoURL: string;
+            currency: {
+                name: string;
+                symbol: string;
+                decimals: number;
+            };
+            explorerUrl: string;
+            rpc: string[];
         };
     };
     ethereum: {
@@ -361,8 +268,10 @@ declare const _default: import("./types").Proxied<{
             rpc: string[];
         };
     };
-    cronos: {
+    harmony: {
         mainnet: {
+            explorerUrl: string;
+            ensAddress: string;
             chainId: number;
             name: string;
             currency: {
@@ -371,10 +280,69 @@ declare const _default: import("./types").Proxied<{
                 decimals: number;
             };
             rpc: string[];
+            infoUrl: string;
+            faucets: any[];
+        };
+        testnet: {
             explorerUrl: string;
+            chainId: number;
+            name: string;
+            currency: {
+                name: string;
+                symbol: string;
+                decimals: number;
+            };
+            rpc: string[];
+            infoUrl: string;
+            faucets: string[];
         };
     };
-    celo: {
+    polygon: {
+        mainnet: {
+            chainId: number;
+            name: string;
+            currency: {
+                name: string;
+                symbol: string;
+                decimals: number;
+            };
+            explorerUrl: string;
+            rpc: string[];
+        };
+        zkevm: {
+            chainId: number;
+            name: string;
+            currency: {
+                name: string;
+                symbol: string;
+                decimals: number;
+            };
+            explorerUrl: string;
+            rpc: string[];
+        };
+        mumbai: {
+            chainId: number;
+            name: string;
+            currency: {
+                name: string;
+                symbol: string;
+                decimals: number;
+            };
+            explorerUrl: string;
+            rpc: string[];
+        };
+        zkevmtest: {
+            chainId: number;
+            name: string;
+            currency: {
+                name: string;
+                symbol: string;
+                decimals: number;
+            };
+            rpc: string[];
+        };
+    };
+    zora: {
         mainnet: {
             explorerUrl: string;
             chainId: number;
@@ -388,7 +356,22 @@ declare const _default: import("./types").Proxied<{
             infoUrl: string;
             faucets: any[];
         };
-        alfajores: {
+    };
+    fantom: {
+        mainnet: {
+            explorerUrl: string;
+            chainId: number;
+            name: string;
+            currency: {
+                name: string;
+                symbol: string;
+                decimals: number;
+            };
+            rpc: string[];
+            infoUrl: string;
+            faucets: any[];
+        };
+        testnet: {
             explorerUrl: string;
             chainId: number;
             name: string;
@@ -401,7 +384,10 @@ declare const _default: import("./types").Proxied<{
             infoUrl: string;
             faucets: string[];
         };
-        baklava: {
+    };
+    base: {
+        mainnet: {
+            explorerUrl: string;
             chainId: number;
             name: string;
             currency: {
@@ -411,7 +397,21 @@ declare const _default: import("./types").Proxied<{
             };
             rpc: string[];
             infoUrl: string;
-            faucets: string[];
+            faucets: any[];
+        };
+    };
+    klayton: {
+        mainnet: {
+            chainId: number;
+            name: string;
+            currency: {
+                name: string;
+                symbol: string;
+                decimals: number;
+            };
+            infoUrl: string;
+            explorerUrl: string;
+            rpc: string[];
         };
     };
 }, import("./types").ChainInfo>;
