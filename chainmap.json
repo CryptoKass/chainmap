@@ -8,11 +8,7 @@
         "symbol": "CRO",
         "decimals": 18
       },
-      "rpc": [
-        "https://cronos-evm.publicnode.com",
-        "https://evm.cronos.org",
-        "https://cronos.blockpi.network/v1/rpc/public"
-      ],
+      "rpc": [],
       "explorerUrl": "https://cronoscan.com"
     }
   },
@@ -27,14 +23,7 @@
         "decimals": 18
       },
       "explorerUrl": "https://arbiscan.io",
-      "rpc": [
-        "https://arb1.arbitrum.io/rpc",
-        "https://arbitrum-one.publicnode.com",
-        "https://arbitrum.llamarpc.com",
-        "https://arbitrum-one.public.blastapi.io",
-        "https://arbitrum.meowrpc.com",
-        "https://rpc.ankr.com/arbitrum"
-      ]
+      "rpc": []
     },
     "goerli": {
       "chainId": 421613,
@@ -46,11 +35,7 @@
         "decimals": 18
       },
       "explorerUrl": "https://goerli.arbiscan.io",
-      "rpc": [
-        "https://goerli-rollup.arbitrum.io/rpc",
-        "https://arbitrum-goerli.publicnode.com",
-        "https://arbitrum-goerli.public.blastapi.io"
-      ]
+      "rpc": []
     },
     "sepolia": {
       "chainId": 421614,
@@ -261,8 +246,6 @@
         "https://bsc-dataseed2.binance.org",
         "https://bsc-dataseed3.binance.org",
         "https://bsc-dataseed4.binance.org",
-        "https://bsc.publicnode.com",
-        "https://binance.llamarpc.com",
         "https://bsc.meowrpc.com"
       ]
     },
@@ -296,7 +279,10 @@
       },
       "explorerUrl": "https://gnosisscan.io",
       "rpc": [
-        "https://rpc.ankr.com/gnosis"
+        "https://rpc.ankr.com/gnosis",
+        "https://gnosis-mainnet.public.blastapi.io",
+        "https://gnosis.api.onfinality.io/public",
+        "https://gnosis.oat.farm"
       ]
     }
   },
@@ -363,7 +349,12 @@
         "symbol": "ONE",
         "decimals": 18
       },
-      "rpc": [],
+      "rpc": [
+        "https://api.harmony.one",
+        "https://api.s0.t.hmny.io",
+        "https://rpc.ankr.com/harmony",
+        "https://1rpc.io/one"
+      ],
       "infoUrl": "https://www.harmony.one/",
       "faucets": []
     },
