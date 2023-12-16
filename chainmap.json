@@ -126,6 +126,7 @@
       },
       "explorerUrl": "https://goerli.arbiscan.io",
       "rpc": [
+        "https://goerli-rollup.arbitrum.io/rpc",
         "https://arbitrum-goerli.publicnode.com",
         "https://arbitrum-goerli.public.blastapi.io"
       ]
@@ -140,7 +141,9 @@
         "decimals": 18
       },
       "explorerUrl": "https://sepolia.arbiscan.io",
-      "rpc": []
+      "rpc": [
+        "https://sepolia-rollup.arbitrum.io/rpc"
+      ]
     },
     "nova": {
       "chainId": 42170,
@@ -373,13 +376,7 @@
         "decimals": 18
       },
       "explorerUrl": "https://gnosisscan.io",
-      "rpc": [
-        "https://rpc.ankr.com/gnosis",
-        "https://gnosis-mainnet.public.blastapi.io",
-        "https://gnosis.api.onfinality.io/public",
-        "https://gnosis.blockpi.network/v1/rpc/public",
-        "https://gnosis.oat.farm"
-      ]
+      "rpc": []
     }
   },
   "harmony": {
@@ -406,7 +403,9 @@
         "symbol": "ONE",
         "decimals": 18
       },
-      "rpc": [],
+      "rpc": [
+        "https://api.s0.b.hmny.io"
+      ],
       "infoUrl": "https://www.harmony.one/",
       "faucets": [
         "https://faucet.pops.one"
@@ -530,6 +529,7 @@
       "infoUrl": "https://klaytn.foundation",
       "explorerUrl": "https://scope.klaytn.com/",
       "rpc": [
+        "https://klaytn-mainnet-rpc.allthatnode.com:8551",
         "https://klaytn.blockpi.network/v1/rpc/public",
         "https://klaytn.api.onfinality.io/public"
       ]
