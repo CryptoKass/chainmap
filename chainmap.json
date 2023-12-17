@@ -10,8 +10,7 @@
       },
       "rpc": [
         "https://cronos-evm.publicnode.com",
-        "https://evm.cronos.org",
-        "https://cronos.blockpi.network/v1/rpc/public"
+        "https://evm.cronos.org"
       ],
       "explorerUrl": "https://cronoscan.com"
     }
@@ -376,7 +375,12 @@
         "decimals": 18
       },
       "explorerUrl": "https://gnosisscan.io",
-      "rpc": []
+      "rpc": [
+        "https://rpc.ankr.com/gnosis",
+        "https://gnosis-mainnet.public.blastapi.io",
+        "https://gnosis.blockpi.network/v1/rpc/public",
+        "https://gnosis.oat.farm"
+      ]
     }
   },
   "harmony": {
@@ -403,9 +407,7 @@
         "symbol": "ONE",
         "decimals": 18
       },
-      "rpc": [
-        "https://api.s0.b.hmny.io"
-      ],
+      "rpc": [],
       "infoUrl": "https://www.harmony.one/",
       "faucets": [
         "https://faucet.pops.one"
