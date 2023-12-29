@@ -377,7 +377,11 @@
       },
       "explorerUrl": "https://gnosisscan.io",
       "rpc": [
-        "https://rpc.ankr.com/gnosis"
+        "https://rpc.ankr.com/gnosis",
+        "https://gnosis-mainnet.public.blastapi.io",
+        "https://gnosis.api.onfinality.io/public",
+        "https://gnosis.blockpi.network/v1/rpc/public",
+        "https://gnosis.oat.farm"
       ]
     }
   },
@@ -405,9 +409,7 @@
         "symbol": "ONE",
         "decimals": 18
       },
-      "rpc": [
-        "https://api.s0.b.hmny.io"
-      ],
+      "rpc": [],
       "infoUrl": "https://www.harmony.one/",
       "faucets": [
         "https://faucet.pops.one"
@@ -530,9 +532,7 @@
       },
       "infoUrl": "https://klaytn.foundation",
       "explorerUrl": "https://scope.klaytn.com/",
-      "rpc": [
-        "https://klaytn.blockpi.network/v1/rpc/public"
-      ]
+      "rpc": []
     }
   }
 }
