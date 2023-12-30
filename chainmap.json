@@ -10,8 +10,7 @@
       },
       "rpc": [
         "https://cronos-evm.publicnode.com",
-        "https://evm.cronos.org",
-        "https://cronos.blockpi.network/v1/rpc/public"
+        "https://evm.cronos.org"
       ],
       "explorerUrl": "https://cronoscan.com"
     }
@@ -223,7 +222,6 @@
       },
       "explorerUrl": "https://sepolia.etherscan.io",
       "rpc": [
-        "https://rpc.sepolia.org",
         "https://rpc2.sepolia.org",
         "https://eth-sepolia.public.blastapi.io",
         "https://rpc.notadegen.com/eth/sepolia",
@@ -377,6 +375,8 @@
       },
       "explorerUrl": "https://gnosisscan.io",
       "rpc": [
+        "https://rpc.gnosischain.com",
+        "https://rpc.gnosis.gateway.fm",
         "https://rpc.ankr.com/gnosis",
         "https://gnosis-mainnet.public.blastapi.io",
         "https://gnosis.api.onfinality.io/public",
@@ -396,7 +396,12 @@
         "symbol": "ONE",
         "decimals": 18
       },
-      "rpc": [],
+      "rpc": [
+        "https://api.harmony.one",
+        "https://api.s0.t.hmny.io",
+        "https://rpc.ankr.com/harmony",
+        "https://harmony.api.onfinality.io/public"
+      ],
       "infoUrl": "https://www.harmony.one/",
       "faucets": []
     },
@@ -409,7 +414,9 @@
         "symbol": "ONE",
         "decimals": 18
       },
-      "rpc": [],
+      "rpc": [
+        "https://api.s0.b.hmny.io"
+      ],
       "infoUrl": "https://www.harmony.one/",
       "faucets": [
         "https://faucet.pops.one"
@@ -532,7 +539,11 @@
       },
       "infoUrl": "https://klaytn.foundation",
       "explorerUrl": "https://scope.klaytn.com/",
-      "rpc": []
+      "rpc": [
+        "https://public-en-cypress.klaytn.net",
+        "https://klaytn.blockpi.network/v1/rpc/public",
+        "https://klaytn.api.onfinality.io/public"
+      ]
     }
   }
 }
