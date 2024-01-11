@@ -360,7 +360,6 @@
         "https://data-seed-prebsc-2-s1.binance.org:8545",
         "https://data-seed-prebsc-1-s2.binance.org:8545",
         "https://data-seed-prebsc-2-s2.binance.org:8545",
-        "https://bsc-testnet.publicnode.com",
         "https://bsc-testnet.public.blastapi.io"
       ]
     }
@@ -378,7 +377,6 @@
       "explorerUrl": "https://gnosisscan.io",
       "rpc": [
         "https://rpc.ankr.com/gnosis",
-        "https://gnosis.api.onfinality.io/public",
         "https://gnosis.blockpi.network/v1/rpc/public"
       ]
     }
@@ -396,9 +394,12 @@
       },
       "rpc": [
         "https://api.harmony.one",
+        "https://a.api.s0.t.hmny.io",
         "https://api.s0.t.hmny.io",
         "https://rpc.ankr.com/harmony",
-        "https://1rpc.io/one"
+        "https://harmony.api.onfinality.io/public",
+        "https://1rpc.io/one",
+        "https://api.s1.t.hmny.io"
       ],
       "infoUrl": "https://www.harmony.one/",
       "faucets": []
@@ -539,6 +540,7 @@
       "explorerUrl": "https://scope.klaytn.com/",
       "rpc": [
         "https://public-en-cypress.klaytn.net",
+        "https://archive-en.cypress.klaytn.net",
         "https://klaytn-mainnet-rpc.allthatnode.com:8551",
         "https://klaytn.blockpi.network/v1/rpc/public",
         "https://klaytn.api.onfinality.io/public"
