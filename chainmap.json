@@ -274,7 +274,6 @@
       },
       "explorerUrl": "https://mumbai.polygonscan.com",
       "rpc": [
-        "https://polygon-mumbai-bor.publicnode.com",
         "https://polygon-testnet.public.blastapi.io",
         "https://rpc.ankr.com/polygon_mumbai"
       ]
@@ -376,11 +375,7 @@
         "decimals": 18
       },
       "explorerUrl": "https://gnosisscan.io",
-      "rpc": [
-        "https://rpc.ankr.com/gnosis",
-        "https://gnosis.api.onfinality.io/public",
-        "https://gnosis.blockpi.network/v1/rpc/public"
-      ]
+      "rpc": []
     }
   },
   "harmony": {
@@ -394,9 +389,7 @@
         "symbol": "ONE",
         "decimals": 18
       },
-      "rpc": [
-        "https://rpc.ankr.com/harmony"
-      ],
+      "rpc": [],
       "infoUrl": "https://www.harmony.one/",
       "faucets": []
     },
@@ -536,7 +529,8 @@
       "explorerUrl": "https://scope.klaytn.com/",
       "rpc": [
         "https://klaytn-mainnet-rpc.allthatnode.com:8551",
-        "https://klaytn.blockpi.network/v1/rpc/public"
+        "https://klaytn.blockpi.network/v1/rpc/public",
+        "https://klaytn.api.onfinality.io/public"
       ]
     }
   }
