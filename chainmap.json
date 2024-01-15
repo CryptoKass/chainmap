@@ -274,6 +274,7 @@
       },
       "explorerUrl": "https://mumbai.polygonscan.com",
       "rpc": [
+        "https://polygon-mumbai-bor.publicnode.com",
         "https://polygon-testnet.public.blastapi.io",
         "https://rpc.ankr.com/polygon_mumbai"
       ]
@@ -318,8 +319,7 @@
         "decimals": 18
       },
       "rpc": [
-        "https://api.avax-test.network/ext/bc/C/rpc",
-        "https://avalanche-fuji-c-chain.publicnode.com"
+        "https://api.avax-test.network/ext/bc/C/rpc"
       ],
       "infoUrl": "https://cchain.explorer.avax-test.network",
       "faucets": [
@@ -341,9 +341,7 @@
         "https://bsc-dataseed2.binance.org",
         "https://bsc-dataseed3.binance.org",
         "https://bsc-dataseed4.binance.org",
-        "https://bsc.publicnode.com",
-        "https://binance.llamarpc.com",
-        "https://bsc.meowrpc.com"
+        "https://binance.llamarpc.com"
       ]
     },
     "testnet": {
@@ -375,7 +373,15 @@
         "decimals": 18
       },
       "explorerUrl": "https://gnosisscan.io",
-      "rpc": []
+      "rpc": [
+        "https://rpc.gnosischain.com",
+        "https://rpc.gnosis.gateway.fm",
+        "https://rpc.ankr.com/gnosis",
+        "https://gnosis-mainnet.public.blastapi.io",
+        "https://gnosis.api.onfinality.io/public",
+        "https://gnosis.blockpi.network/v1/rpc/public",
+        "https://gnosis.oat.farm"
+      ]
     }
   },
   "harmony": {
@@ -528,7 +534,6 @@
       "infoUrl": "https://klaytn.foundation",
       "explorerUrl": "https://scope.klaytn.com/",
       "rpc": [
-        "https://klaytn-mainnet-rpc.allthatnode.com:8551",
         "https://klaytn.blockpi.network/v1/rpc/public",
         "https://klaytn.api.onfinality.io/public"
       ]
