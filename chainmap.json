@@ -190,13 +190,7 @@
         "decimals": 18
       },
       "explorerUrl": "https://etherscan.io",
-      "rpc": [
-        "https://ethereum.publicnode.com",
-        "https://eth.llamarpc.com",
-        "https://eth-mainnet.public.blastapi.io",
-        "https://rpc.ankr.com/eth",
-        "https://cloudflare-eth.com"
-      ]
+      "rpc": []
     },
     "goerli": {
       "chainId": 5,
@@ -207,11 +201,7 @@
         "decimals": 18
       },
       "explorerUrl": "https://goerli.etherscan.io",
-      "rpc": [
-        "https://ethereum-goerli.publicnode.com",
-        "https://rpc.ankr.com/eth_goerli",
-        "https://eth-goerli.public.blastapi.io"
-      ]
+      "rpc": []
     },
     "sepolia": {
       "chainId": 11155111,
@@ -222,13 +212,7 @@
         "decimals": 18
       },
       "explorerUrl": "https://sepolia.etherscan.io",
-      "rpc": [
-        "https://rpc.sepolia.org",
-        "https://rpc2.sepolia.org",
-        "https://eth-sepolia.public.blastapi.io",
-        "https://rpc.notadegen.com/eth/sepolia",
-        "https://gateway.tenderly.co/public/sepolia"
-      ]
+      "rpc": []
     }
   },
   "polygon": {
@@ -241,14 +225,7 @@
         "decimals": 18
       },
       "explorerUrl": "https://polygonscan.com",
-      "rpc": [
-        "https://polygon-bor.publicnode.com",
-        "https://polygon.llamarpc.com",
-        "https://polygon-mainnet.public.blastapi.io",
-        "https://rpc.ankr.com/polygon",
-        "https://polygon.meowrpc.com",
-        "https://1rpc.io/matic"
-      ]
+      "rpc": []
     },
     "zkevm": {
       "chainId": 1101,
@@ -319,7 +296,8 @@
         "decimals": 18
       },
       "rpc": [
-        "https://api.avax-test.network/ext/bc/C/rpc"
+        "https://api.avax-test.network/ext/bc/C/rpc",
+        "https://avalanche-fuji-c-chain.publicnode.com"
       ],
       "infoUrl": "https://cchain.explorer.avax-test.network",
       "faucets": [
@@ -341,6 +319,7 @@
         "https://bsc-dataseed2.binance.org",
         "https://bsc-dataseed3.binance.org",
         "https://bsc-dataseed4.binance.org",
+        "https://bsc.publicnode.com",
         "https://binance.llamarpc.com"
       ]
     },
@@ -374,8 +353,6 @@
       },
       "explorerUrl": "https://gnosisscan.io",
       "rpc": [
-        "https://rpc.gnosischain.com",
-        "https://rpc.gnosis.gateway.fm",
         "https://rpc.ankr.com/gnosis",
         "https://gnosis-mainnet.public.blastapi.io",
         "https://gnosis.api.onfinality.io/public",
@@ -395,7 +372,15 @@
         "symbol": "ONE",
         "decimals": 18
       },
-      "rpc": [],
+      "rpc": [
+        "https://api.harmony.one",
+        "https://a.api.s0.t.hmny.io",
+        "https://api.s0.t.hmny.io",
+        "https://rpc.ankr.com/harmony",
+        "https://harmony.api.onfinality.io/public",
+        "https://1rpc.io/one",
+        "https://api.s1.t.hmny.io"
+      ],
       "infoUrl": "https://www.harmony.one/",
       "faucets": []
     },
