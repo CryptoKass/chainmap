@@ -10,6 +10,7 @@
       },
       "rpc": [
         "https://cronos-evm.publicnode.com",
+        "https://evm.cronos.org",
         "https://cronos.blockpi.network/v1/rpc/public"
       ],
       "explorerUrl": "https://cronoscan.com"
@@ -341,8 +342,8 @@
         "https://bsc-dataseed2.binance.org",
         "https://bsc-dataseed3.binance.org",
         "https://bsc-dataseed4.binance.org",
-        "https://bsc.publicnode.com",
-        "https://binance.llamarpc.com"
+        "https://binance.llamarpc.com",
+        "https://bsc.meowrpc.com"
       ]
     },
     "testnet": {
@@ -396,7 +397,12 @@
         "symbol": "ONE",
         "decimals": 18
       },
-      "rpc": [],
+      "rpc": [
+        "https://api.harmony.one",
+        "https://api.s0.t.hmny.io",
+        "https://rpc.ankr.com/harmony",
+        "https://1rpc.io/one"
+      ],
       "infoUrl": "https://www.harmony.one/",
       "faucets": []
     },
@@ -536,6 +542,8 @@
       "explorerUrl": "https://scope.klaytn.com/",
       "rpc": [
         "https://public-en-cypress.klaytn.net",
+        "https://archive-en.cypress.klaytn.net",
+        "https://klaytn-mainnet-rpc.allthatnode.com:8551",
         "https://klaytn.blockpi.network/v1/rpc/public",
         "https://klaytn.api.onfinality.io/public"
       ]
