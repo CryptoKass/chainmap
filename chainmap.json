@@ -76,12 +76,7 @@
         "decimals": 18
       },
       "explorerUrl": "https://gnosisscan.io",
-      "rpc": [
-        "https://rpc.ankr.com/gnosis",
-        "https://gnosis-mainnet.public.blastapi.io",
-        "https://gnosis.blockpi.network/v1/rpc/public",
-        "https://gnosis.oat.farm"
-      ]
+      "rpc": []
     }
   },
   "klayton": {
@@ -148,9 +143,7 @@
         "symbol": "GLMR",
         "decimals": 18
       },
-      "rpc": [
-        "https://rpc.api.moonbeam.network"
-      ],
+      "rpc": [],
       "infoUrl": "https://moonbeam.network/networks/moonbeam/",
       "faucets": []
     },
@@ -361,12 +354,7 @@
         "symbol": "BNB",
         "decimals": 18
       },
-      "rpc": [
-        "https://data-seed-prebsc-1-s1.binance.org:8545",
-        "https://data-seed-prebsc-2-s1.binance.org:8545",
-        "https://data-seed-prebsc-1-s2.binance.org:8545",
-        "https://data-seed-prebsc-2-s2.binance.org:8545"
-      ]
+      "rpc": []
     }
   },
   "base": {
@@ -436,7 +424,6 @@
         "https://rpc.sepolia.org",
         "https://rpc2.sepolia.org",
         "https://eth-sepolia.public.blastapi.io",
-        "https://rpc.notadegen.com/eth/sepolia",
         "https://gateway.tenderly.co/public/sepolia"
       ]
     }
@@ -453,9 +440,9 @@
       "explorerUrl": "https://polygonscan.com",
       "rpc": [
         "https://polygon-bor.publicnode.com",
+        "https://polygon.llamarpc.com",
         "https://polygon-mainnet.public.blastapi.io",
         "https://rpc.ankr.com/polygon",
-        "https://polygon.meowrpc.com",
         "https://1rpc.io/matic"
       ]
     },
