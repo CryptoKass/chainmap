@@ -13,7 +13,6 @@
       "rpc": [
         "https://arb1.arbitrum.io/rpc",
         "https://arbitrum-one.publicnode.com",
-        "https://arbitrum.llamarpc.com",
         "https://arbitrum-one.public.blastapi.io",
         "https://arbitrum.meowrpc.com",
         "https://rpc.ankr.com/arbitrum"
@@ -76,7 +75,9 @@
         "decimals": 18
       },
       "explorerUrl": "https://gnosisscan.io",
-      "rpc": []
+      "rpc": [
+        "https://rpc.ankr.com/gnosis"
+      ]
     }
   },
   "klayton": {
@@ -143,7 +144,9 @@
         "symbol": "GLMR",
         "decimals": 18
       },
-      "rpc": [],
+      "rpc": [
+        "https://rpc.api.moonbeam.network"
+      ],
       "infoUrl": "https://moonbeam.network/networks/moonbeam/",
       "faucets": []
     },
@@ -336,15 +339,7 @@
         "symbol": "BNB",
         "decimals": 18
       },
-      "rpc": [
-        "https://bsc-dataseed1.binance.org",
-        "https://bsc-dataseed2.binance.org",
-        "https://bsc-dataseed3.binance.org",
-        "https://bsc-dataseed4.binance.org",
-        "https://bsc.publicnode.com",
-        "https://binance.llamarpc.com",
-        "https://bsc.meowrpc.com"
-      ]
+      "rpc": []
     },
     "testnet": {
       "chainId": 97,
@@ -354,7 +349,12 @@
         "symbol": "BNB",
         "decimals": 18
       },
-      "rpc": []
+      "rpc": [
+        "https://data-seed-prebsc-1-s1.binance.org:8545",
+        "https://data-seed-prebsc-2-s1.binance.org:8545",
+        "https://data-seed-prebsc-1-s2.binance.org:8545",
+        "https://data-seed-prebsc-2-s2.binance.org:8545"
+      ]
     }
   },
   "base": {
@@ -406,7 +406,6 @@
       },
       "explorerUrl": "https://goerli.etherscan.io",
       "rpc": [
-        "https://ethereum-goerli.publicnode.com",
         "https://rpc.ankr.com/eth_goerli",
         "https://eth-goerli.public.blastapi.io"
       ]
@@ -424,6 +423,7 @@
         "https://rpc.sepolia.org",
         "https://rpc2.sepolia.org",
         "https://eth-sepolia.public.blastapi.io",
+        "https://rpc.notadegen.com/eth/sepolia",
         "https://gateway.tenderly.co/public/sepolia"
       ]
     }
@@ -440,7 +440,6 @@
       "explorerUrl": "https://polygonscan.com",
       "rpc": [
         "https://polygon-bor.publicnode.com",
-        "https://polygon.llamarpc.com",
         "https://polygon-mainnet.public.blastapi.io",
         "https://rpc.ankr.com/polygon",
         "https://1rpc.io/matic"
