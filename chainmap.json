@@ -75,7 +75,9 @@
         "decimals": 18
       },
       "explorerUrl": "https://gnosisscan.io",
-      "rpc": []
+      "rpc": [
+        "https://rpc.ankr.com/gnosis"
+      ]
     }
   },
   "klayton": {
@@ -90,6 +92,8 @@
       "infoUrl": "https://klaytn.foundation",
       "explorerUrl": "https://scope.klaytn.com/",
       "rpc": [
+        "https://public-en-cypress.klaytn.net",
+        "https://archive-en.cypress.klaytn.net",
         "https://klaytn-mainnet-rpc.allthatnode.com:8551",
         "https://klaytn.blockpi.network/v1/rpc/public",
         "https://klaytn.api.onfinality.io/public"
@@ -308,7 +312,11 @@
         "symbol": "ONE",
         "decimals": 18
       },
-      "rpc": [],
+      "rpc": [
+        "https://api.harmony.one",
+        "https://api.s0.t.hmny.io",
+        "https://rpc.ankr.com/harmony"
+      ],
       "infoUrl": "https://www.harmony.one/",
       "faucets": []
     },
@@ -453,6 +461,7 @@
         "https://polygon-bor.publicnode.com",
         "https://polygon-mainnet.public.blastapi.io",
         "https://rpc.ankr.com/polygon",
+        "https://polygon.meowrpc.com",
         "https://1rpc.io/matic"
       ]
     },
@@ -466,7 +475,8 @@
       },
       "explorerUrl": "https://zkevm.polygonscan.com",
       "rpc": [
-        "https://polygon-zkevm-mainnet.public.blastapi.io"
+        "https://polygon-zkevm-mainnet.public.blastapi.io",
+        "https://1rpc.io/polygon/zkevm"
       ]
     },
     "mumbai": {
