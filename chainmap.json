@@ -81,10 +81,7 @@
         "decimals": 18
       },
       "explorerUrl": "https://gnosisscan.io",
-      "rpc": [
-        "https://rpc.ankr.com/gnosis",
-        "https://gnosis.blockpi.network/v1/rpc/public"
-      ]
+      "rpc": []
     }
   },
   "base": {
@@ -119,7 +116,6 @@
       "infoUrl": "https://klaytn.foundation",
       "explorerUrl": "https://scope.klaytn.com/",
       "rpc": [
-        "https://public-en-cypress.klaytn.net",
         "https://klaytn-mainnet-rpc.allthatnode.com:8551",
         "https://klaytn.blockpi.network/v1/rpc/public",
         "https://klaytn.api.onfinality.io/public"
@@ -260,8 +256,7 @@
         "https://polygon.llamarpc.com",
         "https://polygon-mainnet.public.blastapi.io",
         "https://rpc.ankr.com/polygon",
-        "https://polygon.meowrpc.com",
-        "https://1rpc.io/matic"
+        "https://polygon.meowrpc.com"
       ]
     },
     "zkevm": {
@@ -317,13 +312,7 @@
         "decimals": 18
       },
       "explorerUrl": "https://etherscan.io",
-      "rpc": [
-        "https://ethereum.publicnode.com",
-        "https://eth.llamarpc.com",
-        "https://eth-mainnet.public.blastapi.io",
-        "https://rpc.ankr.com/eth",
-        "https://cloudflare-eth.com"
-      ]
+      "rpc": []
     },
     "goerli": {
       "chainId": 5,
@@ -334,11 +323,7 @@
         "decimals": 18
       },
       "explorerUrl": "https://goerli.etherscan.io",
-      "rpc": [
-        "https://ethereum-goerli.publicnode.com",
-        "https://rpc.ankr.com/eth_goerli",
-        "https://eth-goerli.public.blastapi.io"
-      ]
+      "rpc": []
     },
     "sepolia": {
       "chainId": 11155111,
@@ -349,13 +334,7 @@
         "decimals": 18
       },
       "explorerUrl": "https://sepolia.etherscan.io",
-      "rpc": [
-        "https://rpc.sepolia.org",
-        "https://rpc2.sepolia.org",
-        "https://eth-sepolia.public.blastapi.io",
-        "https://rpc.notadegen.com/eth/sepolia",
-        "https://gateway.tenderly.co/public/sepolia"
-      ]
+      "rpc": []
     }
   },
   "celo": {
@@ -368,9 +347,7 @@
         "symbol": "CELO",
         "decimals": 18
       },
-      "rpc": [
-        "https://forno.celo.org"
-      ],
+      "rpc": [],
       "infoUrl": "https://docs.celo.org/",
       "faucets": []
     },
@@ -424,6 +401,7 @@
         "https://bsc-dataseed2.binance.org",
         "https://bsc-dataseed3.binance.org",
         "https://bsc-dataseed4.binance.org",
+        "https://bsc.publicnode.com",
         "https://binance.llamarpc.com",
         "https://bsc.meowrpc.com"
       ]
@@ -457,15 +435,7 @@
         "symbol": "ONE",
         "decimals": 18
       },
-      "rpc": [
-        "https://api.harmony.one",
-        "https://a.api.s0.t.hmny.io",
-        "https://api.s0.t.hmny.io",
-        "https://rpc.ankr.com/harmony",
-        "https://harmony.api.onfinality.io/public",
-        "https://1rpc.io/one",
-        "https://api.s1.t.hmny.io"
-      ],
+      "rpc": [],
       "infoUrl": "https://www.harmony.one/",
       "faucets": []
     },
