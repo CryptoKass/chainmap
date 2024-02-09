@@ -81,7 +81,15 @@
         "decimals": 18
       },
       "explorerUrl": "https://gnosisscan.io",
-      "rpc": []
+      "rpc": [
+        "https://rpc.gnosischain.com",
+        "https://rpc.gnosis.gateway.fm",
+        "https://rpc.ankr.com/gnosis",
+        "https://gnosis-mainnet.public.blastapi.io",
+        "https://gnosis.api.onfinality.io/public",
+        "https://gnosis.blockpi.network/v1/rpc/public",
+        "https://gnosis.oat.farm"
+      ]
     }
   },
   "base": {
@@ -169,7 +177,6 @@
       },
       "rpc": [
         "https://cronos-evm.publicnode.com",
-        "https://evm.cronos.org",
         "https://cronos.blockpi.network/v1/rpc/public"
       ],
       "explorerUrl": "https://cronoscan.com"
@@ -189,7 +196,6 @@
       "rpc": [
         "https://arb1.arbitrum.io/rpc",
         "https://arbitrum-one.publicnode.com",
-        "https://arbitrum.llamarpc.com",
         "https://arbitrum-one.public.blastapi.io",
         "https://arbitrum.meowrpc.com",
         "https://rpc.ankr.com/arbitrum"
@@ -253,10 +259,10 @@
       "explorerUrl": "https://polygonscan.com",
       "rpc": [
         "https://polygon-bor.publicnode.com",
-        "https://polygon.llamarpc.com",
         "https://polygon-mainnet.public.blastapi.io",
         "https://rpc.ankr.com/polygon",
-        "https://polygon.meowrpc.com"
+        "https://polygon.meowrpc.com",
+        "https://1rpc.io/matic"
       ]
     },
     "zkevm": {
@@ -312,7 +318,13 @@
         "decimals": 18
       },
       "explorerUrl": "https://etherscan.io",
-      "rpc": []
+      "rpc": [
+        "https://ethereum.publicnode.com",
+        "https://eth.llamarpc.com",
+        "https://eth-mainnet.public.blastapi.io",
+        "https://rpc.ankr.com/eth",
+        "https://cloudflare-eth.com"
+      ]
     },
     "goerli": {
       "chainId": 5,
@@ -323,7 +335,11 @@
         "decimals": 18
       },
       "explorerUrl": "https://goerli.etherscan.io",
-      "rpc": []
+      "rpc": [
+        "https://ethereum-goerli.publicnode.com",
+        "https://rpc.ankr.com/eth_goerli",
+        "https://eth-goerli.public.blastapi.io"
+      ]
     },
     "sepolia": {
       "chainId": 11155111,
@@ -334,7 +350,13 @@
         "decimals": 18
       },
       "explorerUrl": "https://sepolia.etherscan.io",
-      "rpc": []
+      "rpc": [
+        "https://rpc.sepolia.org",
+        "https://rpc2.sepolia.org",
+        "https://eth-sepolia.public.blastapi.io",
+        "https://rpc.notadegen.com/eth/sepolia",
+        "https://gateway.tenderly.co/public/sepolia"
+      ]
     }
   },
   "celo": {
@@ -347,7 +369,9 @@
         "symbol": "CELO",
         "decimals": 18
       },
-      "rpc": [],
+      "rpc": [
+        "https://forno.celo.org"
+      ],
       "infoUrl": "https://docs.celo.org/",
       "faucets": []
     },
@@ -419,7 +443,6 @@
         "https://data-seed-prebsc-2-s1.binance.org:8545",
         "https://data-seed-prebsc-1-s2.binance.org:8545",
         "https://data-seed-prebsc-2-s2.binance.org:8545",
-        "https://bsc-testnet.publicnode.com",
         "https://bsc-testnet.public.blastapi.io"
       ]
     }
@@ -448,9 +471,7 @@
         "symbol": "ONE",
         "decimals": 18
       },
-      "rpc": [
-        "https://api.s0.b.hmny.io"
-      ],
+      "rpc": [],
       "infoUrl": "https://www.harmony.one/",
       "faucets": [
         "https://faucet.pops.one"
