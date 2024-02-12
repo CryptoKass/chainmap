@@ -81,7 +81,10 @@
         "decimals": 18
       },
       "explorerUrl": "https://gnosisscan.io",
-      "rpc": []
+      "rpc": [
+        "https://rpc.ankr.com/gnosis",
+        "https://gnosis.blockpi.network/v1/rpc/public"
+      ]
     }
   },
   "base": {
@@ -116,7 +119,6 @@
       "infoUrl": "https://klaytn.foundation",
       "explorerUrl": "https://scope.klaytn.com/",
       "rpc": [
-        "https://public-en-cypress.klaytn.net",
         "https://archive-en.cypress.klaytn.net",
         "https://klaytn-mainnet-rpc.allthatnode.com:8551",
         "https://klaytn.blockpi.network/v1/rpc/public",
@@ -191,7 +193,6 @@
       "rpc": [
         "https://arb1.arbitrum.io/rpc",
         "https://arbitrum-one.publicnode.com",
-        "https://arbitrum.llamarpc.com",
         "https://arbitrum-one.public.blastapi.io",
         "https://arbitrum.meowrpc.com",
         "https://rpc.ankr.com/arbitrum"
@@ -257,8 +258,7 @@
         "https://polygon-bor.publicnode.com",
         "https://polygon-mainnet.public.blastapi.io",
         "https://rpc.ankr.com/polygon",
-        "https://polygon.meowrpc.com",
-        "https://1rpc.io/matic"
+        "https://polygon.meowrpc.com"
       ]
     },
     "zkevm": {
@@ -349,7 +349,6 @@
       "rpc": [
         "https://rpc.sepolia.org",
         "https://rpc2.sepolia.org",
-        "https://eth-sepolia.public.blastapi.io",
         "https://rpc.notadegen.com/eth/sepolia",
         "https://gateway.tenderly.co/public/sepolia"
       ]
@@ -455,7 +454,11 @@
         "symbol": "ONE",
         "decimals": 18
       },
-      "rpc": [],
+      "rpc": [
+        "https://api.harmony.one",
+        "https://api.s0.t.hmny.io",
+        "https://rpc.ankr.com/harmony"
+      ],
       "infoUrl": "https://www.harmony.one/",
       "faucets": []
     },
@@ -487,9 +490,7 @@
         "symbol": "GLMR",
         "decimals": 18
       },
-      "rpc": [
-        "https://rpc.api.moonbeam.network"
-      ],
+      "rpc": [],
       "infoUrl": "https://moonbeam.network/networks/moonbeam/",
       "faucets": []
     },
