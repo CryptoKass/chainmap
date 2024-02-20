@@ -14,6 +14,7 @@
         "https://arb1.arbitrum.io/rpc",
         "https://arbitrum-one.publicnode.com",
         "https://arbitrum-one.public.blastapi.io",
+        "https://arbitrum.meowrpc.com",
         "https://rpc.ankr.com/arbitrum"
       ]
     },
@@ -205,6 +206,7 @@
       "infoUrl": "https://klaytn.foundation",
       "explorerUrl": "https://scope.klaytn.com/",
       "rpc": [
+        "https://klaytn-mainnet-rpc.allthatnode.com:8551",
         "https://klaytn.blockpi.network/v1/rpc/public",
         "https://klaytn.api.onfinality.io/public"
       ]
@@ -246,6 +248,7 @@
         "https://bsc-dataseed3.binance.org",
         "https://bsc-dataseed4.binance.org",
         "https://bsc.publicnode.com",
+        "https://binance.llamarpc.com",
         "https://bsc.meowrpc.com"
       ]
     },
@@ -340,6 +343,7 @@
       "explorerUrl": "https://etherscan.io",
       "rpc": [
         "https://ethereum.publicnode.com",
+        "https://eth.llamarpc.com",
         "https://eth-mainnet.public.blastapi.io",
         "https://rpc.ankr.com/eth",
         "https://cloudflare-eth.com"
@@ -370,6 +374,7 @@
       },
       "explorerUrl": "https://sepolia.etherscan.io",
       "rpc": [
+        "https://rpc.sepolia.org",
         "https://rpc2.sepolia.org",
         "https://eth-sepolia.public.blastapi.io",
         "https://rpc.notadegen.com/eth/sepolia",
