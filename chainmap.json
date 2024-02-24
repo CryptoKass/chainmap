@@ -207,9 +207,7 @@
       "infoUrl": "https://klaytn.foundation",
       "explorerUrl": "https://scope.klaytn.com/",
       "rpc": [
-        "https://klaytn-mainnet-rpc.allthatnode.com:8551",
-        "https://klaytn.blockpi.network/v1/rpc/public",
-        "https://klaytn.api.onfinality.io/public"
+        "https://klaytn.blockpi.network/v1/rpc/public"
       ]
     }
   },
@@ -224,12 +222,7 @@
         "decimals": 18
       },
       "explorerUrl": "https://gnosisscan.io",
-      "rpc": [
-        "https://rpc.ankr.com/gnosis",
-        "https://gnosis.api.onfinality.io/public",
-        "https://gnosis.blockpi.network/v1/rpc/public",
-        "https://gnosis.oat.farm"
-      ]
+      "rpc": []
     }
   },
   "smartchain": {
@@ -297,8 +290,7 @@
       },
       "explorerUrl": "https://zkevm.polygonscan.com",
       "rpc": [
-        "https://polygon-zkevm-mainnet.public.blastapi.io",
-        "https://1rpc.io/polygon/zkevm"
+        "https://polygon-zkevm-mainnet.public.blastapi.io"
       ]
     },
     "mumbai": {
