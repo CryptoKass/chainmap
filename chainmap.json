@@ -207,8 +207,6 @@
       "infoUrl": "https://klaytn.foundation",
       "explorerUrl": "https://scope.klaytn.com/",
       "rpc": [
-        "https://public-en-cypress.klaytn.net",
-        "https://archive-en.cypress.klaytn.net",
         "https://klaytn-mainnet-rpc.allthatnode.com:8551",
         "https://klaytn.blockpi.network/v1/rpc/public",
         "https://klaytn.api.onfinality.io/public"
@@ -245,7 +243,15 @@
         "symbol": "BNB",
         "decimals": 18
       },
-      "rpc": []
+      "rpc": [
+        "https://bsc-dataseed1.binance.org",
+        "https://bsc-dataseed2.binance.org",
+        "https://bsc-dataseed3.binance.org",
+        "https://bsc-dataseed4.binance.org",
+        "https://bsc.publicnode.com",
+        "https://binance.llamarpc.com",
+        "https://bsc.meowrpc.com"
+      ]
     },
     "testnet": {
       "chainId": 97,
@@ -514,11 +520,7 @@
         "symbol": "ONE",
         "decimals": 18
       },
-      "rpc": [
-        "https://api.harmony.one",
-        "https://api.s0.t.hmny.io",
-        "https://rpc.ankr.com/harmony"
-      ],
+      "rpc": [],
       "infoUrl": "https://www.harmony.one/",
       "faucets": []
     },
@@ -531,9 +533,7 @@
         "symbol": "ONE",
         "decimals": 18
       },
-      "rpc": [
-        "https://api.s0.b.hmny.io"
-      ],
+      "rpc": [],
       "infoUrl": "https://www.harmony.one/",
       "faucets": [
         "https://faucet.pops.one"
