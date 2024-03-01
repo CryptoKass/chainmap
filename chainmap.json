@@ -225,7 +225,11 @@
         "decimals": 18
       },
       "explorerUrl": "https://gnosisscan.io",
-      "rpc": []
+      "rpc": [
+        "https://rpc.ankr.com/gnosis",
+        "https://gnosis.blockpi.network/v1/rpc/public",
+        "https://gnosis.oat.farm"
+      ]
     }
   },
   "smartchain": {
@@ -243,7 +247,8 @@
         "https://bsc-dataseed3.binance.org",
         "https://bsc-dataseed4.binance.org",
         "https://bsc.publicnode.com",
-        "https://binance.llamarpc.com"
+        "https://binance.llamarpc.com",
+        "https://bsc.meowrpc.com"
       ]
     },
     "testnet": {
