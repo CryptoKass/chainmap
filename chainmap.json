@@ -162,9 +162,7 @@
         "symbol": "ETH",
         "decimals": 18
       },
-      "rpc": [
-        "https://rpc.zora.energy/"
-      ],
+      "rpc": [],
       "infoUrl": "https://zora.energy",
       "faucets": []
     }
@@ -179,10 +177,7 @@
         "symbol": "AVAX",
         "decimals": 18
       },
-      "rpc": [
-        "https://api.avax.network/ext/bc/C/rpc",
-        "https://avalanche-c-chain.publicnode.com"
-      ],
+      "rpc": [],
       "infoUrl": "https://www.avax.network/",
       "faucets": []
     },
@@ -195,10 +190,7 @@
         "symbol": "AVAX",
         "decimals": 18
       },
-      "rpc": [
-        "https://api.avax-test.network/ext/bc/C/rpc",
-        "https://avalanche-fuji-c-chain.publicnode.com"
-      ],
+      "rpc": [],
       "infoUrl": "https://cchain.explorer.avax-test.network",
       "faucets": [
         "https://faucet.avax-test.network/"
@@ -216,13 +208,7 @@
         "decimals": 18
       },
       "explorerUrl": "https://etherscan.io",
-      "rpc": [
-        "https://ethereum.publicnode.com",
-        "https://eth.llamarpc.com",
-        "https://eth-mainnet.public.blastapi.io",
-        "https://rpc.ankr.com/eth",
-        "https://cloudflare-eth.com"
-      ]
+      "rpc": []
     },
     "goerli": {
       "chainId": 5,
@@ -298,7 +284,9 @@
         "symbol": "ONE",
         "decimals": 18
       },
-      "rpc": [],
+      "rpc": [
+        "https://api.s0.b.hmny.io"
+      ],
       "infoUrl": "https://www.harmony.one/",
       "faucets": [
         "https://faucet.pops.one"
@@ -401,6 +389,7 @@
         "https://polygon.llamarpc.com",
         "https://polygon-mainnet.public.blastapi.io",
         "https://rpc.ankr.com/polygon",
+        "https://polygon.meowrpc.com",
         "https://1rpc.io/matic"
       ]
     },
@@ -478,7 +467,6 @@
         "https://bsc-dataseed3.binance.org",
         "https://bsc-dataseed4.binance.org",
         "https://bsc.publicnode.com",
-        "https://binance.llamarpc.com",
         "https://bsc.meowrpc.com"
       ]
     },
@@ -490,12 +478,7 @@
         "symbol": "BNB",
         "decimals": 18
       },
-      "rpc": [
-        "https://data-seed-prebsc-1-s1.binance.org:8545",
-        "https://data-seed-prebsc-2-s1.binance.org:8545",
-        "https://data-seed-prebsc-1-s2.binance.org:8545",
-        "https://data-seed-prebsc-2-s2.binance.org:8545"
-      ]
+      "rpc": []
     }
   },
   "klayton": {
