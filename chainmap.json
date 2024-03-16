@@ -162,7 +162,9 @@
         "symbol": "ETH",
         "decimals": 18
       },
-      "rpc": [],
+      "rpc": [
+        "https://rpc.zora.energy/"
+      ],
       "infoUrl": "https://zora.energy",
       "faucets": []
     }
@@ -177,7 +179,10 @@
         "symbol": "AVAX",
         "decimals": 18
       },
-      "rpc": [],
+      "rpc": [
+        "https://api.avax.network/ext/bc/C/rpc",
+        "https://avalanche-c-chain.publicnode.com"
+      ],
       "infoUrl": "https://www.avax.network/",
       "faucets": []
     },
@@ -190,7 +195,10 @@
         "symbol": "AVAX",
         "decimals": 18
       },
-      "rpc": [],
+      "rpc": [
+        "https://api.avax-test.network/ext/bc/C/rpc",
+        "https://avalanche-fuji-c-chain.publicnode.com"
+      ],
       "infoUrl": "https://cchain.explorer.avax-test.network",
       "faucets": [
         "https://faucet.avax-test.network/"
@@ -208,7 +216,13 @@
         "decimals": 18
       },
       "explorerUrl": "https://etherscan.io",
-      "rpc": []
+      "rpc": [
+        "https://ethereum.publicnode.com",
+        "https://eth.llamarpc.com",
+        "https://eth-mainnet.public.blastapi.io",
+        "https://rpc.ankr.com/eth",
+        "https://cloudflare-eth.com"
+      ]
     },
     "goerli": {
       "chainId": 5,
@@ -304,15 +318,7 @@
         "decimals": 18
       },
       "explorerUrl": "https://gnosisscan.io",
-      "rpc": [
-        "https://rpc.gnosischain.com",
-        "https://rpc.gnosis.gateway.fm",
-        "https://rpc.ankr.com/gnosis",
-        "https://gnosis-mainnet.public.blastapi.io",
-        "https://gnosis.api.onfinality.io/public",
-        "https://gnosis.blockpi.network/v1/rpc/public",
-        "https://gnosis.oat.farm"
-      ]
+      "rpc": []
     }
   },
   "moonbeam": {
@@ -386,7 +392,6 @@
       "explorerUrl": "https://polygonscan.com",
       "rpc": [
         "https://polygon-bor.publicnode.com",
-        "https://polygon.llamarpc.com",
         "https://polygon-mainnet.public.blastapi.io",
         "https://rpc.ankr.com/polygon",
         "https://polygon.meowrpc.com",
@@ -467,6 +472,7 @@
         "https://bsc-dataseed3.binance.org",
         "https://bsc-dataseed4.binance.org",
         "https://bsc.publicnode.com",
+        "https://binance.llamarpc.com",
         "https://bsc.meowrpc.com"
       ]
     },
@@ -478,7 +484,14 @@
         "symbol": "BNB",
         "decimals": 18
       },
-      "rpc": []
+      "rpc": [
+        "https://data-seed-prebsc-1-s1.binance.org:8545",
+        "https://data-seed-prebsc-2-s1.binance.org:8545",
+        "https://data-seed-prebsc-1-s2.binance.org:8545",
+        "https://data-seed-prebsc-2-s2.binance.org:8545",
+        "https://bsc-testnet.publicnode.com",
+        "https://bsc-testnet.public.blastapi.io"
+      ]
     }
   },
   "klayton": {
