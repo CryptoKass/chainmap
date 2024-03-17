@@ -101,7 +101,6 @@
       "rpc": [
         "https://arb1.arbitrum.io/rpc",
         "https://arbitrum-one.publicnode.com",
-        "https://arbitrum.llamarpc.com",
         "https://arbitrum-one.public.blastapi.io",
         "https://arbitrum.meowrpc.com",
         "https://rpc.ankr.com/arbitrum"
@@ -218,7 +217,6 @@
       "explorerUrl": "https://etherscan.io",
       "rpc": [
         "https://ethereum.publicnode.com",
-        "https://eth.llamarpc.com",
         "https://eth-mainnet.public.blastapi.io",
         "https://rpc.ankr.com/eth",
         "https://cloudflare-eth.com"
@@ -298,9 +296,7 @@
         "symbol": "ONE",
         "decimals": 18
       },
-      "rpc": [
-        "https://api.s0.b.hmny.io"
-      ],
+      "rpc": [],
       "infoUrl": "https://www.harmony.one/",
       "faucets": [
         "https://faucet.pops.one"
@@ -392,6 +388,7 @@
       "explorerUrl": "https://polygonscan.com",
       "rpc": [
         "https://polygon-bor.publicnode.com",
+        "https://polygon.llamarpc.com",
         "https://polygon-mainnet.public.blastapi.io",
         "https://rpc.ankr.com/polygon",
         "https://polygon.meowrpc.com",
@@ -466,15 +463,7 @@
         "symbol": "BNB",
         "decimals": 18
       },
-      "rpc": [
-        "https://bsc-dataseed1.binance.org",
-        "https://bsc-dataseed2.binance.org",
-        "https://bsc-dataseed3.binance.org",
-        "https://bsc-dataseed4.binance.org",
-        "https://bsc.publicnode.com",
-        "https://binance.llamarpc.com",
-        "https://bsc.meowrpc.com"
-      ]
+      "rpc": []
     },
     "testnet": {
       "chainId": 97,
@@ -484,14 +473,7 @@
         "symbol": "BNB",
         "decimals": 18
       },
-      "rpc": [
-        "https://data-seed-prebsc-1-s1.binance.org:8545",
-        "https://data-seed-prebsc-2-s1.binance.org:8545",
-        "https://data-seed-prebsc-1-s2.binance.org:8545",
-        "https://data-seed-prebsc-2-s2.binance.org:8545",
-        "https://bsc-testnet.publicnode.com",
-        "https://bsc-testnet.public.blastapi.io"
-      ]
+      "rpc": []
     }
   },
   "klayton": {
