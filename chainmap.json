@@ -101,6 +101,7 @@
       "rpc": [
         "https://arb1.arbitrum.io/rpc",
         "https://arbitrum-one.publicnode.com",
+        "https://arbitrum.llamarpc.com",
         "https://arbitrum-one.public.blastapi.io",
         "https://arbitrum.meowrpc.com",
         "https://rpc.ankr.com/arbitrum"
@@ -217,6 +218,7 @@
       "explorerUrl": "https://etherscan.io",
       "rpc": [
         "https://ethereum.publicnode.com",
+        "https://eth.llamarpc.com",
         "https://eth-mainnet.public.blastapi.io",
         "https://rpc.ankr.com/eth",
         "https://cloudflare-eth.com"
@@ -314,7 +316,12 @@
         "decimals": 18
       },
       "explorerUrl": "https://gnosisscan.io",
-      "rpc": []
+      "rpc": [
+        "https://rpc.ankr.com/gnosis",
+        "https://gnosis.api.onfinality.io/public",
+        "https://gnosis.blockpi.network/v1/rpc/public",
+        "https://gnosis.oat.farm"
+      ]
     }
   },
   "moonbeam": {
@@ -473,7 +480,14 @@
         "symbol": "BNB",
         "decimals": 18
       },
-      "rpc": []
+      "rpc": [
+        "https://data-seed-prebsc-1-s1.binance.org:8545",
+        "https://data-seed-prebsc-2-s1.binance.org:8545",
+        "https://data-seed-prebsc-1-s2.binance.org:8545",
+        "https://data-seed-prebsc-2-s2.binance.org:8545",
+        "https://bsc-testnet.publicnode.com",
+        "https://bsc-testnet.public.blastapi.io"
+      ]
     }
   },
   "klayton": {
