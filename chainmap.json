@@ -98,7 +98,13 @@
         "decimals": 18
       },
       "explorerUrl": "https://arbiscan.io",
-      "rpc": []
+      "rpc": [
+        "https://arb1.arbitrum.io/rpc",
+        "https://arbitrum-one.publicnode.com",
+        "https://arbitrum-one.public.blastapi.io",
+        "https://arbitrum.meowrpc.com",
+        "https://rpc.ankr.com/arbitrum"
+      ]
     },
     "goerli": {
       "chainId": 421613,
@@ -110,7 +116,10 @@
         "decimals": 18
       },
       "explorerUrl": "https://goerli.arbiscan.io",
-      "rpc": []
+      "rpc": [
+        "https://goerli-rollup.arbitrum.io/rpc",
+        "https://arbitrum-goerli.public.blastapi.io"
+      ]
     },
     "sepolia": {
       "chainId": 421614,
@@ -122,7 +131,9 @@
         "decimals": 18
       },
       "explorerUrl": "https://sepolia.arbiscan.io",
-      "rpc": []
+      "rpc": [
+        "https://sepolia-rollup.arbitrum.io/rpc"
+      ]
     },
     "nova": {
       "chainId": 42170,
@@ -133,7 +144,11 @@
         "decimals": 18
       },
       "explorerUrl": "https://nova.arbiscan.io",
-      "rpc": []
+      "rpc": [
+        "https://nova.arbitrum.io/rpc",
+        "https://arbitrum-nova.publicnode.com",
+        "https://arbitrum-nova.public.blastapi.io"
+      ]
     }
   },
   "zora": {
@@ -204,8 +219,7 @@
         "https://ethereum.publicnode.com",
         "https://eth.llamarpc.com",
         "https://eth-mainnet.public.blastapi.io",
-        "https://rpc.ankr.com/eth",
-        "https://cloudflare-eth.com"
+        "https://rpc.ankr.com/eth"
       ]
     },
     "goerli": {
