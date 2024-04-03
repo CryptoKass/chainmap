@@ -216,7 +216,13 @@
         "decimals": 18
       },
       "explorerUrl": "https://etherscan.io",
-      "rpc": []
+      "rpc": [
+        "https://ethereum.publicnode.com",
+        "https://eth.llamarpc.com",
+        "https://eth-mainnet.public.blastapi.io",
+        "https://rpc.ankr.com/eth",
+        "https://cloudflare-eth.com"
+      ]
     },
     "goerli": {
       "chainId": 5,
@@ -227,7 +233,9 @@
         "decimals": 18
       },
       "explorerUrl": "https://goerli.etherscan.io",
-      "rpc": []
+      "rpc": [
+        "https://eth-goerli.public.blastapi.io"
+      ]
     },
     "sepolia": {
       "chainId": 11155111,
@@ -238,7 +246,11 @@
         "decimals": 18
       },
       "explorerUrl": "https://sepolia.etherscan.io",
-      "rpc": []
+      "rpc": [
+        "https://rpc2.sepolia.org",
+        "https://rpc.notadegen.com/eth/sepolia",
+        "https://gateway.tenderly.co/public/sepolia"
+      ]
     }
   },
   "optimism": {
@@ -252,7 +264,11 @@
         "decimals": 18
       },
       "explorerUrl": "https://optimistic.etherscan.io",
-      "rpc": []
+      "rpc": [
+        "https://mainnet.optimism.io",
+        "https://optimism.publicnode.com",
+        "https://optimism.gateway.tenderly.co"
+      ]
     }
   },
   "harmony": {
@@ -279,7 +295,9 @@
         "symbol": "ONE",
         "decimals": 18
       },
-      "rpc": [],
+      "rpc": [
+        "https://api.s0.b.hmny.io"
+      ],
       "infoUrl": "https://www.harmony.one/",
       "faucets": [
         "https://faucet.pops.one"
