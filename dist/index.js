@@ -7,33 +7,33 @@ var chainIds_1 = require("./chainIds");
 // Supported Networks
 var celo_1 = require("./celo");
 var fantom_1 = require("./fantom");
-var arbitrum_1 = require("./arbitrum");
-var zora_1 = require("./zora");
-var avalanche_1 = require("./avalanche");
-var ethereum_1 = require("./ethereum");
 var optimism_1 = require("./optimism");
-var harmony_1 = require("./harmony");
-var gnosis_1 = require("./gnosis");
-var moonbeam_1 = require("./moonbeam");
-var polygon_1 = require("./polygon");
+var ethereum_1 = require("./ethereum");
 var cronos_1 = require("./cronos");
-var smartchain_1 = require("./smartchain");
-var klayton_1 = require("./klayton");
+var polygon_1 = require("./polygon");
+var moonbeam_1 = require("./moonbeam");
 var base_1 = require("./base");
+var smartchain_1 = require("./smartchain");
+var harmony_1 = require("./harmony");
+var zora_1 = require("./zora");
+var gnosis_1 = require("./gnosis");
+var klayton_1 = require("./klayton");
+var arbitrum_1 = require("./arbitrum");
+var avalanche_1 = require("./avalanche");
 exports.default = (0, utils_1.asProxyWithChainId)({
     celo: celo_1.default,
     fantom: fantom_1.default,
-    arbitrum: arbitrum_1.default,
-    zora: zora_1.default,
-    avalanche: avalanche_1.default,
-    ethereum: ethereum_1.default,
     optimism: optimism_1.default,
-    harmony: harmony_1.default,
-    gnosis: gnosis_1.default,
-    moonbeam: moonbeam_1.default,
-    polygon: polygon_1.default,
+    ethereum: ethereum_1.default,
     cronos: cronos_1.default,
-    smartchain: smartchain_1.default,
-    klayton: klayton_1.default,
+    polygon: polygon_1.default,
+    moonbeam: moonbeam_1.default,
     base: base_1.default,
+    smartchain: smartchain_1.default,
+    harmony: harmony_1.default,
+    zora: zora_1.default,
+    gnosis: gnosis_1.default,
+    klayton: klayton_1.default,
+    arbitrum: arbitrum_1.default,
+    avalanche: avalanche_1.default,
 }, chainIds_1.default);
