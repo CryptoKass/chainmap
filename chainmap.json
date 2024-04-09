@@ -118,6 +118,7 @@
       "explorerUrl": "https://etherscan.io",
       "rpc": [
         "https://ethereum.publicnode.com",
+        "https://eth.llamarpc.com",
         "https://eth-mainnet.public.blastapi.io",
         "https://rpc.ankr.com/eth",
         "https://cloudflare-eth.com"
@@ -146,7 +147,7 @@
       },
       "explorerUrl": "https://sepolia.etherscan.io",
       "rpc": [
-        "https://rpc2.sepolia.org",
+        "https://rpc.sepolia.org",
         "https://eth-sepolia.public.blastapi.io",
         "https://rpc.notadegen.com/eth/sepolia",
         "https://gateway.tenderly.co/public/sepolia"
@@ -185,8 +186,7 @@
         "https://polygon.llamarpc.com",
         "https://polygon-mainnet.public.blastapi.io",
         "https://rpc.ankr.com/polygon",
-        "https://polygon.meowrpc.com",
-        "https://1rpc.io/matic"
+        "https://polygon.meowrpc.com"
       ]
     },
     "zkevm": {
@@ -317,7 +317,15 @@
         "symbol": "BNB",
         "decimals": 18
       },
-      "rpc": []
+      "rpc": [
+        "https://bsc-dataseed1.binance.org",
+        "https://bsc-dataseed2.binance.org",
+        "https://bsc-dataseed3.binance.org",
+        "https://bsc-dataseed4.binance.org",
+        "https://bsc.publicnode.com",
+        "https://binance.llamarpc.com",
+        "https://bsc.meowrpc.com"
+      ]
     },
     "testnet": {
       "chainId": 97,
