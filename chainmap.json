@@ -78,8 +78,7 @@
         "decimals": 18
       },
       "rpc": [
-        "https://rpc.testnet.fantom.network",
-        "https://fantom-testnet.publicnode.com"
+        "https://rpc.testnet.fantom.network"
       ],
       "infoUrl": "https://docs.fantom.foundation/quick-start/short-guide#fantom-testnet",
       "faucets": [
@@ -117,7 +116,6 @@
       },
       "explorerUrl": "https://etherscan.io",
       "rpc": [
-        "https://ethereum.publicnode.com",
         "https://eth.llamarpc.com",
         "https://eth-mainnet.public.blastapi.io",
         "https://rpc.ankr.com/eth",
@@ -148,8 +146,8 @@
       "explorerUrl": "https://sepolia.etherscan.io",
       "rpc": [
         "https://rpc.sepolia.org",
+        "https://rpc2.sepolia.org",
         "https://eth-sepolia.public.blastapi.io",
-        "https://rpc.notadegen.com/eth/sepolia",
         "https://gateway.tenderly.co/public/sepolia"
       ]
     }
@@ -183,7 +181,6 @@
       "explorerUrl": "https://polygonscan.com",
       "rpc": [
         "https://polygon-bor.publicnode.com",
-        "https://polygon.llamarpc.com",
         "https://polygon-mainnet.public.blastapi.io",
         "https://rpc.ankr.com/polygon",
         "https://polygon.meowrpc.com"
@@ -340,7 +337,8 @@
         "https://data-seed-prebsc-2-s1.binance.org:8545",
         "https://data-seed-prebsc-1-s2.binance.org:8545",
         "https://data-seed-prebsc-2-s2.binance.org:8545",
-        "https://bsc-testnet.publicnode.com"
+        "https://bsc-testnet.publicnode.com",
+        "https://bsc-testnet.public.blastapi.io"
       ]
     }
   },
@@ -355,7 +353,9 @@
         "symbol": "ONE",
         "decimals": 18
       },
-      "rpc": [],
+      "rpc": [
+        "https://rpc.ankr.com/harmony"
+      ],
       "infoUrl": "https://www.harmony.one/",
       "faucets": []
     },
@@ -368,7 +368,9 @@
         "symbol": "ONE",
         "decimals": 18
       },
-      "rpc": [],
+      "rpc": [
+        "https://api.s0.b.hmny.io"
+      ],
       "infoUrl": "https://www.harmony.one/",
       "faucets": [
         "https://faucet.pops.one"
