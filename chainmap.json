@@ -100,6 +100,7 @@
       "explorerUrl": "https://optimistic.etherscan.io",
       "rpc": [
         "https://mainnet.optimism.io",
+        "https://optimism.publicnode.com",
         "https://optimism.gateway.tenderly.co"
       ]
     }
@@ -115,12 +116,7 @@
         "decimals": 18
       },
       "explorerUrl": "https://etherscan.io",
-      "rpc": [
-        "https://ethereum.publicnode.com",
-        "https://eth.llamarpc.com",
-        "https://eth-mainnet.public.blastapi.io",
-        "https://rpc.ankr.com/eth"
-      ]
+      "rpc": []
     },
     "goerli": {
       "chainId": 5,
@@ -131,9 +127,7 @@
         "decimals": 18
       },
       "explorerUrl": "https://goerli.etherscan.io",
-      "rpc": [
-        "https://eth-goerli.public.blastapi.io"
-      ]
+      "rpc": []
     },
     "sepolia": {
       "chainId": 11155111,
@@ -144,10 +138,7 @@
         "decimals": 18
       },
       "explorerUrl": "https://sepolia.etherscan.io",
-      "rpc": [
-        "https://rpc2.sepolia.org",
-        "https://gateway.tenderly.co/public/sepolia"
-      ]
+      "rpc": []
     }
   },
   "cronos": {
@@ -159,9 +150,7 @@
         "symbol": "CRO",
         "decimals": 18
       },
-      "rpc": [
-        "https://cronos-evm.publicnode.com"
-      ],
+      "rpc": [],
       "explorerUrl": "https://cronoscan.com"
     }
   },
@@ -198,7 +187,6 @@
       },
       "explorerUrl": "https://mumbai.polygonscan.com",
       "rpc": [
-        "https://polygon-mumbai-bor.publicnode.com",
         "https://rpc.ankr.com/polygon_mumbai"
       ]
     },
@@ -283,8 +271,10 @@
         "decimals": 18
       },
       "rpc": [
+        "https://mainnet.base.org/",
         "https://developer-access-mainnet.base.org/",
-        "https://base.gateway.tenderly.co"
+        "https://base.gateway.tenderly.co",
+        "https://base.publicnode.com"
       ],
       "infoUrl": "https://base.org",
       "faucets": []
@@ -299,7 +289,14 @@
         "symbol": "BNB",
         "decimals": 18
       },
-      "rpc": []
+      "rpc": [
+        "https://bsc-dataseed1.binance.org",
+        "https://bsc-dataseed2.binance.org",
+        "https://bsc-dataseed3.binance.org",
+        "https://bsc-dataseed4.binance.org",
+        "https://bsc.publicnode.com",
+        "https://bsc.meowrpc.com"
+      ]
     },
     "testnet": {
       "chainId": 97,
@@ -353,7 +350,9 @@
         "symbol": "ETH",
         "decimals": 18
       },
-      "rpc": [],
+      "rpc": [
+        "https://rpc.zora.energy/"
+      ],
       "infoUrl": "https://zora.energy",
       "faucets": []
     }
