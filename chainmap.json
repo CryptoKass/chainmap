@@ -98,6 +98,7 @@
       },
       "rpc": [
         "https://cronos-evm.publicnode.com",
+        "https://evm.cronos.org",
         "https://cronos.blockpi.network/v1/rpc/public"
       ],
       "explorerUrl": "https://cronoscan.com"
@@ -127,8 +128,7 @@
         "https://data-seed-prebsc-2-s1.binance.org:8545",
         "https://data-seed-prebsc-1-s2.binance.org:8545",
         "https://data-seed-prebsc-2-s2.binance.org:8545",
-        "https://bsc-testnet.publicnode.com",
-        "https://bsc-testnet.public.blastapi.io"
+        "https://bsc-testnet.publicnode.com"
       ]
     }
   },
@@ -223,7 +223,8 @@
         "https://polygon.llamarpc.com",
         "https://polygon-mainnet.public.blastapi.io",
         "https://rpc.ankr.com/polygon",
-        "https://polygon.meowrpc.com"
+        "https://polygon.meowrpc.com",
+        "https://1rpc.io/matic"
       ]
     },
     "zkevm": {
