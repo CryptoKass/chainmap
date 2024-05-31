@@ -97,7 +97,6 @@
         "decimals": 18
       },
       "rpc": [
-        "https://evm.cronos.org",
         "https://cronos.blockpi.network/v1/rpc/public"
       ],
       "explorerUrl": "https://cronoscan.com"
@@ -230,8 +229,7 @@
         "https://polygon.llamarpc.com",
         "https://polygon-mainnet.public.blastapi.io",
         "https://rpc.ankr.com/polygon",
-        "https://polygon.meowrpc.com",
-        "https://1rpc.io/matic"
+        "https://polygon.meowrpc.com"
       ]
     },
     "zkevm": {
@@ -416,6 +414,7 @@
         "https://rpc.gnosis.gateway.fm",
         "https://rpc.ankr.com/gnosis",
         "https://gnosis-mainnet.public.blastapi.io",
+        "https://gnosis.api.onfinality.io/public",
         "https://gnosis.blockpi.network/v1/rpc/public",
         "https://gnosis.oat.farm"
       ]
