@@ -97,7 +97,6 @@
         "decimals": 18
       },
       "rpc": [
-        "https://cronos-evm.publicnode.com",
         "https://evm.cronos.org",
         "https://cronos.blockpi.network/v1/rpc/public"
       ],
@@ -368,7 +367,8 @@
         "https://ethereum.publicnode.com",
         "https://eth.llamarpc.com",
         "https://eth-mainnet.public.blastapi.io",
-        "https://rpc.ankr.com/eth"
+        "https://rpc.ankr.com/eth",
+        "https://cloudflare-eth.com"
       ]
     },
     "goerli": {
