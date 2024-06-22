@@ -497,7 +497,8 @@
         "https://api.s0.t.hmny.io",
         "https://rpc.ankr.com/harmony",
         "https://harmony.api.onfinality.io/public",
-        "https://1rpc.io/one"
+        "https://1rpc.io/one",
+        "https://api.s1.t.hmny.io"
       ],
       "infoUrl": "https://www.harmony.one/",
       "faucets": []
@@ -533,6 +534,7 @@
       "explorerUrl": "https://scope.klaytn.com/",
       "rpc": [
         "https://public-en-cypress.klaytn.net",
+        "https://archive-en.cypress.klaytn.net",
         "https://klaytn.blockpi.network/v1/rpc/public",
         "https://klaytn.api.onfinality.io/public"
       ]
