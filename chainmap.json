@@ -14,7 +14,8 @@
         "https://polygon.llamarpc.com",
         "https://polygon-mainnet.public.blastapi.io",
         "https://rpc.ankr.com/polygon",
-        "https://polygon.meowrpc.com"
+        "https://polygon.meowrpc.com",
+        "https://1rpc.io/matic"
       ]
     },
     "zkevm": {
@@ -65,7 +66,7 @@
         "decimals": 18
       },
       "rpc": [
-        "https://cronos-evm.publicnode.com",
+        "https://evm.cronos.org",
         "https://cronos.blockpi.network/v1/rpc/public"
       ],
       "explorerUrl": "https://cronoscan.com"
@@ -119,9 +120,7 @@
         "symbol": "ETH",
         "decimals": 18
       },
-      "rpc": [
-        "https://rpc.zora.energy/"
-      ],
+      "rpc": [],
       "infoUrl": "https://zora.energy",
       "faucets": []
     }
@@ -531,8 +530,6 @@
       "infoUrl": "https://klaytn.foundation",
       "explorerUrl": "https://scope.klaytn.com/",
       "rpc": [
-        "https://public-en-cypress.klaytn.net",
-        "https://archive-en.cypress.klaytn.net",
         "https://klaytn.blockpi.network/v1/rpc/public",
         "https://klaytn.api.onfinality.io/public"
       ]
