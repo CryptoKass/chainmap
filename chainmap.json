@@ -85,6 +85,7 @@
       },
       "explorerUrl": "https://optimistic.etherscan.io",
       "rpc": [
+        "https://mainnet.optimism.io",
         "https://optimism.publicnode.com",
         "https://optimism.gateway.tenderly.co"
       ]
@@ -236,6 +237,7 @@
       "rpc": [
         "https://ethereum.publicnode.com",
         "https://eth.llamarpc.com",
+        "https://eth-mainnet.public.blastapi.io",
         "https://rpc.ankr.com/eth"
       ]
     },
@@ -343,7 +345,6 @@
         "https://arb1.arbitrum.io/rpc",
         "https://arbitrum-one.publicnode.com",
         "https://arbitrum.llamarpc.com",
-        "https://arbitrum-one.public.blastapi.io",
         "https://arbitrum.meowrpc.com",
         "https://rpc.ankr.com/arbitrum"
       ]
@@ -495,6 +496,7 @@
         "https://api.s0.t.hmny.io",
         "https://rpc.ankr.com/harmony",
         "https://harmony.api.onfinality.io/public",
+        "https://1rpc.io/one",
         "https://api.s1.t.hmny.io"
       ],
       "infoUrl": "https://www.harmony.one/",
