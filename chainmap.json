@@ -14,8 +14,7 @@
         "https://polygon.llamarpc.com",
         "https://polygon-mainnet.public.blastapi.io",
         "https://rpc.ankr.com/polygon",
-        "https://polygon.meowrpc.com",
-        "https://1rpc.io/matic"
+        "https://polygon.meowrpc.com"
       ]
     },
     "zkevm": {
@@ -345,6 +344,7 @@
         "https://arb1.arbitrum.io/rpc",
         "https://arbitrum-one.publicnode.com",
         "https://arbitrum.llamarpc.com",
+        "https://arbitrum-one.public.blastapi.io",
         "https://arbitrum.meowrpc.com",
         "https://rpc.ankr.com/arbitrum"
       ]

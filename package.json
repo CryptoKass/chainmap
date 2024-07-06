@@ -1,7 +1,7 @@
 {
   "name": "chainmap",
   "description": "A comprehensive map of EVM blockchain networks and their associated data. It includes information such as chain IDs, network names, RPC URLs, and currency details.",
-  "version": "0.0.292",
+  "version": "0.0.293",
   "module": "dist/index.js",
   "main": "dist/index.js",
   "type": "module",
