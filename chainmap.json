@@ -199,8 +199,8 @@
       "rpc": [
         "https://ethereum.publicnode.com",
         "https://eth.llamarpc.com",
-        "https://eth-mainnet.public.blastapi.io",
-        "https://rpc.ankr.com/eth"
+        "https://rpc.ankr.com/eth",
+        "https://cloudflare-eth.com"
       ]
     },
     "goerli": {
@@ -266,6 +266,7 @@
         "https://polygon.llamarpc.com",
         "https://polygon-mainnet.public.blastapi.io",
         "https://rpc.ankr.com/polygon",
+        "https://polygon.meowrpc.com",
         "https://1rpc.io/matic"
       ]
     },
