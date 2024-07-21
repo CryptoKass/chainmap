@@ -200,8 +200,8 @@
       "rpc": [
         "https://ethereum.publicnode.com",
         "https://eth.llamarpc.com",
-        "https://rpc.ankr.com/eth",
-        "https://cloudflare-eth.com"
+        "https://eth-mainnet.public.blastapi.io",
+        "https://rpc.ankr.com/eth"
       ]
     },
     "goerli": {
@@ -228,7 +228,6 @@
       "explorerUrl": "https://sepolia.etherscan.io",
       "rpc": [
         "https://rpc.sepolia.org",
-        "https://rpc2.sepolia.org",
         "https://eth-sepolia.public.blastapi.io",
         "https://gateway.tenderly.co/public/sepolia"
       ]
