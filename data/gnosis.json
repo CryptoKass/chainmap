@@ -2,6 +2,7 @@
   "mainnet": {
     "chainId": 100,
     "name": "Gnosis",
+    "iconUrl": "assets/img/network/gnosis.svg",
     "infoURL": "https://docs.gnosischain.com",
     "currency": {
       "name": "xDAI",

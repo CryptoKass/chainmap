@@ -2,6 +2,7 @@
   "mainnet": {
     "chainId": 137,
     "name": "polygon",
+    "iconUrl": "assets/img/network/polygon.svg",
     "currency": {
       "name": "Polygon",
       "symbol": "MATIC",
@@ -20,6 +21,7 @@
   "zkevm": {
     "chainId": 1101,
     "name": "polygon zkevm",
+    "iconUrl": "assets/img/network/polygon.svg",
     "currency": {
       "name": "Ethereum",
       "symbol": "ETH",
@@ -35,6 +37,7 @@
   "mumbai": {
     "chainId": 80001,
     "name": "polygon mumbai",
+    "iconUrl": "assets/img/network/polygon.svg",
     "currency": {
       "name": "Polygon",
       "symbol": "MATIC",
@@ -49,7 +52,8 @@
   },
   "zkevmtest": {
     "chainId": 1442,
-    "name": "polygon zkevm testnet",
+    "name": "polygon zkevm testnet",    
+    "iconUrl": "assets/img/network/polygon.svg",
     "currency": {
       "name": "Ethereum",
       "symbol": "ETH",

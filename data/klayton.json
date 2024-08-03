@@ -1,7 +1,8 @@
 {
   "mainnet": {
     "chainId": 8217,
-    "name": "Klayton mainnet",
+    "name": "Klayton mainnet",    
+    "iconUrl": "assets/img/network/klaytn.svg",
     "currency": {
       "name": "Klaytn",
       "symbol": "KLAY",

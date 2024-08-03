@@ -3,6 +3,7 @@
     "explorerUrl": "https://snowtrace.io",
     "chainId": 43114,
     "name": "avalanche c-chain",
+    "iconUrl": "assets/img/networks/avalanche.svg",
     "currency": {
       "name": "Avalanche",
       "symbol": "AVAX",
@@ -21,6 +22,7 @@
     "explorerUrl": "https://testnet.snowtrace.io",
     "chainId": 43113,
     "name": "avalanche fuji testnet",
+    "iconUrl": "assets/img/networks/avalanche.svg",
     "currency": {
       "name": "Avalanche",
       "symbol": "AVAX",

@@ -2,7 +2,7 @@
   "mainnet": {
     "chainId": 42161,
     "name": "Arbitrum mainnet",
-    "iconUrl": "assets/img/networks/arbitrum.png",
+    "iconUrl": "assets/img/networks/arbitrum.svg",
     "currency": {
       "name": "Ethereum",
       "symbol": "ETH",
@@ -21,7 +21,7 @@
   "goerli": {
     "chainId": 421613,
     "name": "Arbitrum goerli",
-    "iconUrl": "assets/img/networks/arbitrum.png",
+    "iconUrl": "assets/img/networks/arbitrum.svg",
     "currency": {
       "name": "Ethereum",
       "symbol": "ETH",

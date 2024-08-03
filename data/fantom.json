@@ -3,6 +3,7 @@
     "explorerUrl": "https://ftmscan.com",
     "chainId": 250,
     "name": "fantom opera",
+    "iconUrl": "assets/img/network/fantom.svg",
     "currency": {
       "name": "Fantom",
       "symbol": "FTM",
@@ -20,7 +21,8 @@
   "testnet": {
     "explorerUrl": "https://testnet.ftmscan.com",
     "chainId": 4002,
-    "name": "fantom testnet",
+    "name": "fantom testnet",    
+    "iconUrl": "assets/img/network/fantom.svg",
     "currency": {
       "name": "Fantom",
       "symbol": "FTM",

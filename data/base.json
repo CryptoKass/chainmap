@@ -2,7 +2,8 @@
   "mainnet": {
     "explorerUrl": "https://basescan.org",
     "chainId": 8453,
-    "name": "base",
+    "name": "base",    
+    "iconUrl": "assets/img/networks/base.svg",
     "currency": {
       "name": "Ether",
       "symbol": "ETH",
