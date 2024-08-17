@@ -14,7 +14,6 @@
         "https://bsc-dataseed3.binance.org",
         "https://bsc-dataseed4.binance.org",
         "https://bsc.publicnode.com",
-        "https://binance.llamarpc.com",
         "https://bsc.meowrpc.com"
       ]
     },
@@ -182,6 +181,8 @@
         "decimals": 18
       },
       "rpc": [
+        "https://cronos-evm.publicnode.com",
+        "https://evm.cronos.org",
         "https://cronos.blockpi.network/v1/rpc/public"
       ],
       "explorerUrl": "https://cronoscan.com"
@@ -257,11 +258,8 @@
       "explorerUrl": "https://polygonscan.com",
       "rpc": [
         "https://polygon-bor.publicnode.com",
-        "https://polygon.llamarpc.com",
-        "https://polygon-mainnet.public.blastapi.io",
         "https://rpc.ankr.com/polygon",
-        "https://polygon.meowrpc.com",
-        "https://1rpc.io/matic"
+        "https://polygon.meowrpc.com"
       ]
     },
     "zkevm": {
@@ -329,9 +327,7 @@
         "symbol": "GLMR",
         "decimals": 18
       },
-      "rpc": [
-        "https://rpc.api.moonbeam.network"
-      ],
+      "rpc": [],
       "infoUrl": "https://moonbeam.network/networks/moonbeam/",
       "faucets": []
     },
@@ -432,10 +428,7 @@
       "explorerUrl": "https://etherscan.io",
       "rpc": [
         "https://ethereum.publicnode.com",
-        "https://eth.llamarpc.com",
-        "https://eth-mainnet.public.blastapi.io",
-        "https://rpc.ankr.com/eth",
-        "https://cloudflare-eth.com"
+        "https://rpc.ankr.com/eth"
       ]
     },
     "goerli": {
@@ -533,8 +526,8 @@
       "explorerUrl": "https://scope.klaytn.com/",
       "rpc": [
         "https://public-en-cypress.klaytn.net",
-        "https://klaytn.blockpi.network/v1/rpc/public",
-        "https://klaytn.api.onfinality.io/public"
+        "https://archive-en.cypress.klaytn.net",
+        "https://klaytn.blockpi.network/v1/rpc/public"
       ]
     }
   }
