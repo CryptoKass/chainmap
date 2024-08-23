@@ -259,9 +259,11 @@
       "explorerUrl": "https://polygonscan.com",
       "rpc": [
         "https://polygon-bor.publicnode.com",
+        "https://polygon.llamarpc.com",
         "https://polygon-mainnet.public.blastapi.io",
         "https://rpc.ankr.com/polygon",
-        "https://polygon.meowrpc.com"
+        "https://polygon.meowrpc.com",
+        "https://1rpc.io/matic"
       ]
     },
     "zkevm": {
@@ -394,6 +396,7 @@
         "https://a.api.s0.t.hmny.io",
         "https://api.s0.t.hmny.io",
         "https://rpc.ankr.com/harmony",
+        "https://1rpc.io/one",
         "https://api.s1.t.hmny.io"
       ],
       "infoUrl": "https://www.harmony.one/",
@@ -431,6 +434,7 @@
       "rpc": [
         "https://ethereum.publicnode.com",
         "https://eth.llamarpc.com",
+        "https://eth-mainnet.public.blastapi.io",
         "https://rpc.ankr.com/eth"
       ]
     },
