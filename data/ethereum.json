@@ -2,7 +2,7 @@
   "mainnet": {
     "chainId": 1,
     "name": "Ethereum mainnet",
-    "iconUrl": "assets/img/network/ethereum.png",
+    "iconUrl": "assets/img/network/ethereum.svg",
     "currency": {
       "name": "Ethereum",
       "symbol": "ETH",
@@ -21,6 +21,7 @@
   "goerli": {
     "chainId": 5,
     "name": "Ethereum goerli",
+    "iconUrl": "assets/img/network/ethereum.svg",
     "currency": {
       "name": "Ethereum",
       "symbol": "ETH",
@@ -37,6 +38,7 @@
   "sepolia": {
     "chainId": 11155111,
     "name": "Ethereum sepolia",
+    "iconUrl": "assets/img/network/ethereum.svg",
     "currency": {
       "name": "Ethereum",
       "symbol": "ETH",

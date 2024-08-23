@@ -3,6 +3,7 @@
     "chainId": 10,
     "name": "OP mainnet",
     "infoURL": "https://optimism.io",
+    "iconUrl": "assets/img/network/optimism.svg",
     "currency": {
       "name": "Ethereum",
       "symbol": "ETH",
