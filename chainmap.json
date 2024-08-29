@@ -262,7 +262,8 @@
         "https://polygon.llamarpc.com",
         "https://polygon-mainnet.public.blastapi.io",
         "https://rpc.ankr.com/polygon",
-        "https://polygon.meowrpc.com"
+        "https://polygon.meowrpc.com",
+        "https://1rpc.io/matic"
       ]
     },
     "zkevm": {
@@ -391,11 +392,9 @@
         "decimals": 18
       },
       "rpc": [
-        "https://api.harmony.one",
-        "https://a.api.s0.t.hmny.io",
         "https://api.s0.t.hmny.io",
         "https://rpc.ankr.com/harmony",
-        "https://api.s1.t.hmny.io"
+        "https://1rpc.io/one"
       ],
       "infoUrl": "https://www.harmony.one/",
       "faucets": []
