@@ -262,7 +262,8 @@
         "https://polygon.llamarpc.com",
         "https://polygon-mainnet.public.blastapi.io",
         "https://rpc.ankr.com/polygon",
-        "https://polygon.meowrpc.com"
+        "https://polygon.meowrpc.com",
+        "https://1rpc.io/matic"
       ]
     },
     "zkevm": {
@@ -460,7 +461,6 @@
       },
       "explorerUrl": "https://sepolia.etherscan.io",
       "rpc": [
-        "https://rpc.sepolia.org",
         "https://rpc2.sepolia.org",
         "https://eth-sepolia.public.blastapi.io",
         "https://gateway.tenderly.co/public/sepolia"
@@ -532,7 +532,8 @@
       "explorerUrl": "https://scope.klaytn.com/",
       "rpc": [
         "https://public-en-cypress.klaytn.net",
-        "https://klaytn.blockpi.network/v1/rpc/public"
+        "https://klaytn.blockpi.network/v1/rpc/public",
+        "https://klaytn.api.onfinality.io/public"
       ]
     }
   }
