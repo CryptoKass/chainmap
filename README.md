@@ -29,7 +29,7 @@ npm install chainmap
 
 ## Supported Networks
 
-Arbitrum Goerli (421613), Arbitrum Mainnet (42161), Arbitrum Nova (42170), Arbitrum Sepolia (421614), Avalanche C-chain (43114), Avalanche Fuji Testnet (43113), Base (8453), Binance SmartChain Mainnet (56), Binance SmartChain Testnet (97), Celo Alfajores Testnet (44787), Celo Baklava Testnet (62320), Celo Mainnet (42220), Cronos Mainnet (25), Ethereum Goerli (5), Ethereum Mainnet (1), Ethereum Sepolia (11155111), Fantom Opera (250), Fantom Testnet (4002), Gnosis (100), Harmony Mainnet Shard 0 (1666600000), Harmony Testnet Shard 0 (1666700000), Klayton Mainnet (8217), Moonbase Alpha (1287), Moonbeam (1284), Moonriver (1285), Moonrock (1288), OP Mainnet (10), Polygon (137), Polygon Mumbai (80001), Polygon Zkevm (1101), Polygon Zkevm Testnet (1442), Zora (7777777)
+Arbitrum Goerli (421613), Arbitrum Mainnet (42161), Arbitrum Nova (42170), Arbitrum Sepolia (421614), Aurora Mainnet (1313161554), Aurora Testnet (1313161555), Avalanche C-chain (43114), Avalanche Fuji Testnet (43113), Base (8453), Binance SmartChain Mainnet (56), Binance SmartChain Testnet (97), Celo Alfajores Testnet (44787), Celo Baklava Testnet (62320), Celo Mainnet (42220), Cronos Mainnet (25), Ethereum Goerli (5), Ethereum Mainnet (1), Ethereum Sepolia (11155111), Fantom Opera (250), Fantom Testnet (4002), Gnosis (100), Harmony Mainnet Shard 0 (1666600000), Harmony Testnet Shard 0 (1666700000), Klayton Mainnet (8217), Moonbase Alpha (1287), Moonbeam (1284), Moonriver (1285), Moonrock (1288), OP Mainnet (10), Polygon (137), Polygon Mumbai (80001), Polygon Zkevm (1101), Polygon Zkevm Testnet (1442), ZkSync Mainnet (324), Zora (7777777)
 
 ## Usage
 

@@ -7,6 +7,7 @@ const mainnetInfo = {
   "explorerUrl": "https://ftmscan.com",
   "chainId": 250,
   "name": "Fantom Opera",
+  "iconUrl": "https://raw.githubusercontent.com/CryptoKass/chainmap/main/assets/img/network/fantom.svg",
   "currency": {
     "name": "Fantom",
     "symbol": "FTM",
@@ -26,6 +27,7 @@ const testnetInfo = {
   "explorerUrl": "https://testnet.ftmscan.com",
   "chainId": 4002,
   "name": "Fantom Testnet",
+  "iconUrl": "https://raw.githubusercontent.com/CryptoKass/chainmap/main/assets/img/network/fantom.svg",
   "currency": {
     "name": "Fantom",
     "symbol": "FTM",

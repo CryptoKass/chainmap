@@ -6,6 +6,7 @@
 const mainnetInfo = {
   "chainId": 137,
   "name": "Polygon",
+  "iconUrl": "https://raw.githubusercontent.com/CryptoKass/chainmap/main/assets/img/network/polygon.svg",
   "currency": {
     "name": "Polygon",
     "symbol": "MATIC",
@@ -26,6 +27,7 @@ const mainnetInfo = {
 const zkevmInfo = {
   "chainId": 1101,
   "name": "Polygon Zkevm",
+  "iconUrl": "https://raw.githubusercontent.com/CryptoKass/chainmap/main/assets/img/network/polygon.svg",
   "currency": {
     "name": "Ethereum",
     "symbol": "ETH",
@@ -43,6 +45,7 @@ const zkevmInfo = {
 const mumbaiInfo = {
   "chainId": 80001,
   "name": "Polygon Mumbai",
+  "iconUrl": "https://raw.githubusercontent.com/CryptoKass/chainmap/main/assets/img/network/polygon.svg",
   "currency": {
     "name": "Polygon",
     "symbol": "MATIC",
@@ -60,6 +63,7 @@ const mumbaiInfo = {
 const zkevmtestInfo = {
   "chainId": 1442,
   "name": "Polygon Zkevm Testnet",
+  "iconUrl": "https://raw.githubusercontent.com/CryptoKass/chainmap/main/assets/img/network/polygon.svg",
   "currency": {
     "name": "Ethereum",
     "symbol": "ETH",

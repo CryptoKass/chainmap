@@ -1,10 +1,10 @@
-import { NetworkMap, ChainMap } from "../data/types";
+import { NetworkMap, ChainMap } from "../data/types.js";
 import {
   capitalizeWords,
   getWorkingRPCs,
   loadNetworkMap,
   writeFile,
-} from "./utils";
+} from "./utils.js";
 
 const ASSET_URL = "https://raw.githubusercontent.com/CryptoKass/chainmap/main";
 

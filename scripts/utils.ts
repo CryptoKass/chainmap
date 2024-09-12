@@ -1,5 +1,5 @@
 import { JsonRpcProvider } from "ethers";
-import type { NetworkMap } from "../data/types";
+import type { NetworkMap } from "../data/types.js";
 import fs from "fs";
 
 export const getWorkingRPCs = async (rpcs: string[]) => {

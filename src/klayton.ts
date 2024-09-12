@@ -6,6 +6,7 @@
 const mainnetInfo = {
   "chainId": 8217,
   "name": "Klayton Mainnet",
+  "iconUrl": "https://raw.githubusercontent.com/CryptoKass/chainmap/main/assets/img/network/klaytn.svg",
   "currency": {
     "name": "Klaytn",
     "symbol": "KLAY",

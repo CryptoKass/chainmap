@@ -7,6 +7,7 @@ const mainnetInfo = {
   "chainId": 10,
   "name": "OP Mainnet",
   "infoURL": "https://optimism.io",
+  "iconUrl": "https://raw.githubusercontent.com/CryptoKass/chainmap/main/assets/img/network/optimism.svg",
   "currency": {
     "name": "Ethereum",
     "symbol": "ETH",

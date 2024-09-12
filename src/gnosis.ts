@@ -6,6 +6,7 @@
 const mainnetInfo = {
   "chainId": 100,
   "name": "Gnosis",
+  "iconUrl": "https://raw.githubusercontent.com/CryptoKass/chainmap/main/assets/img/network/gnosis.svg",
   "infoURL": "https://docs.gnosischain.com",
   "currency": {
     "name": "xDAI",

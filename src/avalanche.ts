@@ -7,6 +7,7 @@ const mainnetInfo = {
   "explorerUrl": "https://snowtrace.io",
   "chainId": 43114,
   "name": "Avalanche C-chain",
+  "iconUrl": "https://raw.githubusercontent.com/CryptoKass/chainmap/main/assets/img/networks/avalanche.svg",
   "currency": {
     "name": "Avalanche",
     "symbol": "AVAX",
@@ -26,6 +27,7 @@ const testnetInfo = {
   "explorerUrl": "https://testnet.snowtrace.io",
   "chainId": 43113,
   "name": "Avalanche Fuji Testnet",
+  "iconUrl": "https://raw.githubusercontent.com/CryptoKass/chainmap/main/assets/img/networks/avalanche.svg",
   "currency": {
     "name": "Avalanche",
     "symbol": "AVAX",

@@ -1,4 +1,4 @@
-import type { ChainInfo, NetworkMap, Proxied } from "./types";
+import type { ChainInfo, NetworkMap, Proxied } from "./types.js";
 
 interface ChainIdMap {
   [key: number]: { network: string; chain: string };

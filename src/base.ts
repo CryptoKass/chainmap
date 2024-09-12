@@ -7,6 +7,7 @@ const mainnetInfo = {
   "explorerUrl": "https://basescan.org",
   "chainId": 8453,
   "name": "Base",
+  "iconUrl": "https://raw.githubusercontent.com/CryptoKass/chainmap/main/assets/img/networks/base.svg",
   "currency": {
     "name": "Ether",
     "symbol": "ETH",

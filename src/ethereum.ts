@@ -6,7 +6,7 @@
 const mainnetInfo = {
   "chainId": 1,
   "name": "Ethereum Mainnet",
-  "iconUrl": "https://raw.githubusercontent.com/CryptoKass/chainmap/main/assets/img/network/ethereum.png",
+  "iconUrl": "https://raw.githubusercontent.com/CryptoKass/chainmap/main/assets/img/network/ethereum.svg",
   "currency": {
     "name": "Ethereum",
     "symbol": "ETH",
@@ -27,6 +27,7 @@ const mainnetInfo = {
 const goerliInfo = {
   "chainId": 5,
   "name": "Ethereum Goerli",
+  "iconUrl": "https://raw.githubusercontent.com/CryptoKass/chainmap/main/assets/img/network/ethereum.svg",
   "currency": {
     "name": "Ethereum",
     "symbol": "ETH",
@@ -45,6 +46,7 @@ const goerliInfo = {
 const sepoliaInfo = {
   "chainId": 11155111,
   "name": "Ethereum Sepolia",
+  "iconUrl": "https://raw.githubusercontent.com/CryptoKass/chainmap/main/assets/img/network/ethereum.svg",
   "currency": {
     "name": "Ethereum",
     "symbol": "ETH",

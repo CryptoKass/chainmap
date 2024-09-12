@@ -11,6 +11,7 @@ const mainnetInfo = {
     "symbol": "BNB",
     "decimals": 18
   },
+  "explorerUrl": "https://bscscan.com",
   "rpc": [
     "https://bsc-dataseed1.binance.org",
     "https://bsc-dataseed2.binance.org",
@@ -32,6 +33,7 @@ const testnetInfo = {
     "symbol": "BNB",
     "decimals": 18
   },
+  "explorerUrl": "https://testnet.bscscan.com",
   "rpc": [
     "https://data-seed-prebsc-1-s1.binance.org:8545",
     "https://data-seed-prebsc-2-s1.binance.org:8545",

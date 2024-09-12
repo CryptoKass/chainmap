@@ -11,7 +11,7 @@
   },
   "scripts": {
     "generate": "bun run scripts/generate.ts",
-    "build": "tsc --declaration --declarationMap --outDir ./dist src/index.ts",
+    "build": "tsc",
     "bump": "bun run scripts/bump.ts",
     "fetch": "bun run scripts/fetch.ts",
     "test": "bun test"

@@ -1,5 +1,5 @@
-import { loadNetworkMap, toCamelCase, writeFile } from "./utils";
-import { ChainInfo, NetworkMap } from "../data/types";
+import { loadNetworkMap, toCamelCase, writeFile } from "./utils.js";
+import { ChainInfo, NetworkMap } from "../data/types.js";
 
 type RawChainData = {
   name: string;
