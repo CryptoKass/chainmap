@@ -1,15 +1,21 @@
 {
   "name": "@vandeurenglenn/chainmap",
   "description": "A comprehensive map of EVM blockchain networks and their associated data. It includes information such as chain IDs, network names, RPC URLs, and currency details.",
-  "version": "0.1.0",
-  "module": "dist/index.js",
-  "main": "dist/index.js",
+  "version": "0.1.2",
   "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./chainmap.json": "./chainmap.json"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/CryptoKass/chainmap.git"
   },
   "scripts": {
+    "update": "npm run generate && npm run build && npm run bump",
     "generate": "bun run scripts/generate.ts",
     "build": "tsc",
     "bump": "bun run scripts/bump.ts",
