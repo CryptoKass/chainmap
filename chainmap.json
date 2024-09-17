@@ -50,8 +50,7 @@
         "https://ethereum.publicnode.com",
         "https://eth.llamarpc.com",
         "https://eth-mainnet.public.blastapi.io",
-        "https://rpc.ankr.com/eth",
-        "https://cloudflare-eth.com"
+        "https://rpc.ankr.com/eth"
       ]
     },
     "goerli": {
@@ -112,7 +111,6 @@
       },
       "rpc": [
         "https://cronos-evm.publicnode.com",
-        "https://evm.cronos.org",
         "https://cronos.blockpi.network/v1/rpc/public"
       ],
       "explorerUrl": "https://cronoscan.com"
@@ -226,9 +224,7 @@
       "explorerUrl": "https://scope.klaytn.com/",
       "rpc": [
         "https://public-en-cypress.klaytn.net",
-        "https://archive-en.cypress.klaytn.net",
-        "https://klaytn.blockpi.network/v1/rpc/public",
-        "https://klaytn.api.onfinality.io/public"
+        "https://klaytn.blockpi.network/v1/rpc/public"
       ]
     }
   },
@@ -431,7 +427,6 @@
       },
       "explorerUrl": "https://arbiscan.io",
       "rpc": [
-        "https://arb1.arbitrum.io/rpc",
         "https://arbitrum-one.publicnode.com",
         "https://arbitrum.llamarpc.com",
         "https://arbitrum-one.public.blastapi.io",
