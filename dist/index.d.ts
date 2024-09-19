@@ -1,7 +1,20 @@
 declare const _default: import("./types").Proxied<{
-    avalanche: {
+    gnosis: {
         mainnet: {
+            chainId: number;
+            name: string;
+            infoURL: string;
+            currency: {
+                name: string;
+                symbol: string;
+                decimals: number;
+            };
             explorerUrl: string;
+            rpc: string[];
+        };
+    };
+    smartchain: {
+        mainnet: {
             chainId: number;
             name: string;
             currency: {
@@ -10,11 +23,8 @@ declare const _default: import("./types").Proxied<{
                 decimals: number;
             };
             rpc: string[];
-            infoUrl: string;
-            faucets: any[];
         };
         testnet: {
-            explorerUrl: string;
             chainId: number;
             name: string;
             currency: {
@@ -23,8 +33,20 @@ declare const _default: import("./types").Proxied<{
                 decimals: number;
             };
             rpc: string[];
-            infoUrl: string;
-            faucets: string[];
+        };
+    };
+    optimism: {
+        mainnet: {
+            chainId: number;
+            name: string;
+            infoURL: string;
+            currency: {
+                name: string;
+                symbol: string;
+                decimals: number;
+            };
+            explorerUrl: string;
+            rpc: string[];
         };
     };
     ethereum: {
@@ -63,249 +85,52 @@ declare const _default: import("./types").Proxied<{
             rpc: string[];
         };
     };
+    polygon: {
+        mainnet: {
+            chainId: number;
+            name: string;
+            currency: {
+                name: string;
+                symbol: string;
+                decimals: number;
+            };
+            explorerUrl: string;
+            rpc: string[];
+        };
+        zkevm: {
+            chainId: number;
+            name: string;
+            currency: {
+                name: string;
+                symbol: string;
+                decimals: number;
+            };
+            explorerUrl: string;
+            rpc: string[];
+        };
+        mumbai: {
+            chainId: number;
+            name: string;
+            currency: {
+                name: string;
+                symbol: string;
+                decimals: number;
+            };
+            explorerUrl: string;
+            rpc: string[];
+        };
+        zkevmtest: {
+            chainId: number;
+            name: string;
+            currency: {
+                name: string;
+                symbol: string;
+                decimals: number;
+            };
+            rpc: string[];
+        };
+    };
     zora: {
-        mainnet: {
-            explorerUrl: string;
-            chainId: number;
-            name: string;
-            currency: {
-                name: string;
-                symbol: string;
-                decimals: number;
-            };
-            rpc: string[];
-            infoUrl: string;
-            faucets: any[];
-        };
-    };
-    cronos: {
-        mainnet: {
-            chainId: number;
-            name: string;
-            currency: {
-                name: string;
-                symbol: string;
-                decimals: number;
-            };
-            rpc: string[];
-            explorerUrl: string;
-        };
-    };
-    smartchain: {
-        mainnet: {
-            chainId: number;
-            name: string;
-            currency: {
-                name: string;
-                symbol: string;
-                decimals: number;
-            };
-            rpc: string[];
-        };
-        testnet: {
-            chainId: number;
-            name: string;
-            currency: {
-                name: string;
-                symbol: string;
-                decimals: number;
-            };
-            rpc: string[];
-        };
-    };
-    moonbeam: {
-        beam: {
-            explorerUrl: string;
-            chainId: number;
-            name: string;
-            currency: {
-                name: string;
-                symbol: string;
-                decimals: number;
-            };
-            rpc: string[];
-            infoUrl: string;
-            faucets: any[];
-        };
-        river: {
-            explorerUrl: string;
-            chainId: number;
-            name: string;
-            currency: {
-                name: string;
-                symbol: string;
-                decimals: number;
-            };
-            rpc: string[];
-            infoUrl: string;
-            faucets: any[];
-        };
-        testnet: {
-            explorerUrl: string;
-            chainId: number;
-            name: string;
-            currency: {
-                name: string;
-                symbol: string;
-                decimals: number;
-            };
-            rpc: string[];
-            infoUrl: string;
-            faucets: any[];
-        };
-        rock: {
-            chainId: number;
-            name: string;
-            currency: {
-                name: string;
-                symbol: string;
-                decimals: number;
-            };
-            rpc: string[];
-            infoUrl: string;
-            faucets: any[];
-        };
-    };
-    klayton: {
-        mainnet: {
-            chainId: number;
-            name: string;
-            currency: {
-                name: string;
-                symbol: string;
-                decimals: number;
-            };
-            infoUrl: string;
-            explorerUrl: string;
-            rpc: string[];
-        };
-    };
-    celo: {
-        mainnet: {
-            explorerUrl: string;
-            chainId: number;
-            name: string;
-            currency: {
-                name: string;
-                symbol: string;
-                decimals: number;
-            };
-            rpc: string[];
-            infoUrl: string;
-            faucets: any[];
-        };
-        alfajores: {
-            explorerUrl: string;
-            chainId: number;
-            name: string;
-            currency: {
-                name: string;
-                symbol: string;
-                decimals: number;
-            };
-            rpc: string[];
-            infoUrl: string;
-            faucets: string[];
-        };
-        baklava: {
-            chainId: number;
-            name: string;
-            currency: {
-                name: string;
-                symbol: string;
-                decimals: number;
-            };
-            rpc: string[];
-            infoUrl: string;
-            faucets: string[];
-        };
-    };
-    optimism: {
-        mainnet: {
-            chainId: number;
-            name: string;
-            infoURL: string;
-            currency: {
-                name: string;
-                symbol: string;
-                decimals: number;
-            };
-            explorerUrl: string;
-            rpc: string[];
-        };
-    };
-    gnosis: {
-        mainnet: {
-            chainId: number;
-            name: string;
-            infoURL: string;
-            currency: {
-                name: string;
-                symbol: string;
-                decimals: number;
-            };
-            explorerUrl: string;
-            rpc: string[];
-        };
-    };
-    harmony: {
-        mainnet: {
-            explorerUrl: string;
-            ensAddress: string;
-            chainId: number;
-            name: string;
-            currency: {
-                name: string;
-                symbol: string;
-                decimals: number;
-            };
-            rpc: string[];
-            infoUrl: string;
-            faucets: any[];
-        };
-        testnet: {
-            explorerUrl: string;
-            chainId: number;
-            name: string;
-            currency: {
-                name: string;
-                symbol: string;
-                decimals: number;
-            };
-            rpc: string[];
-            infoUrl: string;
-            faucets: string[];
-        };
-    };
-    fantom: {
-        mainnet: {
-            explorerUrl: string;
-            chainId: number;
-            name: string;
-            currency: {
-                name: string;
-                symbol: string;
-                decimals: number;
-            };
-            rpc: string[];
-            infoUrl: string;
-            faucets: any[];
-        };
-        testnet: {
-            explorerUrl: string;
-            chainId: number;
-            name: string;
-            currency: {
-                name: string;
-                symbol: string;
-                decimals: number;
-            };
-            rpc: string[];
-            infoUrl: string;
-            faucets: string[];
-        };
-    };
-    base: {
         mainnet: {
             explorerUrl: string;
             chainId: number;
@@ -369,7 +194,115 @@ declare const _default: import("./types").Proxied<{
             rpc: string[];
         };
     };
-    polygon: {
+    moonbeam: {
+        beam: {
+            explorerUrl: string;
+            chainId: number;
+            name: string;
+            currency: {
+                name: string;
+                symbol: string;
+                decimals: number;
+            };
+            rpc: string[];
+            infoUrl: string;
+            faucets: any[];
+        };
+        river: {
+            explorerUrl: string;
+            chainId: number;
+            name: string;
+            currency: {
+                name: string;
+                symbol: string;
+                decimals: number;
+            };
+            rpc: string[];
+            infoUrl: string;
+            faucets: any[];
+        };
+        testnet: {
+            explorerUrl: string;
+            chainId: number;
+            name: string;
+            currency: {
+                name: string;
+                symbol: string;
+                decimals: number;
+            };
+            rpc: string[];
+            infoUrl: string;
+            faucets: any[];
+        };
+        rock: {
+            chainId: number;
+            name: string;
+            currency: {
+                name: string;
+                symbol: string;
+                decimals: number;
+            };
+            rpc: string[];
+            infoUrl: string;
+            faucets: any[];
+        };
+    };
+    base: {
+        mainnet: {
+            explorerUrl: string;
+            chainId: number;
+            name: string;
+            currency: {
+                name: string;
+                symbol: string;
+                decimals: number;
+            };
+            rpc: string[];
+            infoUrl: string;
+            faucets: any[];
+        };
+    };
+    celo: {
+        mainnet: {
+            explorerUrl: string;
+            chainId: number;
+            name: string;
+            currency: {
+                name: string;
+                symbol: string;
+                decimals: number;
+            };
+            rpc: string[];
+            infoUrl: string;
+            faucets: any[];
+        };
+        alfajores: {
+            explorerUrl: string;
+            chainId: number;
+            name: string;
+            currency: {
+                name: string;
+                symbol: string;
+                decimals: number;
+            };
+            rpc: string[];
+            infoUrl: string;
+            faucets: string[];
+        };
+        baklava: {
+            chainId: number;
+            name: string;
+            currency: {
+                name: string;
+                symbol: string;
+                decimals: number;
+            };
+            rpc: string[];
+            infoUrl: string;
+            faucets: string[];
+        };
+    };
+    klayton: {
         mainnet: {
             chainId: number;
             name: string;
@@ -378,32 +311,13 @@ declare const _default: import("./types").Proxied<{
                 symbol: string;
                 decimals: number;
             };
+            infoUrl: string;
             explorerUrl: string;
             rpc: string[];
         };
-        zkevm: {
-            chainId: number;
-            name: string;
-            currency: {
-                name: string;
-                symbol: string;
-                decimals: number;
-            };
-            explorerUrl: string;
-            rpc: string[];
-        };
-        mumbai: {
-            chainId: number;
-            name: string;
-            currency: {
-                name: string;
-                symbol: string;
-                decimals: number;
-            };
-            explorerUrl: string;
-            rpc: string[];
-        };
-        zkevmtest: {
+    };
+    cronos: {
+        mainnet: {
             chainId: number;
             name: string;
             currency: {
@@ -412,6 +326,92 @@ declare const _default: import("./types").Proxied<{
                 decimals: number;
             };
             rpc: string[];
+            explorerUrl: string;
+        };
+    };
+    fantom: {
+        mainnet: {
+            explorerUrl: string;
+            chainId: number;
+            name: string;
+            currency: {
+                name: string;
+                symbol: string;
+                decimals: number;
+            };
+            rpc: string[];
+            infoUrl: string;
+            faucets: any[];
+        };
+        testnet: {
+            explorerUrl: string;
+            chainId: number;
+            name: string;
+            currency: {
+                name: string;
+                symbol: string;
+                decimals: number;
+            };
+            rpc: string[];
+            infoUrl: string;
+            faucets: string[];
+        };
+    };
+    harmony: {
+        mainnet: {
+            explorerUrl: string;
+            ensAddress: string;
+            chainId: number;
+            name: string;
+            currency: {
+                name: string;
+                symbol: string;
+                decimals: number;
+            };
+            rpc: string[];
+            infoUrl: string;
+            faucets: any[];
+        };
+        testnet: {
+            explorerUrl: string;
+            chainId: number;
+            name: string;
+            currency: {
+                name: string;
+                symbol: string;
+                decimals: number;
+            };
+            rpc: string[];
+            infoUrl: string;
+            faucets: string[];
+        };
+    };
+    avalanche: {
+        mainnet: {
+            explorerUrl: string;
+            chainId: number;
+            name: string;
+            currency: {
+                name: string;
+                symbol: string;
+                decimals: number;
+            };
+            rpc: string[];
+            infoUrl: string;
+            faucets: any[];
+        };
+        testnet: {
+            explorerUrl: string;
+            chainId: number;
+            name: string;
+            currency: {
+                name: string;
+                symbol: string;
+                decimals: number;
+            };
+            rpc: string[];
+            infoUrl: string;
+            faucets: string[];
         };
     };
 }, import("./types").ChainInfo>;
