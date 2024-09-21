@@ -15,6 +15,7 @@
         "https://rpc.gnosis.gateway.fm",
         "https://rpc.ankr.com/gnosis",
         "https://gnosis-mainnet.public.blastapi.io",
+        "https://gnosis.api.onfinality.io/public",
         "https://gnosis.blockpi.network/v1/rpc/public",
         "https://gnosis.oat.farm"
       ]
@@ -69,8 +70,7 @@
       "explorerUrl": "https://optimistic.etherscan.io",
       "rpc": [
         "https://mainnet.optimism.io",
-        "https://optimism.publicnode.com",
-        "https://optimism.gateway.tenderly.co"
+        "https://optimism.publicnode.com"
       ]
     }
   },
@@ -115,7 +115,6 @@
       },
       "explorerUrl": "https://sepolia.etherscan.io",
       "rpc": [
-        "https://rpc.sepolia.org",
         "https://rpc2.sepolia.org",
         "https://eth-sepolia.public.blastapi.io",
         "https://gateway.tenderly.co/public/sepolia"
@@ -398,7 +397,6 @@
       "explorerUrl": "https://scope.klaytn.com/",
       "rpc": [
         "https://public-en-cypress.klaytn.net",
-        "https://archive-en.cypress.klaytn.net",
         "https://klaytn.blockpi.network/v1/rpc/public",
         "https://klaytn.api.onfinality.io/public"
       ]
@@ -415,7 +413,6 @@
       },
       "rpc": [
         "https://cronos-evm.publicnode.com",
-        "https://evm.cronos.org",
         "https://cronos.blockpi.network/v1/rpc/public"
       ],
       "explorerUrl": "https://cronoscan.com"
