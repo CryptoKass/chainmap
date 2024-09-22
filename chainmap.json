@@ -70,7 +70,8 @@
       "explorerUrl": "https://optimistic.etherscan.io",
       "rpc": [
         "https://mainnet.optimism.io",
-        "https://optimism.publicnode.com"
+        "https://optimism.publicnode.com",
+        "https://optimism.gateway.tenderly.co"
       ]
     }
   },
@@ -115,6 +116,7 @@
       },
       "explorerUrl": "https://sepolia.etherscan.io",
       "rpc": [
+        "https://rpc.sepolia.org",
         "https://rpc2.sepolia.org",
         "https://eth-sepolia.public.blastapi.io",
         "https://gateway.tenderly.co/public/sepolia"
@@ -135,8 +137,7 @@
         "https://polygon-bor.publicnode.com",
         "https://polygon.llamarpc.com",
         "https://polygon-mainnet.public.blastapi.io",
-        "https://rpc.ankr.com/polygon",
-        "https://1rpc.io/matic"
+        "https://rpc.ankr.com/polygon"
       ]
     },
     "zkevm": {
@@ -413,6 +414,7 @@
       },
       "rpc": [
         "https://cronos-evm.publicnode.com",
+        "https://evm.cronos.org",
         "https://cronos.blockpi.network/v1/rpc/public"
       ],
       "explorerUrl": "https://cronoscan.com"
@@ -470,6 +472,7 @@
         "https://a.api.s0.t.hmny.io",
         "https://api.s0.t.hmny.io",
         "https://rpc.ankr.com/harmony",
+        "https://harmony.api.onfinality.io/public",
         "https://1rpc.io/one",
         "https://api.s1.t.hmny.io"
       ],
