@@ -88,7 +88,8 @@
       "rpc": [
         "https://ethereum.publicnode.com",
         "https://eth.llamarpc.com",
-        "https://rpc.ankr.com/eth"
+        "https://rpc.ankr.com/eth",
+        "https://cloudflare-eth.com"
       ]
     },
     "goerli": {
@@ -132,6 +133,8 @@
       "rpc": [
         "https://polygon-bor.publicnode.com",
         "https://polygon.llamarpc.com",
+        "https://polygon-mainnet.public.blastapi.io",
+        "https://rpc.ankr.com/polygon",
         "https://1rpc.io/matic"
       ]
     },
@@ -427,6 +430,7 @@
         "decimals": 18
       },
       "rpc": [
+        "https://rpc.ftm.tools",
         "https://fantom.publicnode.com"
       ],
       "infoUrl": "https://fantom.foundation",
