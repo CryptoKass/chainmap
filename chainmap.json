@@ -15,7 +15,6 @@
         "https://rpc.gnosis.gateway.fm",
         "https://rpc.ankr.com/gnosis",
         "https://gnosis-mainnet.public.blastapi.io",
-        "https://gnosis.api.onfinality.io/public",
         "https://gnosis.blockpi.network/v1/rpc/public",
         "https://gnosis.oat.farm"
       ]
@@ -89,7 +88,6 @@
       "rpc": [
         "https://ethereum.publicnode.com",
         "https://eth.llamarpc.com",
-        "https://eth-mainnet.public.blastapi.io",
         "https://rpc.ankr.com/eth"
       ]
     },
@@ -114,6 +112,7 @@
       },
       "explorerUrl": "https://sepolia.etherscan.io",
       "rpc": [
+        "https://rpc.sepolia.org",
         "https://rpc2.sepolia.org",
         "https://eth-sepolia.public.blastapi.io",
         "https://gateway.tenderly.co/public/sepolia"
@@ -469,7 +468,8 @@
         "https://a.api.s0.t.hmny.io",
         "https://api.s0.t.hmny.io",
         "https://rpc.ankr.com/harmony",
-        "https://1rpc.io/one"
+        "https://1rpc.io/one",
+        "https://api.s1.t.hmny.io"
       ],
       "infoUrl": "https://www.harmony.one/",
       "faucets": []
