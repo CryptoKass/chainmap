@@ -47,7 +47,7 @@
       "infoUrl": "https://klaytn.foundation",
       "explorerUrl": "https://scope.klaytn.com/",
       "rpc": [
-        "https://klaytn.blockpi.network/v1/rpc/public"
+        "https://klaytn.api.onfinality.io/public"
       ]
     }
   },
@@ -469,7 +469,6 @@
       },
       "explorerUrl": "https://nova.arbiscan.io",
       "rpc": [
-        "https://nova.arbitrum.io/rpc",
         "https://arbitrum-nova.publicnode.com",
         "https://arbitrum-nova.public.blastapi.io"
       ]
