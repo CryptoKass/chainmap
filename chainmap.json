@@ -47,6 +47,7 @@
       "infoUrl": "https://klaytn.foundation",
       "explorerUrl": "https://scope.klaytn.com/",
       "rpc": [
+        "https://klaytn.blockpi.network/v1/rpc/public",
         "https://klaytn.api.onfinality.io/public"
       ]
     }
@@ -119,7 +120,6 @@
       "rpc": [
         "https://ethereum.publicnode.com",
         "https://eth.llamarpc.com",
-        "https://eth-mainnet.public.blastapi.io",
         "https://rpc.ankr.com/eth"
       ]
     },
@@ -221,7 +221,6 @@
         "https://a.api.s0.t.hmny.io",
         "https://api.s0.t.hmny.io",
         "https://rpc.ankr.com/harmony",
-        "https://1rpc.io/one",
         "https://api.s1.t.hmny.io"
       ],
       "infoUrl": "https://www.harmony.one/",
@@ -469,6 +468,7 @@
       },
       "explorerUrl": "https://nova.arbiscan.io",
       "rpc": [
+        "https://nova.arbitrum.io/rpc",
         "https://arbitrum-nova.publicnode.com",
         "https://arbitrum-nova.public.blastapi.io"
       ]
