@@ -47,7 +47,8 @@
       "infoUrl": "https://klaytn.foundation",
       "explorerUrl": "https://scope.klaytn.com/",
       "rpc": [
-        "https://klaytn.blockpi.network/v1/rpc/public"
+        "https://klaytn.blockpi.network/v1/rpc/public",
+        "https://klaytn.api.onfinality.io/public"
       ]
     }
   },
@@ -119,8 +120,7 @@
       "rpc": [
         "https://ethereum.publicnode.com",
         "https://eth.llamarpc.com",
-        "https://rpc.ankr.com/eth",
-        "https://cloudflare-eth.com"
+        "https://rpc.ankr.com/eth"
       ]
     },
     "goerli": {
@@ -485,6 +485,7 @@
         "decimals": 18
       },
       "rpc": [
+        "https://mainnet.base.org/",
         "https://developer-access-mainnet.base.org/",
         "https://base.gateway.tenderly.co",
         "https://base.publicnode.com"
