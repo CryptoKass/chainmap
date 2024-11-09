@@ -26,7 +26,8 @@
         "decimals": 18
       },
       "rpc": [
-        "https://rpc.testnet.fantom.network"
+        "https://rpc.testnet.fantom.network",
+        "https://fantom-testnet.publicnode.com"
       ],
       "infoUrl": "https://docs.fantom.foundation/quick-start/short-guide#fantom-testnet",
       "faucets": [
@@ -46,7 +47,8 @@
       "infoUrl": "https://klaytn.foundation",
       "explorerUrl": "https://scope.klaytn.com/",
       "rpc": [
-        "https://klaytn.blockpi.network/v1/rpc/public"
+        "https://klaytn.blockpi.network/v1/rpc/public",
+        "https://klaytn.api.onfinality.io/public"
       ]
     }
   },
@@ -119,8 +121,7 @@
         "https://ethereum.publicnode.com",
         "https://eth.llamarpc.com",
         "https://eth-mainnet.public.blastapi.io",
-        "https://rpc.ankr.com/eth",
-        "https://cloudflare-eth.com"
+        "https://rpc.ankr.com/eth"
       ]
     },
     "goerli": {
