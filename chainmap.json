@@ -47,7 +47,8 @@
       "infoUrl": "https://klaytn.foundation",
       "explorerUrl": "https://scope.klaytn.com/",
       "rpc": [
-        "https://klaytn.blockpi.network/v1/rpc/public"
+        "https://klaytn.blockpi.network/v1/rpc/public",
+        "https://klaytn.api.onfinality.io/public"
       ]
     }
   },
@@ -64,6 +65,7 @@
       "rpc": [
         "https://polygon-bor.publicnode.com",
         "https://polygon.llamarpc.com",
+        "https://polygon-mainnet.public.blastapi.io",
         "https://rpc.ankr.com/polygon",
         "https://1rpc.io/matic"
       ]
