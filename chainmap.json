@@ -507,6 +507,7 @@
       },
       "rpc": [
         "https://cronos-evm.publicnode.com",
+        "https://evm.cronos.org",
         "https://cronos.blockpi.network/v1/rpc/public"
       ],
       "explorerUrl": "https://cronoscan.com"
