@@ -26,7 +26,6 @@
         "decimals": 18
       },
       "rpc": [
-        "https://rpc.testnet.fantom.network",
         "https://fantom-testnet.publicnode.com"
       ],
       "infoUrl": "https://docs.fantom.foundation/quick-start/short-guide#fantom-testnet",
@@ -262,6 +261,7 @@
         "https://rpc.ankr.com/gnosis",
         "https://gnosis-mainnet.public.blastapi.io",
         "https://gnosis.api.onfinality.io/public",
+        "https://gnosis.blockpi.network/v1/rpc/public",
         "https://gnosis.oat.farm"
       ]
     }
@@ -505,7 +505,6 @@
       },
       "rpc": [
         "https://cronos-evm.publicnode.com",
-        "https://evm.cronos.org",
         "https://cronos.blockpi.network/v1/rpc/public"
       ],
       "explorerUrl": "https://cronoscan.com"
