@@ -26,6 +26,7 @@
         "decimals": 18
       },
       "rpc": [
+        "https://rpc.testnet.fantom.network",
         "https://fantom-testnet.publicnode.com"
       ],
       "infoUrl": "https://docs.fantom.foundation/quick-start/short-guide#fantom-testnet",
@@ -62,8 +63,7 @@
         "https://polygon-bor.publicnode.com",
         "https://polygon.llamarpc.com",
         "https://polygon-mainnet.public.blastapi.io",
-        "https://rpc.ankr.com/polygon",
-        "https://1rpc.io/matic"
+        "https://rpc.ankr.com/polygon"
       ]
     },
     "zkevm": {
@@ -117,7 +117,8 @@
         "https://ethereum.publicnode.com",
         "https://eth.llamarpc.com",
         "https://eth-mainnet.public.blastapi.io",
-        "https://rpc.ankr.com/eth"
+        "https://rpc.ankr.com/eth",
+        "https://cloudflare-eth.com"
       ]
     },
     "goerli": {
@@ -259,6 +260,7 @@
         "https://rpc.ankr.com/gnosis",
         "https://gnosis-mainnet.public.blastapi.io",
         "https://gnosis.api.onfinality.io/public",
+        "https://gnosis.blockpi.network/v1/rpc/public",
         "https://gnosis.oat.farm"
       ]
     }
@@ -484,7 +486,6 @@
       "rpc": [
         "https://mainnet.base.org/",
         "https://developer-access-mainnet.base.org/",
-        "https://base.gateway.tenderly.co",
         "https://base.publicnode.com"
       ],
       "infoUrl": "https://base.org",
@@ -502,6 +503,7 @@
       },
       "rpc": [
         "https://cronos-evm.publicnode.com",
+        "https://evm.cronos.org",
         "https://cronos.blockpi.network/v1/rpc/public"
       ],
       "explorerUrl": "https://cronoscan.com"
