@@ -46,7 +46,9 @@
       },
       "infoUrl": "https://klaytn.foundation",
       "explorerUrl": "https://scope.klaytn.com/",
-      "rpc": []
+      "rpc": [
+        "https://klaytn.api.onfinality.io/public"
+      ]
     }
   },
   "polygon": {
@@ -63,7 +65,8 @@
         "https://polygon-bor.publicnode.com",
         "https://polygon.llamarpc.com",
         "https://polygon-mainnet.public.blastapi.io",
-        "https://rpc.ankr.com/polygon"
+        "https://rpc.ankr.com/polygon",
+        "https://1rpc.io/matic"
       ]
     },
     "zkevm": {
@@ -117,8 +120,7 @@
         "https://ethereum.publicnode.com",
         "https://eth.llamarpc.com",
         "https://eth-mainnet.public.blastapi.io",
-        "https://rpc.ankr.com/eth",
-        "https://cloudflare-eth.com"
+        "https://rpc.ankr.com/eth"
       ]
     },
     "goerli": {
@@ -486,6 +488,7 @@
       "rpc": [
         "https://mainnet.base.org/",
         "https://developer-access-mainnet.base.org/",
+        "https://base.gateway.tenderly.co",
         "https://base.publicnode.com"
       ],
       "infoUrl": "https://base.org",
@@ -503,7 +506,6 @@
       },
       "rpc": [
         "https://cronos-evm.publicnode.com",
-        "https://evm.cronos.org",
         "https://cronos.blockpi.network/v1/rpc/public"
       ],
       "explorerUrl": "https://cronoscan.com"
