@@ -10,6 +10,7 @@
         "decimals": 18
       },
       "rpc": [
+        "https://rpc.ftm.tools",
         "https://fantom.publicnode.com"
       ],
       "infoUrl": "https://fantom.foundation",
@@ -177,10 +178,6 @@
         "decimals": 18
       },
       "rpc": [
-        "https://data-seed-prebsc-1-s1.binance.org:8545",
-        "https://data-seed-prebsc-2-s1.binance.org:8545",
-        "https://data-seed-prebsc-1-s2.binance.org:8545",
-        "https://data-seed-prebsc-2-s2.binance.org:8545",
         "https://bsc-testnet.publicnode.com",
         "https://bsc-testnet.public.blastapi.io"
       ]
@@ -220,7 +217,8 @@
         "https://a.api.s0.t.hmny.io",
         "https://api.s0.t.hmny.io",
         "https://rpc.ankr.com/harmony",
-        "https://1rpc.io/one"
+        "https://1rpc.io/one",
+        "https://api.s1.t.hmny.io"
       ],
       "infoUrl": "https://www.harmony.one/",
       "faucets": []
