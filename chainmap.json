@@ -63,6 +63,7 @@
       "explorerUrl": "https://polygonscan.com",
       "rpc": [
         "https://polygon-bor.publicnode.com",
+        "https://polygon.llamarpc.com",
         "https://polygon-mainnet.public.blastapi.io",
         "https://rpc.ankr.com/polygon",
         "https://1rpc.io/matic"
@@ -117,8 +118,10 @@
       "explorerUrl": "https://etherscan.io",
       "rpc": [
         "https://ethereum.publicnode.com",
+        "https://eth.llamarpc.com",
         "https://eth-mainnet.public.blastapi.io",
-        "https://rpc.ankr.com/eth"
+        "https://rpc.ankr.com/eth",
+        "https://cloudflare-eth.com"
       ]
     },
     "goerli": {
@@ -163,7 +166,8 @@
         "https://bsc-dataseed2.binance.org",
         "https://bsc-dataseed3.binance.org",
         "https://bsc-dataseed4.binance.org",
-        "https://bsc.publicnode.com"
+        "https://bsc.publicnode.com",
+        "https://binance.llamarpc.com"
       ]
     },
     "testnet": {
@@ -218,6 +222,7 @@
         "https://a.api.s0.t.hmny.io",
         "https://api.s0.t.hmny.io",
         "https://rpc.ankr.com/harmony",
+        "https://1rpc.io/one",
         "https://api.s1.t.hmny.io"
       ],
       "infoUrl": "https://www.harmony.one/",
@@ -424,6 +429,7 @@
       "rpc": [
         "https://arb1.arbitrum.io/rpc",
         "https://arbitrum-one.publicnode.com",
+        "https://arbitrum.llamarpc.com",
         "https://arbitrum-one.public.blastapi.io",
         "https://rpc.ankr.com/arbitrum"
       ]
