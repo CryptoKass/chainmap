@@ -146,7 +146,8 @@
       "rpc": [
         "https://rpc.sepolia.org",
         "https://rpc2.sepolia.org",
-        "https://eth-sepolia.public.blastapi.io"
+        "https://eth-sepolia.public.blastapi.io",
+        "https://gateway.tenderly.co/public/sepolia"
       ]
     }
   },
