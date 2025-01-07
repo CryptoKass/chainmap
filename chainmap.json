@@ -46,7 +46,9 @@
       },
       "infoUrl": "https://klaytn.foundation",
       "explorerUrl": "https://scope.klaytn.com/",
-      "rpc": []
+      "rpc": [
+        "https://klaytn.api.onfinality.io/public"
+      ]
     }
   },
   "polygon": {
