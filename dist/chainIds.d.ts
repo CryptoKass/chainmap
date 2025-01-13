@@ -1,41 +1,13 @@
 declare const _default: {
-    250: {
+    43114: {
         network: string;
         chain: string;
     };
-    4002: {
+    43113: {
         network: string;
         chain: string;
     };
-    8217: {
-        network: string;
-        chain: string;
-    };
-    137: {
-        network: string;
-        chain: string;
-    };
-    1101: {
-        network: string;
-        chain: string;
-    };
-    80001: {
-        network: string;
-        chain: string;
-    };
-    1442: {
-        network: string;
-        chain: string;
-    };
-    1: {
-        network: string;
-        chain: string;
-    };
-    5: {
-        network: string;
-        chain: string;
-    };
-    11155111: {
+    25: {
         network: string;
         chain: string;
     };
@@ -47,19 +19,19 @@ declare const _default: {
         network: string;
         chain: string;
     };
-    10: {
+    8217: {
         network: string;
         chain: string;
     };
-    1666600000: {
+    42220: {
         network: string;
         chain: string;
     };
-    1666700000: {
+    44787: {
         network: string;
         chain: string;
     };
-    100: {
+    62320: {
         network: string;
         chain: string;
     };
@@ -79,23 +51,35 @@ declare const _default: {
         network: string;
         chain: string;
     };
-    43114: {
+    1666600000: {
         network: string;
         chain: string;
     };
-    43113: {
+    1666700000: {
         network: string;
         chain: string;
     };
-    42220: {
+    137: {
         network: string;
         chain: string;
     };
-    44787: {
+    1101: {
         network: string;
         chain: string;
     };
-    62320: {
+    80001: {
+        network: string;
+        chain: string;
+    };
+    1442: {
+        network: string;
+        chain: string;
+    };
+    10: {
+        network: string;
+        chain: string;
+    };
+    100: {
         network: string;
         chain: string;
     };
@@ -115,15 +99,31 @@ declare const _default: {
         network: string;
         chain: string;
     };
+    1: {
+        network: string;
+        chain: string;
+    };
+    5: {
+        network: string;
+        chain: string;
+    };
+    11155111: {
+        network: string;
+        chain: string;
+    };
     8453: {
         network: string;
         chain: string;
     };
-    25: {
+    7777777: {
         network: string;
         chain: string;
     };
-    7777777: {
+    250: {
+        network: string;
+        chain: string;
+    };
+    4002: {
         network: string;
         chain: string;
     };
