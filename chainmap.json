@@ -98,9 +98,7 @@
       },
       "infoUrl": "https://klaytn.foundation",
       "explorerUrl": "https://scope.klaytn.com/",
-      "rpc": [
-        "https://klaytn.api.onfinality.io/public"
-      ]
+      "rpc": []
     }
   },
   "celo": {
@@ -230,7 +228,6 @@
         "https://a.api.s0.t.hmny.io",
         "https://api.s0.t.hmny.io",
         "https://rpc.ankr.com/harmony",
-        "https://1rpc.io/one",
         "https://api.s1.t.hmny.io"
       ],
       "infoUrl": "https://www.harmony.one/",
