@@ -98,7 +98,9 @@
       },
       "infoUrl": "https://klaytn.foundation",
       "explorerUrl": "https://scope.klaytn.com/",
-      "rpc": []
+      "rpc": [
+        "https://klaytn.api.onfinality.io/public"
+      ]
     }
   },
   "celo": {
@@ -228,6 +230,7 @@
         "https://a.api.s0.t.hmny.io",
         "https://api.s0.t.hmny.io",
         "https://rpc.ankr.com/harmony",
+        "https://1rpc.io/one",
         "https://api.s1.t.hmny.io"
       ],
       "infoUrl": "https://www.harmony.one/",
@@ -335,7 +338,6 @@
       },
       "explorerUrl": "https://gnosisscan.io",
       "rpc": [
-        "https://rpc.gnosischain.com",
         "https://rpc.gnosis.gateway.fm",
         "https://rpc.ankr.com/gnosis",
         "https://gnosis-mainnet.public.blastapi.io",
@@ -420,7 +422,8 @@
         "https://ethereum.publicnode.com",
         "https://eth.llamarpc.com",
         "https://eth-mainnet.public.blastapi.io",
-        "https://rpc.ankr.com/eth"
+        "https://rpc.ankr.com/eth",
+        "https://cloudflare-eth.com"
       ]
     },
     "goerli": {
@@ -463,8 +466,7 @@
       "rpc": [
         "https://mainnet.base.org/",
         "https://developer-access-mainnet.base.org/",
-        "https://base.gateway.tenderly.co",
-        "https://base.publicnode.com"
+        "https://base.gateway.tenderly.co"
       ],
       "infoUrl": "https://base.org",
       "faucets": []
