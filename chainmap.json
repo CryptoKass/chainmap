@@ -45,8 +45,7 @@
         "decimals": 18
       },
       "rpc": [
-        "https://cronos-evm.publicnode.com",
-        "https://evm.cronos.org"
+        "https://cronos-evm.publicnode.com"
       ],
       "explorerUrl": "https://cronoscan.com"
     }
@@ -447,6 +446,7 @@
       },
       "explorerUrl": "https://sepolia.etherscan.io",
       "rpc": [
+        "https://rpc2.sepolia.org",
         "https://eth-sepolia.public.blastapi.io",
         "https://gateway.tenderly.co/public/sepolia"
       ]
@@ -482,9 +482,7 @@
         "symbol": "ETH",
         "decimals": 18
       },
-      "rpc": [
-        "https://rpc.zora.energy/"
-      ],
+      "rpc": [],
       "infoUrl": "https://zora.energy",
       "faucets": []
     }
