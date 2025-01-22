@@ -45,7 +45,8 @@
         "decimals": 18
       },
       "rpc": [
-        "https://cronos-evm.publicnode.com"
+        "https://cronos-evm.publicnode.com",
+        "https://evm.cronos.org"
       ],
       "explorerUrl": "https://cronoscan.com"
     }
@@ -229,7 +230,6 @@
         "https://a.api.s0.t.hmny.io",
         "https://api.s0.t.hmny.io",
         "https://rpc.ankr.com/harmony",
-        "https://1rpc.io/one",
         "https://api.s1.t.hmny.io"
       ],
       "infoUrl": "https://www.harmony.one/",
@@ -482,7 +482,9 @@
         "symbol": "ETH",
         "decimals": 18
       },
-      "rpc": [],
+      "rpc": [
+        "https://rpc.zora.energy/"
+      ],
       "infoUrl": "https://zora.energy",
       "faucets": []
     }
