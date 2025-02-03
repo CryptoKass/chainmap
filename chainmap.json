@@ -29,7 +29,8 @@
         "decimals": 18
       },
       "rpc": [
-        "https://cronos-evm.publicnode.com"
+        "https://cronos-evm.publicnode.com",
+        "https://evm.cronos.org"
       ],
       "explorerUrl": "https://cronoscan.com"
     }
@@ -114,7 +115,6 @@
       },
       "explorerUrl": "https://sepolia.etherscan.io",
       "rpc": [
-        "https://rpc2.sepolia.org",
         "https://eth-sepolia.public.blastapi.io",
         "https://gateway.tenderly.co/public/sepolia"
       ]
