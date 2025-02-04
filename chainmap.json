@@ -29,8 +29,7 @@
         "decimals": 18
       },
       "rpc": [
-        "https://cronos-evm.publicnode.com",
-        "https://evm.cronos.org"
+        "https://cronos-evm.publicnode.com"
       ],
       "explorerUrl": "https://cronoscan.com"
     }
