@@ -29,7 +29,8 @@
         "decimals": 18
       },
       "rpc": [
-        "https://cronos-evm.publicnode.com"
+        "https://cronos-evm.publicnode.com",
+        "https://evm.cronos.org"
       ],
       "explorerUrl": "https://cronoscan.com"
     }
@@ -410,8 +411,7 @@
         "https://polygon-bor.publicnode.com",
         "https://polygon.llamarpc.com",
         "https://polygon-mainnet.public.blastapi.io",
-        "https://rpc.ankr.com/polygon",
-        "https://1rpc.io/matic"
+        "https://rpc.ankr.com/polygon"
       ]
     },
     "zkevm": {
