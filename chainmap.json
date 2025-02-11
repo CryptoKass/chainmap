@@ -90,7 +90,8 @@
         "https://ethereum.publicnode.com",
         "https://eth.llamarpc.com",
         "https://eth-mainnet.public.blastapi.io",
-        "https://rpc.ankr.com/eth"
+        "https://rpc.ankr.com/eth",
+        "https://cloudflare-eth.com"
       ]
     },
     "goerli": {
@@ -461,9 +462,11 @@
       "explorerUrl": "https://gnosisscan.io",
       "rpc": [
         "https://rpc.gnosischain.com",
+        "https://rpc.gnosis.gateway.fm",
         "https://rpc.ankr.com/gnosis",
         "https://gnosis-mainnet.public.blastapi.io",
-        "https://gnosis.api.onfinality.io/public"
+        "https://gnosis.api.onfinality.io/public",
+        "https://gnosis.oat.farm"
       ]
     }
   },
@@ -477,12 +480,9 @@
         "decimals": 18
       },
       "rpc": [
-        "https://bsc-dataseed1.binance.org",
         "https://bsc-dataseed2.binance.org",
         "https://bsc-dataseed3.binance.org",
-        "https://bsc-dataseed4.binance.org",
-        "https://bsc.publicnode.com",
-        "https://binance.llamarpc.com"
+        "https://bsc.publicnode.com"
       ]
     },
     "testnet": {
@@ -493,14 +493,7 @@
         "symbol": "BNB",
         "decimals": 18
       },
-      "rpc": [
-        "https://data-seed-prebsc-1-s1.binance.org:8545",
-        "https://data-seed-prebsc-2-s1.binance.org:8545",
-        "https://data-seed-prebsc-1-s2.binance.org:8545",
-        "https://data-seed-prebsc-2-s2.binance.org:8545",
-        "https://bsc-testnet.publicnode.com",
-        "https://bsc-testnet.public.blastapi.io"
-      ]
+      "rpc": []
     }
   },
   "optimism": {
@@ -514,11 +507,7 @@
         "decimals": 18
       },
       "explorerUrl": "https://optimistic.etherscan.io",
-      "rpc": [
-        "https://mainnet.optimism.io",
-        "https://optimism.publicnode.com",
-        "https://optimism.gateway.tenderly.co"
-      ]
+      "rpc": []
     }
   }
 }
