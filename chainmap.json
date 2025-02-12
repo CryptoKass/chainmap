@@ -227,7 +227,9 @@
         "symbol": "ETH",
         "decimals": 18
       },
-      "rpc": [],
+      "rpc": [
+        "https://rpc.zora.energy/"
+      ],
       "infoUrl": "https://zora.energy",
       "faucets": []
     }
@@ -480,9 +482,12 @@
         "decimals": 18
       },
       "rpc": [
+        "https://bsc-dataseed1.binance.org",
         "https://bsc-dataseed2.binance.org",
         "https://bsc-dataseed3.binance.org",
-        "https://bsc.publicnode.com"
+        "https://bsc-dataseed4.binance.org",
+        "https://bsc.publicnode.com",
+        "https://binance.llamarpc.com"
       ]
     },
     "testnet": {
@@ -493,7 +498,14 @@
         "symbol": "BNB",
         "decimals": 18
       },
-      "rpc": []
+      "rpc": [
+        "https://data-seed-prebsc-1-s1.binance.org:8545",
+        "https://data-seed-prebsc-2-s1.binance.org:8545",
+        "https://data-seed-prebsc-1-s2.binance.org:8545",
+        "https://data-seed-prebsc-2-s2.binance.org:8545",
+        "https://bsc-testnet.publicnode.com",
+        "https://bsc-testnet.public.blastapi.io"
+      ]
     }
   },
   "optimism": {
@@ -507,7 +519,11 @@
         "decimals": 18
       },
       "explorerUrl": "https://optimistic.etherscan.io",
-      "rpc": []
+      "rpc": [
+        "https://mainnet.optimism.io",
+        "https://optimism.publicnode.com",
+        "https://optimism.gateway.tenderly.co"
+      ]
     }
   }
 }
