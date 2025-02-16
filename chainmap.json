@@ -141,9 +141,7 @@
       },
       "infoUrl": "https://klaytn.foundation",
       "explorerUrl": "https://scope.klaytn.com/",
-      "rpc": [
-        "https://klaytn.api.onfinality.io/public"
-      ]
+      "rpc": []
     }
   },
   "avalanche": {
@@ -215,7 +213,6 @@
         "decimals": 18
       },
       "rpc": [
-        "https://api.harmony.one",
         "https://a.api.s0.t.hmny.io",
         "https://api.s0.t.hmny.io",
         "https://rpc.ankr.com/harmony",
