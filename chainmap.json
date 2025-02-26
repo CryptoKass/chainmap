@@ -300,8 +300,7 @@
       "rpc": [
         "https://mainnet.base.org/",
         "https://developer-access-mainnet.base.org/",
-        "https://base.gateway.tenderly.co",
-        "https://base.publicnode.com"
+        "https://base.gateway.tenderly.co"
       ],
       "infoUrl": "https://base.org",
       "faucets": []
@@ -481,7 +480,8 @@
       },
       "explorerUrl": "https://zkevm.polygonscan.com",
       "rpc": [
-        "https://polygon-zkevm-mainnet.public.blastapi.io"
+        "https://polygon-zkevm-mainnet.public.blastapi.io",
+        "https://1rpc.io/polygon/zkevm"
       ]
     },
     "mumbai": {
