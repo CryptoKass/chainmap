@@ -147,6 +147,7 @@
       "rpc": [
         "https://mainnet.base.org/",
         "https://developer-access-mainnet.base.org/",
+        "https://base.gateway.tenderly.co",
         "https://base.publicnode.com"
       ],
       "infoUrl": "https://base.org",
@@ -163,7 +164,8 @@
         "decimals": 18
       },
       "rpc": [
-        "https://cronos-evm.publicnode.com"
+        "https://cronos-evm.publicnode.com",
+        "https://evm.cronos.org"
       ],
       "explorerUrl": "https://cronoscan.com"
     }
