@@ -42,8 +42,7 @@
         "decimals": 18
       },
       "rpc": [
-        "https://api.avax-test.network/ext/bc/C/rpc",
-        "https://avalanche-fuji-c-chain.publicnode.com"
+        "https://api.avax-test.network/ext/bc/C/rpc"
       ],
       "infoUrl": "https://cchain.explorer.avax-test.network",
       "faucets": [
