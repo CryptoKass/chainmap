@@ -164,7 +164,6 @@
         "decimals": 18
       },
       "rpc": [
-        "https://cronos-evm.publicnode.com",
         "https://evm.cronos.org"
       ],
       "explorerUrl": "https://cronoscan.com"
@@ -503,7 +502,6 @@
         "https://bsc-dataseed2.binance.org",
         "https://bsc-dataseed3.binance.org",
         "https://bsc-dataseed4.binance.org",
-        "https://bsc.publicnode.com",
         "https://binance.llamarpc.com"
       ]
     },
