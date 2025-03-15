@@ -26,7 +26,8 @@
         "decimals": 18
       },
       "rpc": [
-        "https://api.avax.network/ext/bc/C/rpc"
+        "https://api.avax.network/ext/bc/C/rpc",
+        "https://avalanche-c-chain.publicnode.com"
       ],
       "infoUrl": "https://www.avax.network/",
       "faucets": []
@@ -41,7 +42,8 @@
         "decimals": 18
       },
       "rpc": [
-        "https://api.avax-test.network/ext/bc/C/rpc"
+        "https://api.avax-test.network/ext/bc/C/rpc",
+        "https://avalanche-fuji-c-chain.publicnode.com"
       ],
       "infoUrl": "https://cchain.explorer.avax-test.network",
       "faucets": [
@@ -61,6 +63,7 @@
       },
       "explorerUrl": "https://etherscan.io",
       "rpc": [
+        "https://ethereum.publicnode.com",
         "https://eth.llamarpc.com",
         "https://eth-mainnet.public.blastapi.io",
         "https://rpc.ankr.com/eth"
@@ -108,6 +111,7 @@
         "https://rpc.gnosis.gateway.fm",
         "https://rpc.ankr.com/gnosis",
         "https://gnosis-mainnet.public.blastapi.io",
+        "https://gnosis.api.onfinality.io/public",
         "https://gnosis.oat.farm"
       ]
     }
@@ -125,6 +129,7 @@
       "explorerUrl": "https://optimistic.etherscan.io",
       "rpc": [
         "https://mainnet.optimism.io",
+        "https://optimism.publicnode.com",
         "https://optimism.gateway.tenderly.co"
       ]
     }
@@ -142,7 +147,8 @@
       "rpc": [
         "https://mainnet.base.org/",
         "https://developer-access-mainnet.base.org/",
-        "https://base.gateway.tenderly.co"
+        "https://base.gateway.tenderly.co",
+        "https://base.publicnode.com"
       ],
       "infoUrl": "https://base.org",
       "faucets": []
@@ -158,6 +164,7 @@
         "decimals": 18
       },
       "rpc": [
+        "https://cronos-evm.publicnode.com",
         "https://evm.cronos.org"
       ],
       "explorerUrl": "https://cronoscan.com"
@@ -174,6 +181,7 @@
       },
       "explorerUrl": "https://polygonscan.com",
       "rpc": [
+        "https://polygon-bor.publicnode.com",
         "https://polygon.llamarpc.com",
         "https://polygon-mainnet.public.blastapi.io",
         "https://rpc.ankr.com/polygon"
@@ -228,6 +236,7 @@
       "explorerUrl": "https://arbiscan.io",
       "rpc": [
         "https://arb1.arbitrum.io/rpc",
+        "https://arbitrum-one.publicnode.com",
         "https://arbitrum.llamarpc.com",
         "https://arbitrum-one.public.blastapi.io",
         "https://rpc.ankr.com/arbitrum"
@@ -270,6 +279,7 @@
       "explorerUrl": "https://nova.arbiscan.io",
       "rpc": [
         "https://nova.arbitrum.io/rpc",
+        "https://arbitrum-nova.publicnode.com",
         "https://arbitrum-nova.public.blastapi.io"
       ]
     }
@@ -401,7 +411,8 @@
         "decimals": 18
       },
       "rpc": [
-        "https://rpc.ftm.tools"
+        "https://rpc.ftm.tools",
+        "https://fantom.publicnode.com"
       ],
       "infoUrl": "https://fantom.foundation",
       "faucets": []
@@ -416,7 +427,8 @@
         "decimals": 18
       },
       "rpc": [
-        "https://rpc.testnet.fantom.network"
+        "https://rpc.testnet.fantom.network",
+        "https://fantom-testnet.publicnode.com"
       ],
       "infoUrl": "https://docs.fantom.foundation/quick-start/short-guide#fantom-testnet",
       "faucets": [
@@ -490,6 +502,7 @@
         "https://bsc-dataseed2.binance.org",
         "https://bsc-dataseed3.binance.org",
         "https://bsc-dataseed4.binance.org",
+        "https://bsc.publicnode.com",
         "https://binance.llamarpc.com"
       ]
     },
@@ -506,6 +519,7 @@
         "https://data-seed-prebsc-2-s1.binance.org:8545",
         "https://data-seed-prebsc-1-s2.binance.org:8545",
         "https://data-seed-prebsc-2-s2.binance.org:8545",
+        "https://bsc-testnet.publicnode.com",
         "https://bsc-testnet.public.blastapi.io"
       ]
     }
