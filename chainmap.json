@@ -65,8 +65,7 @@
       "rpc": [
         "https://ethereum.publicnode.com",
         "https://eth.llamarpc.com",
-        "https://eth-mainnet.public.blastapi.io",
-        "https://rpc.ankr.com/eth"
+        "https://eth-mainnet.public.blastapi.io"
       ]
     },
     "goerli": {
@@ -109,7 +108,6 @@
       "rpc": [
         "https://rpc.gnosischain.com",
         "https://rpc.gnosis.gateway.fm",
-        "https://rpc.ankr.com/gnosis",
         "https://gnosis-mainnet.public.blastapi.io",
         "https://gnosis.api.onfinality.io/public",
         "https://gnosis.oat.farm"
@@ -184,8 +182,7 @@
         "https://polygon-bor.publicnode.com",
         "https://polygon.llamarpc.com",
         "https://polygon-mainnet.public.blastapi.io",
-        "https://rpc.ankr.com/polygon",
-        "https://1rpc.io/matic"
+        "https://rpc.ankr.com/polygon"
       ]
     },
     "zkevm": {
@@ -239,8 +236,7 @@
         "https://arb1.arbitrum.io/rpc",
         "https://arbitrum-one.publicnode.com",
         "https://arbitrum.llamarpc.com",
-        "https://arbitrum-one.public.blastapi.io",
-        "https://rpc.ankr.com/arbitrum"
+        "https://arbitrum-one.public.blastapi.io"
       ]
     },
     "goerli": {
@@ -300,7 +296,7 @@
         "https://api.harmony.one",
         "https://a.api.s0.t.hmny.io",
         "https://api.s0.t.hmny.io",
-        "https://rpc.ankr.com/harmony",
+        "https://1rpc.io/one",
         "https://api.s1.t.hmny.io"
       ],
       "infoUrl": "https://www.harmony.one/",
@@ -411,7 +407,6 @@
         "decimals": 18
       },
       "rpc": [
-        "https://rpc.ftm.tools",
         "https://fantom.publicnode.com"
       ],
       "infoUrl": "https://fantom.foundation",
