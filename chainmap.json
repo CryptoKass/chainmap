@@ -182,7 +182,8 @@
         "https://polygon-bor.publicnode.com",
         "https://polygon.llamarpc.com",
         "https://polygon-mainnet.public.blastapi.io",
-        "https://rpc.ankr.com/polygon"
+        "https://rpc.ankr.com/polygon",
+        "https://1rpc.io/matic"
       ]
     },
     "zkevm": {
@@ -296,8 +297,7 @@
         "https://api.harmony.one",
         "https://a.api.s0.t.hmny.io",
         "https://api.s0.t.hmny.io",
-        "https://1rpc.io/one",
-        "https://api.s1.t.hmny.io"
+        "https://1rpc.io/one"
       ],
       "infoUrl": "https://www.harmony.one/",
       "faucets": []
