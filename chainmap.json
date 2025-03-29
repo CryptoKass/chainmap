@@ -10,7 +10,9 @@
       },
       "infoUrl": "https://klaytn.foundation",
       "explorerUrl": "https://scope.klaytn.com/",
-      "rpc": []
+      "rpc": [
+        "https://klaytn.api.onfinality.io/public"
+      ]
     }
   },
   "avalanche": {
@@ -125,7 +127,6 @@
       "explorerUrl": "https://optimistic.etherscan.io",
       "rpc": [
         "https://mainnet.optimism.io",
-        "https://optimism.publicnode.com",
         "https://optimism.gateway.tenderly.co"
       ]
     }
@@ -143,8 +144,7 @@
       "rpc": [
         "https://mainnet.base.org/",
         "https://developer-access-mainnet.base.org/",
-        "https://base.gateway.tenderly.co",
-        "https://base.publicnode.com"
+        "https://base.gateway.tenderly.co"
       ],
       "infoUrl": "https://base.org",
       "faucets": []
