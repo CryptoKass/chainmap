@@ -106,7 +106,6 @@
       },
       "explorerUrl": "https://gnosisscan.io",
       "rpc": [
-        "https://rpc.gnosischain.com",
         "https://rpc.gnosis.gateway.fm",
         "https://gnosis-mainnet.public.blastapi.io",
         "https://gnosis.api.onfinality.io/public",
@@ -127,7 +126,6 @@
       "explorerUrl": "https://optimistic.etherscan.io",
       "rpc": [
         "https://mainnet.optimism.io",
-        "https://optimism.publicnode.com",
         "https://optimism.gateway.tenderly.co"
       ]
     }
@@ -233,7 +231,6 @@
       },
       "explorerUrl": "https://arbiscan.io",
       "rpc": [
-        "https://arb1.arbitrum.io/rpc",
         "https://arbitrum-one.publicnode.com",
         "https://arbitrum-one.public.blastapi.io"
       ]
@@ -295,8 +292,7 @@
         "https://api.harmony.one",
         "https://a.api.s0.t.hmny.io",
         "https://api.s0.t.hmny.io",
-        "https://1rpc.io/one",
-        "https://api.s1.t.hmny.io"
+        "https://1rpc.io/one"
       ],
       "infoUrl": "https://www.harmony.one/",
       "faucets": []
