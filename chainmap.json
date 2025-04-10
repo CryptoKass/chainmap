@@ -109,7 +109,8 @@
         "https://rpc.gnosischain.com",
         "https://rpc.gnosis.gateway.fm",
         "https://gnosis-mainnet.public.blastapi.io",
-        "https://gnosis.api.onfinality.io/public"
+        "https://gnosis.api.onfinality.io/public",
+        "https://gnosis.oat.farm"
       ]
     }
   },
@@ -179,7 +180,6 @@
       "explorerUrl": "https://polygonscan.com",
       "rpc": [
         "https://polygon-bor.publicnode.com",
-        "https://polygon-mainnet.public.blastapi.io",
         "https://rpc.ankr.com/polygon",
         "https://1rpc.io/matic"
       ]
@@ -291,8 +291,8 @@
         "decimals": 18
       },
       "rpc": [
-        "https://api.harmony.one",
         "https://a.api.s0.t.hmny.io",
+        "https://api.s0.t.hmny.io",
         "https://1rpc.io/one",
         "https://api.s1.t.hmny.io"
       ],
