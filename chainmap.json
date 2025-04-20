@@ -10,9 +10,7 @@
       },
       "infoUrl": "https://klaytn.foundation",
       "explorerUrl": "https://scope.klaytn.com/",
-      "rpc": [
-        "https://klaytn.api.onfinality.io/public"
-      ]
+      "rpc": []
     }
   },
   "avalanche": {
@@ -294,7 +292,6 @@
         "https://api.harmony.one",
         "https://a.api.s0.t.hmny.io",
         "https://api.s0.t.hmny.io",
-        "https://1rpc.io/one",
         "https://api.s1.t.hmny.io"
       ],
       "infoUrl": "https://www.harmony.one/",
