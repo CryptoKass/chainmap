@@ -1,17 +1,36 @@
 {
-  "klayton": {
+  "fantom": {
     "mainnet": {
-      "chainId": 8217,
-      "name": "Klayton Mainnet",
+      "explorerUrl": "https://ftmscan.com",
+      "chainId": 250,
+      "name": "Fantom Opera",
       "currency": {
-        "name": "Klaytn",
-        "symbol": "KLAY",
+        "name": "Fantom",
+        "symbol": "FTM",
         "decimals": 18
       },
-      "infoUrl": "https://klaytn.foundation",
-      "explorerUrl": "https://scope.klaytn.com/",
       "rpc": [
-        "https://klaytn.api.onfinality.io/public"
+        "https://fantom.publicnode.com"
+      ],
+      "infoUrl": "https://fantom.foundation",
+      "faucets": []
+    },
+    "testnet": {
+      "explorerUrl": "https://testnet.ftmscan.com",
+      "chainId": 4002,
+      "name": "Fantom Testnet",
+      "currency": {
+        "name": "Fantom",
+        "symbol": "FTM",
+        "decimals": 18
+      },
+      "rpc": [
+        "https://rpc.testnet.fantom.network",
+        "https://fantom-testnet.publicnode.com"
+      ],
+      "infoUrl": "https://docs.fantom.foundation/quick-start/short-guide#fantom-testnet",
+      "faucets": [
+        "https://faucet.fantom.network"
       ]
     }
   },
@@ -48,6 +67,58 @@
       "infoUrl": "https://cchain.explorer.avax-test.network",
       "faucets": [
         "https://faucet.avax-test.network/"
+      ]
+    }
+  },
+  "celo": {
+    "mainnet": {
+      "explorerUrl": "https://celoscan.io",
+      "chainId": 42220,
+      "name": "Celo Mainnet",
+      "currency": {
+        "name": "CELO",
+        "symbol": "CELO",
+        "decimals": 18
+      },
+      "rpc": [
+        "https://forno.celo.org"
+      ],
+      "infoUrl": "https://docs.celo.org/",
+      "faucets": []
+    },
+    "alfajores": {
+      "explorerUrl": "https://alfajores.celoscan.io",
+      "chainId": 44787,
+      "name": "Celo Alfajores Testnet",
+      "currency": {
+        "name": "CELO",
+        "symbol": "CELO",
+        "decimals": 18
+      },
+      "rpc": [
+        "https://alfajores-forno.celo-testnet.org"
+      ],
+      "infoUrl": "https://docs.celo.org/",
+      "faucets": [
+        "https://celo.org/developers/faucet",
+        "https://cauldron.pretoriaresearchlab.io/alfajores-faucet"
+      ]
+    },
+    "baklava": {
+      "chainId": 62320,
+      "name": "Celo Baklava Testnet",
+      "currency": {
+        "name": "CELO",
+        "symbol": "CELO",
+        "decimals": 18
+      },
+      "rpc": [
+        "https://baklava-forno.celo-testnet.org"
+      ],
+      "infoUrl": "https://docs.celo.org/",
+      "faucets": [
+        "https://docs.google.com/forms/d/e/1FAIpQLSdfr1BwUTYepVmmvfVUDRCwALejZ-TUva2YujNpvrEmPAX2pg/viewform",
+        "https://cauldron.pretoriaresearchlab.io/baklava-faucet"
       ]
     }
   },
@@ -94,43 +165,6 @@
       ]
     }
   },
-  "gnosis": {
-    "mainnet": {
-      "chainId": 100,
-      "name": "Gnosis",
-      "infoURL": "https://docs.gnosischain.com",
-      "currency": {
-        "name": "xDAI",
-        "symbol": "XDAI",
-        "decimals": 18
-      },
-      "explorerUrl": "https://gnosisscan.io",
-      "rpc": [
-        "https://rpc.gnosischain.com",
-        "https://rpc.gnosis.gateway.fm",
-        "https://gnosis-mainnet.public.blastapi.io",
-        "https://gnosis.oat.farm"
-      ]
-    }
-  },
-  "optimism": {
-    "mainnet": {
-      "chainId": 10,
-      "name": "OP Mainnet",
-      "infoURL": "https://optimism.io",
-      "currency": {
-        "name": "Ethereum",
-        "symbol": "ETH",
-        "decimals": 18
-      },
-      "explorerUrl": "https://optimistic.etherscan.io",
-      "rpc": [
-        "https://mainnet.optimism.io",
-        "https://optimism.publicnode.com",
-        "https://optimism.gateway.tenderly.co"
-      ]
-    }
-  },
   "base": {
     "mainnet": {
       "explorerUrl": "https://basescan.org",
@@ -151,22 +185,6 @@
       "faucets": []
     }
   },
-  "cronos": {
-    "mainnet": {
-      "chainId": 25,
-      "name": "Cronos Mainnet",
-      "currency": {
-        "name": "CRO",
-        "symbol": "CRO",
-        "decimals": 18
-      },
-      "rpc": [
-        "https://cronos-evm.publicnode.com",
-        "https://evm.cronos.org"
-      ],
-      "explorerUrl": "https://cronoscan.com"
-    }
-  },
   "polygon": {
     "mainnet": {
       "chainId": 137,
@@ -179,8 +197,7 @@
       "explorerUrl": "https://polygonscan.com",
       "rpc": [
         "https://polygon-bor.publicnode.com",
-        "https://polygon-mainnet.public.blastapi.io",
-        "https://1rpc.io/matic"
+        "https://polygon-mainnet.public.blastapi.io"
       ]
     },
     "zkevm": {
@@ -217,6 +234,42 @@
         "decimals": 18
       },
       "rpc": []
+    }
+  },
+  "smartchain": {
+    "mainnet": {
+      "chainId": 56,
+      "name": "Binance SmartChain Mainnet",
+      "currency": {
+        "name": "BNB",
+        "symbol": "BNB",
+        "decimals": 18
+      },
+      "rpc": [
+        "https://bsc-dataseed1.binance.org",
+        "https://bsc-dataseed2.binance.org",
+        "https://bsc-dataseed3.binance.org",
+        "https://bsc-dataseed4.binance.org",
+        "https://bsc.publicnode.com",
+        "https://binance.llamarpc.com"
+      ]
+    },
+    "testnet": {
+      "chainId": 97,
+      "name": "Binance SmartChain Testnet",
+      "currency": {
+        "name": "BNB",
+        "symbol": "BNB",
+        "decimals": 18
+      },
+      "rpc": [
+        "https://data-seed-prebsc-1-s1.binance.org:8545",
+        "https://data-seed-prebsc-2-s1.binance.org:8545",
+        "https://data-seed-prebsc-1-s2.binance.org:8545",
+        "https://data-seed-prebsc-2-s2.binance.org:8545",
+        "https://bsc-testnet.publicnode.com",
+        "https://bsc-testnet.public.blastapi.io"
+      ]
     }
   },
   "arbitrum": {
@@ -278,6 +331,41 @@
       ]
     }
   },
+  "zora": {
+    "mainnet": {
+      "explorerUrl": "https://explorer.zora.energy",
+      "chainId": 7777777,
+      "name": "Zora",
+      "currency": {
+        "name": "Ether",
+        "symbol": "ETH",
+        "decimals": 18
+      },
+      "rpc": [
+        "https://rpc.zora.energy/"
+      ],
+      "infoUrl": "https://zora.energy",
+      "faucets": []
+    }
+  },
+  "optimism": {
+    "mainnet": {
+      "chainId": 10,
+      "name": "OP Mainnet",
+      "infoURL": "https://optimism.io",
+      "currency": {
+        "name": "Ethereum",
+        "symbol": "ETH",
+        "decimals": 18
+      },
+      "explorerUrl": "https://optimistic.etherscan.io",
+      "rpc": [
+        "https://mainnet.optimism.io",
+        "https://optimism.publicnode.com",
+        "https://optimism.gateway.tenderly.co"
+      ]
+    }
+  },
   "harmony": {
     "mainnet": {
       "explorerUrl": "https://explorer.harmony.one",
@@ -292,6 +380,7 @@
       "rpc": [
         "https://api.harmony.one",
         "https://a.api.s0.t.hmny.io",
+        "https://api.s0.t.hmny.io",
         "https://1rpc.io/one",
         "https://api.s1.t.hmny.io"
       ],
@@ -314,6 +403,57 @@
       "faucets": [
         "https://faucet.pops.one"
       ]
+    }
+  },
+  "klayton": {
+    "mainnet": {
+      "chainId": 8217,
+      "name": "Klayton Mainnet",
+      "currency": {
+        "name": "Klaytn",
+        "symbol": "KLAY",
+        "decimals": 18
+      },
+      "infoUrl": "https://klaytn.foundation",
+      "explorerUrl": "https://scope.klaytn.com/",
+      "rpc": [
+        "https://klaytn.api.onfinality.io/public"
+      ]
+    }
+  },
+  "gnosis": {
+    "mainnet": {
+      "chainId": 100,
+      "name": "Gnosis",
+      "infoURL": "https://docs.gnosischain.com",
+      "currency": {
+        "name": "xDAI",
+        "symbol": "XDAI",
+        "decimals": 18
+      },
+      "explorerUrl": "https://gnosisscan.io",
+      "rpc": [
+        "https://rpc.gnosischain.com",
+        "https://rpc.gnosis.gateway.fm",
+        "https://gnosis-mainnet.public.blastapi.io",
+        "https://gnosis.oat.farm"
+      ]
+    }
+  },
+  "cronos": {
+    "mainnet": {
+      "chainId": 25,
+      "name": "Cronos Mainnet",
+      "currency": {
+        "name": "CRO",
+        "symbol": "CRO",
+        "decimals": 18
+      },
+      "rpc": [
+        "https://cronos-evm.publicnode.com",
+        "https://evm.cronos.org"
+      ],
+      "explorerUrl": "https://cronoscan.com"
     }
   },
   "moonbeam": {
@@ -373,146 +513,6 @@
       "rpc": [],
       "infoUrl": "https://docs.moonbeam.network/learn/platform/networks/overview/",
       "faucets": []
-    }
-  },
-  "zora": {
-    "mainnet": {
-      "explorerUrl": "https://explorer.zora.energy",
-      "chainId": 7777777,
-      "name": "Zora",
-      "currency": {
-        "name": "Ether",
-        "symbol": "ETH",
-        "decimals": 18
-      },
-      "rpc": [
-        "https://rpc.zora.energy/"
-      ],
-      "infoUrl": "https://zora.energy",
-      "faucets": []
-    }
-  },
-  "fantom": {
-    "mainnet": {
-      "explorerUrl": "https://ftmscan.com",
-      "chainId": 250,
-      "name": "Fantom Opera",
-      "currency": {
-        "name": "Fantom",
-        "symbol": "FTM",
-        "decimals": 18
-      },
-      "rpc": [
-        "https://fantom.publicnode.com"
-      ],
-      "infoUrl": "https://fantom.foundation",
-      "faucets": []
-    },
-    "testnet": {
-      "explorerUrl": "https://testnet.ftmscan.com",
-      "chainId": 4002,
-      "name": "Fantom Testnet",
-      "currency": {
-        "name": "Fantom",
-        "symbol": "FTM",
-        "decimals": 18
-      },
-      "rpc": [
-        "https://rpc.testnet.fantom.network",
-        "https://fantom-testnet.publicnode.com"
-      ],
-      "infoUrl": "https://docs.fantom.foundation/quick-start/short-guide#fantom-testnet",
-      "faucets": [
-        "https://faucet.fantom.network"
-      ]
-    }
-  },
-  "celo": {
-    "mainnet": {
-      "explorerUrl": "https://celoscan.io",
-      "chainId": 42220,
-      "name": "Celo Mainnet",
-      "currency": {
-        "name": "CELO",
-        "symbol": "CELO",
-        "decimals": 18
-      },
-      "rpc": [
-        "https://forno.celo.org"
-      ],
-      "infoUrl": "https://docs.celo.org/",
-      "faucets": []
-    },
-    "alfajores": {
-      "explorerUrl": "https://alfajores.celoscan.io",
-      "chainId": 44787,
-      "name": "Celo Alfajores Testnet",
-      "currency": {
-        "name": "CELO",
-        "symbol": "CELO",
-        "decimals": 18
-      },
-      "rpc": [
-        "https://alfajores-forno.celo-testnet.org"
-      ],
-      "infoUrl": "https://docs.celo.org/",
-      "faucets": [
-        "https://celo.org/developers/faucet",
-        "https://cauldron.pretoriaresearchlab.io/alfajores-faucet"
-      ]
-    },
-    "baklava": {
-      "chainId": 62320,
-      "name": "Celo Baklava Testnet",
-      "currency": {
-        "name": "CELO",
-        "symbol": "CELO",
-        "decimals": 18
-      },
-      "rpc": [
-        "https://baklava-forno.celo-testnet.org"
-      ],
-      "infoUrl": "https://docs.celo.org/",
-      "faucets": [
-        "https://docs.google.com/forms/d/e/1FAIpQLSdfr1BwUTYepVmmvfVUDRCwALejZ-TUva2YujNpvrEmPAX2pg/viewform",
-        "https://cauldron.pretoriaresearchlab.io/baklava-faucet"
-      ]
-    }
-  },
-  "smartchain": {
-    "mainnet": {
-      "chainId": 56,
-      "name": "Binance SmartChain Mainnet",
-      "currency": {
-        "name": "BNB",
-        "symbol": "BNB",
-        "decimals": 18
-      },
-      "rpc": [
-        "https://bsc-dataseed1.binance.org",
-        "https://bsc-dataseed2.binance.org",
-        "https://bsc-dataseed3.binance.org",
-        "https://bsc-dataseed4.binance.org",
-        "https://bsc.publicnode.com",
-        "https://binance.llamarpc.com"
-      ]
-    },
-    "testnet": {
-      "chainId": 97,
-      "name": "Binance SmartChain Testnet",
-      "currency": {
-        "name": "BNB",
-        "symbol": "BNB",
-        "decimals": 18
-      },
-      "rpc": [
-        "https://data-seed-prebsc-1-s1.binance.org:8545",
-        "https://data-seed-prebsc-2-s1.binance.org:8545",
-        "https://data-seed-prebsc-1-s2.binance.org:8545",
-        "https://data-seed-prebsc-2-s2.binance.org:8545",
-        "https://bsc-testnet.publicnode.com",
-        "https://bsc-testnet.public.blastapi.io"
-      ]
     }
   }
 }
