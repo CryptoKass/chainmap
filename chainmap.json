@@ -45,6 +45,7 @@
         "decimals": 18
       },
       "rpc": [
+        "https://api.avax.network/ext/bc/C/rpc",
         "https://avalanche-c-chain.publicnode.com"
       ],
       "infoUrl": "https://www.avax.network/",
@@ -177,8 +178,7 @@
       "rpc": [
         "https://mainnet.base.org/",
         "https://developer-access-mainnet.base.org/",
-        "https://base.gateway.tenderly.co",
-        "https://base.publicnode.com"
+        "https://base.gateway.tenderly.co"
       ],
       "infoUrl": "https://base.org",
       "faucets": []
@@ -196,7 +196,8 @@
       "explorerUrl": "https://polygonscan.com",
       "rpc": [
         "https://polygon-bor.publicnode.com",
-        "https://polygon-mainnet.public.blastapi.io"
+        "https://polygon-mainnet.public.blastapi.io",
+        "https://1rpc.io/matic"
       ]
     },
     "zkevm": {
@@ -415,7 +416,9 @@
       },
       "infoUrl": "https://klaytn.foundation",
       "explorerUrl": "https://scope.klaytn.com/",
-      "rpc": []
+      "rpc": [
+        "https://klaytn.api.onfinality.io/public"
+      ]
     }
   },
   "gnosis": {
@@ -433,7 +436,6 @@
         "https://rpc.gnosischain.com",
         "https://rpc.gnosis.gateway.fm",
         "https://gnosis-mainnet.public.blastapi.io",
-        "https://gnosis.api.onfinality.io/public",
         "https://gnosis.oat.farm"
       ]
     }
