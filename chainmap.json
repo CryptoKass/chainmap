@@ -381,6 +381,7 @@
       "rpc": [
         "https://api.harmony.one",
         "https://a.api.s0.t.hmny.io",
+        "https://api.s0.t.hmny.io",
         "https://1rpc.io/one",
         "https://api.s1.t.hmny.io"
       ],
@@ -467,9 +468,7 @@
         "symbol": "GLMR",
         "decimals": 18
       },
-      "rpc": [
-        "https://rpc.api.moonbeam.network"
-      ],
+      "rpc": [],
       "infoUrl": "https://moonbeam.network/networks/moonbeam/",
       "faucets": []
     },
