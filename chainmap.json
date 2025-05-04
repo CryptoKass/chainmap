@@ -468,7 +468,9 @@
         "symbol": "GLMR",
         "decimals": 18
       },
-      "rpc": [],
+      "rpc": [
+        "https://rpc.api.moonbeam.network"
+      ],
       "infoUrl": "https://moonbeam.network/networks/moonbeam/",
       "faucets": []
     },
