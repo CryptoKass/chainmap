@@ -417,9 +417,7 @@
       },
       "infoUrl": "https://klaytn.foundation",
       "explorerUrl": "https://scope.klaytn.com/",
-      "rpc": [
-        "https://klaytn.api.onfinality.io/public"
-      ]
+      "rpc": []
     }
   },
   "gnosis": {
