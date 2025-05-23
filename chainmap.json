@@ -107,7 +107,8 @@
       },
       "explorerUrl": "https://sepolia.etherscan.io",
       "rpc": [
-        "https://eth-sepolia.public.blastapi.io"
+        "https://eth-sepolia.public.blastapi.io",
+        "https://gateway.tenderly.co/public/sepolia"
       ]
     }
   },
@@ -158,7 +159,9 @@
       },
       "infoUrl": "https://klaytn.foundation",
       "explorerUrl": "https://scope.klaytn.com/",
-      "rpc": []
+      "rpc": [
+        "https://klaytn.api.onfinality.io/public"
+      ]
     }
   },
   "avalanche": {
@@ -288,7 +291,8 @@
       "explorerUrl": "https://polygonscan.com",
       "rpc": [
         "https://polygon-bor.publicnode.com",
-        "https://polygon-mainnet.public.blastapi.io"
+        "https://polygon-mainnet.public.blastapi.io",
+        "https://1rpc.io/matic"
       ]
     },
     "zkevm": {
@@ -489,7 +493,8 @@
         "https://api.harmony.one",
         "https://a.api.s0.t.hmny.io",
         "https://api.s0.t.hmny.io",
-        "https://1rpc.io/one"
+        "https://1rpc.io/one",
+        "https://api.s1.t.hmny.io"
       ],
       "infoUrl": "https://www.harmony.one/",
       "faucets": []
