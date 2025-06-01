@@ -393,6 +393,7 @@
         "decimals": 18
       },
       "rpc": [
+        "https://cronos-evm.publicnode.com",
         "https://evm.cronos.org"
       ],
       "explorerUrl": "https://cronoscan.com"
