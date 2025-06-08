@@ -213,8 +213,7 @@
       "rpc": [
         "https://mainnet.base.org/",
         "https://developer-access-mainnet.base.org/",
-        "https://base.gateway.tenderly.co",
-        "https://base.publicnode.com"
+        "https://base.gateway.tenderly.co"
       ],
       "infoUrl": "https://base.org",
       "faucets": []
@@ -432,7 +431,6 @@
       "explorerUrl": "https://arbiscan.io",
       "rpc": [
         "https://arb1.arbitrum.io/rpc",
-        "https://arbitrum-one.publicnode.com",
         "https://arbitrum-one.public.blastapi.io"
       ]
     },
