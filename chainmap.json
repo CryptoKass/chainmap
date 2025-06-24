@@ -262,7 +262,6 @@
         "https://rpc.gnosischain.com",
         "https://rpc.gnosis.gateway.fm",
         "https://gnosis-mainnet.public.blastapi.io",
-        "https://gnosis.api.onfinality.io/public",
         "https://gnosis.oat.farm"
       ]
     }
