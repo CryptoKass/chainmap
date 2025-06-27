@@ -1,17 +1,9 @@
 declare const _default: {
-    1: {
+    56: {
         network: string;
         chain: string;
     };
-    5: {
-        network: string;
-        chain: string;
-    };
-    11155111: {
-        network: string;
-        chain: string;
-    };
-    7777777: {
+    97: {
         network: string;
         chain: string;
     };
@@ -19,7 +11,7 @@ declare const _default: {
         network: string;
         chain: string;
     };
-    8453: {
+    100: {
         network: string;
         chain: string;
     };
@@ -39,11 +31,15 @@ declare const _default: {
         network: string;
         chain: string;
     };
-    1666600000: {
+    250: {
         network: string;
         chain: string;
     };
-    1666700000: {
+    4002: {
+        network: string;
+        chain: string;
+    };
+    8453: {
         network: string;
         chain: string;
     };
@@ -59,23 +55,19 @@ declare const _default: {
         network: string;
         chain: string;
     };
-    100: {
+    8217: {
         network: string;
         chain: string;
     };
-    250: {
+    7777777: {
         network: string;
         chain: string;
     };
-    4002: {
+    1666600000: {
         network: string;
         chain: string;
     };
-    43114: {
-        network: string;
-        chain: string;
-    };
-    43113: {
+    1666700000: {
         network: string;
         chain: string;
     };
@@ -111,15 +103,23 @@ declare const _default: {
         network: string;
         chain: string;
     };
-    8217: {
+    1: {
         network: string;
         chain: string;
     };
-    56: {
+    5: {
         network: string;
         chain: string;
     };
-    97: {
+    11155111: {
+        network: string;
+        chain: string;
+    };
+    43114: {
+        network: string;
+        chain: string;
+    };
+    43113: {
         network: string;
         chain: string;
     };

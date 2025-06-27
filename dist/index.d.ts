@@ -1,43 +1,16 @@
 declare const _default: import("./types").Proxied<{
-    ethereum: {
+    smartchain: {
         mainnet: {
             chainId: number;
             name: string;
-            iconUrl: string;
             currency: {
                 name: string;
                 symbol: string;
                 decimals: number;
             };
-            explorerUrl: string;
             rpc: string[];
         };
-        goerli: {
-            chainId: number;
-            name: string;
-            currency: {
-                name: string;
-                symbol: string;
-                decimals: number;
-            };
-            explorerUrl: string;
-            rpc: string[];
-        };
-        sepolia: {
-            chainId: number;
-            name: string;
-            currency: {
-                name: string;
-                symbol: string;
-                decimals: number;
-            };
-            explorerUrl: string;
-            rpc: string[];
-        };
-    };
-    zora: {
-        mainnet: {
-            explorerUrl: string;
+        testnet: {
             chainId: number;
             name: string;
             currency: {
@@ -46,8 +19,6 @@ declare const _default: import("./types").Proxied<{
                 decimals: number;
             };
             rpc: string[];
-            infoUrl: string;
-            faucets: any[];
         };
     };
     optimism: {
@@ -64,19 +35,18 @@ declare const _default: import("./types").Proxied<{
             rpc: string[];
         };
     };
-    base: {
+    gnosis: {
         mainnet: {
-            explorerUrl: string;
             chainId: number;
             name: string;
+            infoURL: string;
             currency: {
                 name: string;
                 symbol: string;
                 decimals: number;
             };
+            explorerUrl: string;
             rpc: string[];
-            infoUrl: string;
-            faucets: any[];
         };
     };
     moonbeam: {
@@ -132,10 +102,9 @@ declare const _default: import("./types").Proxied<{
             faucets: any[];
         };
     };
-    harmony: {
+    fantom: {
         mainnet: {
             explorerUrl: string;
-            ensAddress: string;
             chainId: number;
             name: string;
             currency: {
@@ -159,6 +128,21 @@ declare const _default: import("./types").Proxied<{
             rpc: string[];
             infoUrl: string;
             faucets: string[];
+        };
+    };
+    base: {
+        mainnet: {
+            explorerUrl: string;
+            chainId: number;
+            name: string;
+            currency: {
+                name: string;
+                symbol: string;
+                decimals: number;
+            };
+            rpc: string[];
+            infoUrl: string;
+            faucets: any[];
         };
     };
     celo: {
@@ -201,21 +185,21 @@ declare const _default: import("./types").Proxied<{
             faucets: string[];
         };
     };
-    gnosis: {
+    klayton: {
         mainnet: {
             chainId: number;
             name: string;
-            infoURL: string;
             currency: {
                 name: string;
                 symbol: string;
                 decimals: number;
             };
+            infoUrl: string;
             explorerUrl: string;
             rpc: string[];
         };
     };
-    fantom: {
+    zora: {
         mainnet: {
             explorerUrl: string;
             chainId: number;
@@ -229,23 +213,11 @@ declare const _default: import("./types").Proxied<{
             infoUrl: string;
             faucets: any[];
         };
-        testnet: {
-            explorerUrl: string;
-            chainId: number;
-            name: string;
-            currency: {
-                name: string;
-                symbol: string;
-                decimals: number;
-            };
-            rpc: string[];
-            infoUrl: string;
-            faucets: string[];
-        };
     };
-    avalanche: {
+    harmony: {
         mainnet: {
             explorerUrl: string;
+            ensAddress: string;
             chainId: number;
             name: string;
             currency: {
@@ -365,8 +337,20 @@ declare const _default: import("./types").Proxied<{
             rpc: string[];
         };
     };
-    klayton: {
+    ethereum: {
         mainnet: {
+            chainId: number;
+            name: string;
+            iconUrl: string;
+            currency: {
+                name: string;
+                symbol: string;
+                decimals: number;
+            };
+            explorerUrl: string;
+            rpc: string[];
+        };
+        goerli: {
             chainId: number;
             name: string;
             currency: {
@@ -374,13 +358,24 @@ declare const _default: import("./types").Proxied<{
                 symbol: string;
                 decimals: number;
             };
-            infoUrl: string;
+            explorerUrl: string;
+            rpc: string[];
+        };
+        sepolia: {
+            chainId: number;
+            name: string;
+            currency: {
+                name: string;
+                symbol: string;
+                decimals: number;
+            };
             explorerUrl: string;
             rpc: string[];
         };
     };
-    smartchain: {
+    avalanche: {
         mainnet: {
+            explorerUrl: string;
             chainId: number;
             name: string;
             currency: {
@@ -389,8 +384,11 @@ declare const _default: import("./types").Proxied<{
                 decimals: number;
             };
             rpc: string[];
+            infoUrl: string;
+            faucets: any[];
         };
         testnet: {
+            explorerUrl: string;
             chainId: number;
             name: string;
             currency: {
@@ -399,6 +397,8 @@ declare const _default: import("./types").Proxied<{
                 decimals: number;
             };
             rpc: string[];
+            infoUrl: string;
+            faucets: string[];
         };
     };
     cronos: {
