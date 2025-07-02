@@ -66,6 +66,7 @@
       "explorerUrl": "https://gnosisscan.io",
       "rpc": [
         "https://rpc.gnosischain.com",
+        "https://rpc.gnosis.gateway.fm",
         "https://gnosis-mainnet.public.blastapi.io",
         "https://gnosis.api.onfinality.io/public",
         "https://gnosis.oat.farm"
@@ -97,7 +98,9 @@
         "symbol": "MOVR",
         "decimals": 18
       },
-      "rpc": [],
+      "rpc": [
+        "https://rpc.api.moonriver.moonbeam.network"
+      ],
       "infoUrl": "https://moonbeam.network/networks/moonriver/",
       "faucets": []
     },
@@ -283,9 +286,7 @@
       "rpc": [
         "https://api.harmony.one",
         "https://a.api.s0.t.hmny.io",
-        "https://api.s0.t.hmny.io",
-        "https://1rpc.io/one",
-        "https://api.s1.t.hmny.io"
+        "https://api.s0.t.hmny.io"
       ],
       "infoUrl": "https://www.harmony.one/",
       "faucets": []
