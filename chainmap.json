@@ -250,9 +250,7 @@
       },
       "infoUrl": "https://klaytn.foundation",
       "explorerUrl": "https://scope.klaytn.com/",
-      "rpc": [
-        "https://klaytn.api.onfinality.io/public"
-      ]
+      "rpc": []
     }
   },
   "zora": {
@@ -376,7 +374,6 @@
       "explorerUrl": "https://arbiscan.io",
       "rpc": [
         "https://arb1.arbitrum.io/rpc",
-        "https://arbitrum-one.publicnode.com",
         "https://arbitrum-one.public.blastapi.io"
       ]
     },
