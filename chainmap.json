@@ -137,8 +137,10 @@
       },
       "rpc": [
         "https://api.harmony.one",
+        "https://a.api.s0.t.hmny.io",
         "https://api.s0.t.hmny.io",
-        "https://1rpc.io/one"
+        "https://1rpc.io/one",
+        "https://api.s1.t.hmny.io"
       ],
       "infoUrl": "https://www.harmony.one/",
       "faucets": []
@@ -187,8 +189,7 @@
       },
       "explorerUrl": "https://zkevm.polygonscan.com",
       "rpc": [
-        "https://polygon-zkevm-mainnet.public.blastapi.io",
-        "https://1rpc.io/polygon/zkevm"
+        "https://polygon-zkevm-mainnet.public.blastapi.io"
       ]
     },
     "mumbai": {
