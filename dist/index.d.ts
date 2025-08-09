@@ -1,5 +1,5 @@
 declare const _default: import("./types").Proxied<{
-    avalanche: {
+    fantom: {
         mainnet: {
             explorerUrl: string;
             chainId: number;
@@ -27,9 +27,8 @@ declare const _default: import("./types").Proxied<{
             faucets: string[];
         };
     };
-    zora: {
+    cronos: {
         mainnet: {
-            explorerUrl: string;
             chainId: number;
             name: string;
             currency: {
@@ -38,61 +37,28 @@ declare const _default: import("./types").Proxied<{
                 decimals: number;
             };
             rpc: string[];
-            infoUrl: string;
-            faucets: any[];
+            explorerUrl: string;
         };
     };
-    celo: {
-        mainnet: {
-            explorerUrl: string;
-            chainId: number;
-            name: string;
-            currency: {
-                name: string;
-                symbol: string;
-                decimals: number;
-            };
-            rpc: string[];
-            infoUrl: string;
-            faucets: any[];
-        };
-        alfajores: {
-            explorerUrl: string;
-            chainId: number;
-            name: string;
-            currency: {
-                name: string;
-                symbol: string;
-                decimals: number;
-            };
-            rpc: string[];
-            infoUrl: string;
-            faucets: string[];
-        };
-        baklava: {
-            chainId: number;
-            name: string;
-            currency: {
-                name: string;
-                symbol: string;
-                decimals: number;
-            };
-            rpc: string[];
-            infoUrl: string;
-            faucets: string[];
-        };
-    };
-    gnosis: {
+    smartchain: {
         mainnet: {
             chainId: number;
             name: string;
-            infoURL: string;
             currency: {
                 name: string;
                 symbol: string;
                 decimals: number;
             };
-            explorerUrl: string;
+            rpc: string[];
+        };
+        testnet: {
+            chainId: number;
+            name: string;
+            currency: {
+                name: string;
+                symbol: string;
+                decimals: number;
+            };
             rpc: string[];
         };
     };
@@ -125,7 +91,56 @@ declare const _default: import("./types").Proxied<{
             faucets: string[];
         };
     };
-    polygon: {
+    arbitrum: {
+        mainnet: {
+            chainId: number;
+            name: string;
+            iconUrl: string;
+            currency: {
+                name: string;
+                symbol: string;
+                decimals: number;
+            };
+            explorerUrl: string;
+            rpc: string[];
+        };
+        goerli: {
+            chainId: number;
+            name: string;
+            iconUrl: string;
+            currency: {
+                name: string;
+                symbol: string;
+                decimals: number;
+            };
+            explorerUrl: string;
+            rpc: string[];
+        };
+        sepolia: {
+            chainId: number;
+            name: string;
+            iconUrl: string;
+            currency: {
+                name: string;
+                symbol: string;
+                decimals: number;
+            };
+            explorerUrl: string;
+            rpc: string[];
+        };
+        nova: {
+            chainId: number;
+            name: string;
+            currency: {
+                name: string;
+                symbol: string;
+                decimals: number;
+            };
+            explorerUrl: string;
+            rpc: string[];
+        };
+    };
+    klayton: {
         mainnet: {
             chainId: number;
             name: string;
@@ -134,43 +149,12 @@ declare const _default: import("./types").Proxied<{
                 symbol: string;
                 decimals: number;
             };
+            infoUrl: string;
             explorerUrl: string;
-            rpc: string[];
-        };
-        zkevm: {
-            chainId: number;
-            name: string;
-            currency: {
-                name: string;
-                symbol: string;
-                decimals: number;
-            };
-            explorerUrl: string;
-            rpc: string[];
-        };
-        mumbai: {
-            chainId: number;
-            name: string;
-            currency: {
-                name: string;
-                symbol: string;
-                decimals: number;
-            };
-            explorerUrl: string;
-            rpc: string[];
-        };
-        zkevmtest: {
-            chainId: number;
-            name: string;
-            currency: {
-                name: string;
-                symbol: string;
-                decimals: number;
-            };
             rpc: string[];
         };
     };
-    fantom: {
+    avalanche: {
         mainnet: {
             explorerUrl: string;
             chainId: number;
@@ -198,9 +182,20 @@ declare const _default: import("./types").Proxied<{
             faucets: string[];
         };
     };
-    base: {
+    ethereum: {
         mainnet: {
+            chainId: number;
+            name: string;
+            iconUrl: string;
+            currency: {
+                name: string;
+                symbol: string;
+                decimals: number;
+            };
             explorerUrl: string;
+            rpc: string[];
+        };
+        goerli: {
             chainId: number;
             name: string;
             currency: {
@@ -208,9 +203,19 @@ declare const _default: import("./types").Proxied<{
                 symbol: string;
                 decimals: number;
             };
+            explorerUrl: string;
             rpc: string[];
-            infoUrl: string;
-            faucets: any[];
+        };
+        sepolia: {
+            chainId: number;
+            name: string;
+            currency: {
+                name: string;
+                symbol: string;
+                decimals: number;
+            };
+            explorerUrl: string;
+            rpc: string[];
         };
     };
     moonbeam: {
@@ -266,8 +271,9 @@ declare const _default: import("./types").Proxied<{
             faucets: any[];
         };
     };
-    cronos: {
+    zora: {
         mainnet: {
+            explorerUrl: string;
             chainId: number;
             name: string;
             currency: {
@@ -276,72 +282,15 @@ declare const _default: import("./types").Proxied<{
                 decimals: number;
             };
             rpc: string[];
-            explorerUrl: string;
-        };
-    };
-    klayton: {
-        mainnet: {
-            chainId: number;
-            name: string;
-            currency: {
-                name: string;
-                symbol: string;
-                decimals: number;
-            };
             infoUrl: string;
-            explorerUrl: string;
-            rpc: string[];
+            faucets: any[];
         };
     };
-    smartchain: {
+    gnosis: {
         mainnet: {
             chainId: number;
             name: string;
-            currency: {
-                name: string;
-                symbol: string;
-                decimals: number;
-            };
-            rpc: string[];
-        };
-        testnet: {
-            chainId: number;
-            name: string;
-            currency: {
-                name: string;
-                symbol: string;
-                decimals: number;
-            };
-            rpc: string[];
-        };
-    };
-    ethereum: {
-        mainnet: {
-            chainId: number;
-            name: string;
-            iconUrl: string;
-            currency: {
-                name: string;
-                symbol: string;
-                decimals: number;
-            };
-            explorerUrl: string;
-            rpc: string[];
-        };
-        goerli: {
-            chainId: number;
-            name: string;
-            currency: {
-                name: string;
-                symbol: string;
-                decimals: number;
-            };
-            explorerUrl: string;
-            rpc: string[];
-        };
-        sepolia: {
-            chainId: number;
-            name: string;
+            infoURL: string;
             currency: {
                 name: string;
                 symbol: string;
@@ -365,11 +314,10 @@ declare const _default: import("./types").Proxied<{
             rpc: string[];
         };
     };
-    arbitrum: {
+    polygon: {
         mainnet: {
             chainId: number;
             name: string;
-            iconUrl: string;
             currency: {
                 name: string;
                 symbol: string;
@@ -378,31 +326,7 @@ declare const _default: import("./types").Proxied<{
             explorerUrl: string;
             rpc: string[];
         };
-        goerli: {
-            chainId: number;
-            name: string;
-            iconUrl: string;
-            currency: {
-                name: string;
-                symbol: string;
-                decimals: number;
-            };
-            explorerUrl: string;
-            rpc: string[];
-        };
-        sepolia: {
-            chainId: number;
-            name: string;
-            iconUrl: string;
-            currency: {
-                name: string;
-                symbol: string;
-                decimals: number;
-            };
-            explorerUrl: string;
-            rpc: string[];
-        };
-        nova: {
+        zkevm: {
             chainId: number;
             name: string;
             currency: {
@@ -412,6 +336,82 @@ declare const _default: import("./types").Proxied<{
             };
             explorerUrl: string;
             rpc: string[];
+        };
+        mumbai: {
+            chainId: number;
+            name: string;
+            currency: {
+                name: string;
+                symbol: string;
+                decimals: number;
+            };
+            explorerUrl: string;
+            rpc: string[];
+        };
+        zkevmtest: {
+            chainId: number;
+            name: string;
+            currency: {
+                name: string;
+                symbol: string;
+                decimals: number;
+            };
+            rpc: string[];
+        };
+    };
+    celo: {
+        mainnet: {
+            explorerUrl: string;
+            chainId: number;
+            name: string;
+            currency: {
+                name: string;
+                symbol: string;
+                decimals: number;
+            };
+            rpc: string[];
+            infoUrl: string;
+            faucets: any[];
+        };
+        alfajores: {
+            explorerUrl: string;
+            chainId: number;
+            name: string;
+            currency: {
+                name: string;
+                symbol: string;
+                decimals: number;
+            };
+            rpc: string[];
+            infoUrl: string;
+            faucets: string[];
+        };
+        baklava: {
+            chainId: number;
+            name: string;
+            currency: {
+                name: string;
+                symbol: string;
+                decimals: number;
+            };
+            rpc: string[];
+            infoUrl: string;
+            faucets: string[];
+        };
+    };
+    base: {
+        mainnet: {
+            explorerUrl: string;
+            chainId: number;
+            name: string;
+            currency: {
+                name: string;
+                symbol: string;
+                decimals: number;
+            };
+            rpc: string[];
+            infoUrl: string;
+            faucets: any[];
         };
     };
 }, import("./types").ChainInfo>;
