@@ -101,8 +101,7 @@
         "https://api.harmony.one",
         "https://a.api.s0.t.hmny.io",
         "https://api.s0.t.hmny.io",
-        "https://1rpc.io/one",
-        "https://api.s1.t.hmny.io"
+        "https://1rpc.io/one"
       ],
       "infoUrl": "https://www.harmony.one/",
       "faucets": []
@@ -249,7 +248,8 @@
       "explorerUrl": "https://etherscan.io",
       "rpc": [
         "https://ethereum.publicnode.com",
-        "https://eth.llamarpc.com"
+        "https://eth.llamarpc.com",
+        "https://eth-mainnet.public.blastapi.io"
       ]
     },
     "goerli": {
@@ -404,6 +404,7 @@
       "explorerUrl": "https://polygonscan.com",
       "rpc": [
         "https://polygon-bor.publicnode.com",
+        "https://polygon-mainnet.public.blastapi.io",
         "https://1rpc.io/matic"
       ]
     },
