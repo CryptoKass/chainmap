@@ -249,7 +249,8 @@
       "explorerUrl": "https://etherscan.io",
       "rpc": [
         "https://ethereum.publicnode.com",
-        "https://eth.llamarpc.com"
+        "https://eth.llamarpc.com",
+        "https://eth-mainnet.public.blastapi.io"
       ]
     },
     "goerli": {
@@ -273,6 +274,7 @@
       },
       "explorerUrl": "https://sepolia.etherscan.io",
       "rpc": [
+        "https://eth-sepolia.public.blastapi.io",
         "https://gateway.tenderly.co/public/sepolia"
       ]
     }
@@ -367,7 +369,9 @@
       "rpc": [
         "https://rpc.gnosischain.com",
         "https://rpc.gnosis.gateway.fm",
-        "https://gnosis.api.onfinality.io/public"
+        "https://gnosis-mainnet.public.blastapi.io",
+        "https://gnosis.api.onfinality.io/public",
+        "https://gnosis.oat.farm"
       ]
     }
   },
