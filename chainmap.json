@@ -1,127 +1,44 @@
 {
-  "fantom": {
+  "ethereum": {
     "mainnet": {
-      "explorerUrl": "https://ftmscan.com",
-      "chainId": 250,
-      "name": "Fantom Opera",
+      "chainId": 1,
+      "name": "Ethereum Mainnet",
+      "iconUrl": "https://raw.githubusercontent.com/CryptoKass/chainmap/main/assets/img/network/ethereum.png",
       "currency": {
-        "name": "Fantom",
-        "symbol": "FTM",
+        "name": "Ethereum",
+        "symbol": "ETH",
         "decimals": 18
       },
+      "explorerUrl": "https://etherscan.io",
       "rpc": [
-        "https://fantom.publicnode.com"
-      ],
-      "infoUrl": "https://fantom.foundation",
-      "faucets": []
-    },
-    "testnet": {
-      "explorerUrl": "https://testnet.ftmscan.com",
-      "chainId": 4002,
-      "name": "Fantom Testnet",
-      "currency": {
-        "name": "Fantom",
-        "symbol": "FTM",
-        "decimals": 18
-      },
-      "rpc": [
-        "https://rpc.testnet.fantom.network",
-        "https://fantom-testnet.publicnode.com"
-      ],
-      "infoUrl": "https://docs.fantom.foundation/quick-start/short-guide#fantom-testnet",
-      "faucets": [
-        "https://faucet.fantom.network"
-      ]
-    }
-  },
-  "cronos": {
-    "mainnet": {
-      "chainId": 25,
-      "name": "Cronos Mainnet",
-      "currency": {
-        "name": "CRO",
-        "symbol": "CRO",
-        "decimals": 18
-      },
-      "rpc": [
-        "https://cronos-evm.publicnode.com",
-        "https://evm.cronos.org"
-      ],
-      "explorerUrl": "https://cronoscan.com"
-    }
-  },
-  "smartchain": {
-    "mainnet": {
-      "chainId": 56,
-      "name": "Binance SmartChain Mainnet",
-      "currency": {
-        "name": "BNB",
-        "symbol": "BNB",
-        "decimals": 18
-      },
-      "rpc": [
-        "https://bsc-dataseed1.binance.org",
-        "https://bsc-dataseed2.binance.org",
-        "https://bsc-dataseed3.binance.org",
-        "https://bsc-dataseed4.binance.org",
-        "https://bsc.publicnode.com",
-        "https://binance.llamarpc.com"
+        "https://ethereum.publicnode.com",
+        "https://eth.llamarpc.com",
+        "https://eth-mainnet.public.blastapi.io"
       ]
     },
-    "testnet": {
-      "chainId": 97,
-      "name": "Binance SmartChain Testnet",
+    "goerli": {
+      "chainId": 5,
+      "name": "Ethereum Goerli",
       "currency": {
-        "name": "BNB",
-        "symbol": "BNB",
+        "name": "Ethereum",
+        "symbol": "ETH",
         "decimals": 18
       },
-      "rpc": [
-        "https://data-seed-prebsc-1-s1.binance.org:8545",
-        "https://data-seed-prebsc-2-s1.binance.org:8545",
-        "https://data-seed-prebsc-1-s2.binance.org:8545",
-        "https://data-seed-prebsc-2-s2.binance.org:8545",
-        "https://bsc-testnet.publicnode.com",
-        "https://bsc-testnet.public.blastapi.io"
-      ]
-    }
-  },
-  "harmony": {
-    "mainnet": {
-      "explorerUrl": "https://explorer.harmony.one",
-      "ensAddress": "0x4cd2563118e57b19179d8dc033f2b0c5b5d69ff5",
-      "chainId": 1666600000,
-      "name": "Harmony Mainnet Shard 0",
-      "currency": {
-        "name": "ONE",
-        "symbol": "ONE",
-        "decimals": 18
-      },
-      "rpc": [
-        "https://api.harmony.one",
-        "https://a.api.s0.t.hmny.io",
-        "https://api.s0.t.hmny.io",
-        "https://1rpc.io/one",
-        "https://api.s1.t.hmny.io"
-      ],
-      "infoUrl": "https://www.harmony.one/",
-      "faucets": []
+      "explorerUrl": "https://goerli.etherscan.io",
+      "rpc": []
     },
-    "testnet": {
-      "explorerUrl": "https://explorer.testnet.harmony.one",
-      "chainId": 1666700000,
-      "name": "Harmony Testnet Shard 0",
+    "sepolia": {
+      "chainId": 11155111,
+      "name": "Ethereum Sepolia",
       "currency": {
-        "name": "ONE",
-        "symbol": "ONE",
+        "name": "Ethereum",
+        "symbol": "ETH",
         "decimals": 18
       },
+      "explorerUrl": "https://sepolia.etherscan.io",
       "rpc": [
-        "https://api.s0.b.hmny.io"
-      ],
-      "infoUrl": "https://www.harmony.one/",
-      "faucets": [
-        "https://faucet.pops.one"
+        "https://eth-sepolia.public.blastapi.io",
+        "https://gateway.tenderly.co/public/sepolia"
       ]
     }
   },
@@ -200,83 +117,108 @@
       ]
     }
   },
-  "avalanche": {
+  "celo": {
     "mainnet": {
-      "explorerUrl": "https://snowtrace.io",
-      "chainId": 43114,
-      "name": "Avalanche C-chain",
+      "explorerUrl": "https://celoscan.io",
+      "chainId": 42220,
+      "name": "Celo Mainnet",
       "currency": {
-        "name": "Avalanche",
-        "symbol": "AVAX",
+        "name": "CELO",
+        "symbol": "CELO",
         "decimals": 18
       },
       "rpc": [
-        "https://api.avax.network/ext/bc/C/rpc",
-        "https://avalanche-c-chain.publicnode.com"
+        "https://forno.celo.org"
       ],
-      "infoUrl": "https://www.avax.network/",
+      "infoUrl": "https://docs.celo.org/",
       "faucets": []
     },
-    "testnet": {
-      "explorerUrl": "https://testnet.snowtrace.io",
-      "chainId": 43113,
-      "name": "Avalanche Fuji Testnet",
+    "alfajores": {
+      "explorerUrl": "https://alfajores.celoscan.io",
+      "chainId": 44787,
+      "name": "Celo Alfajores Testnet",
       "currency": {
-        "name": "Avalanche",
-        "symbol": "AVAX",
+        "name": "CELO",
+        "symbol": "CELO",
         "decimals": 18
       },
       "rpc": [
-        "https://api.avax-test.network/ext/bc/C/rpc",
-        "https://avalanche-fuji-c-chain.publicnode.com"
+        "https://alfajores-forno.celo-testnet.org"
       ],
-      "infoUrl": "https://cchain.explorer.avax-test.network",
+      "infoUrl": "https://docs.celo.org/",
       "faucets": [
-        "https://faucet.avax-test.network/"
+        "https://celo.org/developers/faucet",
+        "https://cauldron.pretoriaresearchlab.io/alfajores-faucet"
+      ]
+    },
+    "baklava": {
+      "chainId": 62320,
+      "name": "Celo Baklava Testnet",
+      "currency": {
+        "name": "CELO",
+        "symbol": "CELO",
+        "decimals": 18
+      },
+      "rpc": [
+        "https://baklava-forno.celo-testnet.org"
+      ],
+      "infoUrl": "https://docs.celo.org/",
+      "faucets": [
+        "https://docs.google.com/forms/d/e/1FAIpQLSdfr1BwUTYepVmmvfVUDRCwALejZ-TUva2YujNpvrEmPAX2pg/viewform",
+        "https://cauldron.pretoriaresearchlab.io/baklava-faucet"
       ]
     }
   },
-  "ethereum": {
+  "polygon": {
     "mainnet": {
-      "chainId": 1,
-      "name": "Ethereum Mainnet",
-      "iconUrl": "https://raw.githubusercontent.com/CryptoKass/chainmap/main/assets/img/network/ethereum.png",
+      "chainId": 137,
+      "name": "Polygon",
       "currency": {
-        "name": "Ethereum",
-        "symbol": "ETH",
+        "name": "Polygon",
+        "symbol": "MATIC",
         "decimals": 18
       },
-      "explorerUrl": "https://etherscan.io",
+      "explorerUrl": "https://polygonscan.com",
       "rpc": [
-        "https://ethereum.publicnode.com",
-        "https://eth.llamarpc.com",
-        "https://eth-mainnet.public.blastapi.io"
+        "https://polygon-bor.publicnode.com",
+        "https://polygon-mainnet.public.blastapi.io",
+        "https://1rpc.io/matic"
       ]
     },
-    "goerli": {
-      "chainId": 5,
-      "name": "Ethereum Goerli",
+    "zkevm": {
+      "chainId": 1101,
+      "name": "Polygon Zkevm",
       "currency": {
         "name": "Ethereum",
         "symbol": "ETH",
         "decimals": 18
       },
-      "explorerUrl": "https://goerli.etherscan.io",
+      "explorerUrl": "https://zkevm.polygonscan.com",
+      "rpc": [
+        "https://polygon-zkevm-mainnet.public.blastapi.io",
+        "https://1rpc.io/polygon/zkevm"
+      ]
+    },
+    "mumbai": {
+      "chainId": 80001,
+      "name": "Polygon Mumbai",
+      "currency": {
+        "name": "Polygon",
+        "symbol": "MATIC",
+        "decimals": 18
+      },
+      "explorerUrl": "https://mumbai.polygonscan.com",
       "rpc": []
     },
-    "sepolia": {
-      "chainId": 11155111,
-      "name": "Ethereum Sepolia",
+    "zkevmtest": {
+      "chainId": 1442,
+      "name": "Polygon Zkevm Testnet",
       "currency": {
         "name": "Ethereum",
         "symbol": "ETH",
         "decimals": 18
       },
-      "explorerUrl": "https://sepolia.etherscan.io",
-      "rpc": [
-        "https://eth-sepolia.public.blastapi.io",
-        "https://gateway.tenderly.co/public/sepolia"
-      ]
+      "rpc": []
     }
   },
   "moonbeam": {
@@ -338,40 +280,77 @@
       "faucets": []
     }
   },
-  "zora": {
+  "harmony": {
     "mainnet": {
-      "explorerUrl": "https://explorer.zora.energy",
-      "chainId": 7777777,
-      "name": "Zora",
+      "explorerUrl": "https://explorer.harmony.one",
+      "ensAddress": "0x4cd2563118e57b19179d8dc033f2b0c5b5d69ff5",
+      "chainId": 1666600000,
+      "name": "Harmony Mainnet Shard 0",
       "currency": {
-        "name": "Ether",
-        "symbol": "ETH",
+        "name": "ONE",
+        "symbol": "ONE",
         "decimals": 18
       },
       "rpc": [
-        "https://rpc.zora.energy/"
+        "https://api.harmony.one",
+        "https://a.api.s0.t.hmny.io",
+        "https://api.s0.t.hmny.io",
+        "https://1rpc.io/one"
       ],
-      "infoUrl": "https://zora.energy",
+      "infoUrl": "https://www.harmony.one/",
       "faucets": []
+    },
+    "testnet": {
+      "explorerUrl": "https://explorer.testnet.harmony.one",
+      "chainId": 1666700000,
+      "name": "Harmony Testnet Shard 0",
+      "currency": {
+        "name": "ONE",
+        "symbol": "ONE",
+        "decimals": 18
+      },
+      "rpc": [
+        "https://api.s0.b.hmny.io"
+      ],
+      "infoUrl": "https://www.harmony.one/",
+      "faucets": [
+        "https://faucet.pops.one"
+      ]
     }
   },
-  "gnosis": {
+  "avalanche": {
     "mainnet": {
-      "chainId": 100,
-      "name": "Gnosis",
-      "infoURL": "https://docs.gnosischain.com",
+      "explorerUrl": "https://snowtrace.io",
+      "chainId": 43114,
+      "name": "Avalanche C-chain",
       "currency": {
-        "name": "xDAI",
-        "symbol": "XDAI",
+        "name": "Avalanche",
+        "symbol": "AVAX",
         "decimals": 18
       },
-      "explorerUrl": "https://gnosisscan.io",
       "rpc": [
-        "https://rpc.gnosischain.com",
-        "https://rpc.gnosis.gateway.fm",
-        "https://gnosis-mainnet.public.blastapi.io",
-        "https://gnosis.api.onfinality.io/public",
-        "https://gnosis.oat.farm"
+        "https://api.avax.network/ext/bc/C/rpc",
+        "https://avalanche-c-chain.publicnode.com"
+      ],
+      "infoUrl": "https://www.avax.network/",
+      "faucets": []
+    },
+    "testnet": {
+      "explorerUrl": "https://testnet.snowtrace.io",
+      "chainId": 43113,
+      "name": "Avalanche Fuji Testnet",
+      "currency": {
+        "name": "Avalanche",
+        "symbol": "AVAX",
+        "decimals": 18
+      },
+      "rpc": [
+        "https://api.avax-test.network/ext/bc/C/rpc",
+        "https://avalanche-fuji-c-chain.publicnode.com"
+      ],
+      "infoUrl": "https://cchain.explorer.avax-test.network",
+      "faucets": [
+        "https://faucet.avax-test.network/"
       ]
     }
   },
@@ -393,108 +372,91 @@
       ]
     }
   },
-  "polygon": {
+  "gnosis": {
     "mainnet": {
-      "chainId": 137,
-      "name": "Polygon",
+      "chainId": 100,
+      "name": "Gnosis",
+      "infoURL": "https://docs.gnosischain.com",
       "currency": {
-        "name": "Polygon",
-        "symbol": "MATIC",
+        "name": "xDAI",
+        "symbol": "XDAI",
         "decimals": 18
       },
-      "explorerUrl": "https://polygonscan.com",
+      "explorerUrl": "https://gnosisscan.io",
       "rpc": [
-        "https://polygon-bor.publicnode.com",
-        "https://polygon-mainnet.public.blastapi.io",
-        "https://1rpc.io/matic"
+        "https://rpc.gnosischain.com",
+        "https://rpc.gnosis.gateway.fm",
+        "https://gnosis-mainnet.public.blastapi.io",
+        "https://gnosis.oat.farm"
       ]
-    },
-    "zkevm": {
-      "chainId": 1101,
-      "name": "Polygon Zkevm",
-      "currency": {
-        "name": "Ethereum",
-        "symbol": "ETH",
-        "decimals": 18
-      },
-      "explorerUrl": "https://zkevm.polygonscan.com",
-      "rpc": [
-        "https://polygon-zkevm-mainnet.public.blastapi.io",
-        "https://1rpc.io/polygon/zkevm"
-      ]
-    },
-    "mumbai": {
-      "chainId": 80001,
-      "name": "Polygon Mumbai",
-      "currency": {
-        "name": "Polygon",
-        "symbol": "MATIC",
-        "decimals": 18
-      },
-      "explorerUrl": "https://mumbai.polygonscan.com",
-      "rpc": []
-    },
-    "zkevmtest": {
-      "chainId": 1442,
-      "name": "Polygon Zkevm Testnet",
-      "currency": {
-        "name": "Ethereum",
-        "symbol": "ETH",
-        "decimals": 18
-      },
-      "rpc": []
     }
   },
-  "celo": {
+  "cronos": {
     "mainnet": {
-      "explorerUrl": "https://celoscan.io",
-      "chainId": 42220,
-      "name": "Celo Mainnet",
+      "chainId": 25,
+      "name": "Cronos Mainnet",
       "currency": {
-        "name": "CELO",
-        "symbol": "CELO",
+        "name": "CRO",
+        "symbol": "CRO",
         "decimals": 18
       },
       "rpc": [
-        "https://forno.celo.org"
+        "https://cronos-evm.publicnode.com",
+        "https://evm.cronos.org"
       ],
-      "infoUrl": "https://docs.celo.org/",
+      "explorerUrl": "https://cronoscan.com"
+    }
+  },
+  "fantom": {
+    "mainnet": {
+      "explorerUrl": "https://ftmscan.com",
+      "chainId": 250,
+      "name": "Fantom Opera",
+      "currency": {
+        "name": "Fantom",
+        "symbol": "FTM",
+        "decimals": 18
+      },
+      "rpc": [
+        "https://fantom.publicnode.com"
+      ],
+      "infoUrl": "https://fantom.foundation",
       "faucets": []
     },
-    "alfajores": {
-      "explorerUrl": "https://alfajores.celoscan.io",
-      "chainId": 44787,
-      "name": "Celo Alfajores Testnet",
+    "testnet": {
+      "explorerUrl": "https://testnet.ftmscan.com",
+      "chainId": 4002,
+      "name": "Fantom Testnet",
       "currency": {
-        "name": "CELO",
-        "symbol": "CELO",
+        "name": "Fantom",
+        "symbol": "FTM",
         "decimals": 18
       },
       "rpc": [
-        "https://alfajores-forno.celo-testnet.org"
+        "https://rpc.testnet.fantom.network",
+        "https://fantom-testnet.publicnode.com"
       ],
-      "infoUrl": "https://docs.celo.org/",
+      "infoUrl": "https://docs.fantom.foundation/quick-start/short-guide#fantom-testnet",
       "faucets": [
-        "https://celo.org/developers/faucet",
-        "https://cauldron.pretoriaresearchlab.io/alfajores-faucet"
+        "https://faucet.fantom.network"
       ]
-    },
-    "baklava": {
-      "chainId": 62320,
-      "name": "Celo Baklava Testnet",
+    }
+  },
+  "zora": {
+    "mainnet": {
+      "explorerUrl": "https://explorer.zora.energy",
+      "chainId": 7777777,
+      "name": "Zora",
       "currency": {
-        "name": "CELO",
-        "symbol": "CELO",
+        "name": "Ether",
+        "symbol": "ETH",
         "decimals": 18
       },
       "rpc": [
-        "https://baklava-forno.celo-testnet.org"
+        "https://rpc.zora.energy/"
       ],
-      "infoUrl": "https://docs.celo.org/",
-      "faucets": [
-        "https://docs.google.com/forms/d/e/1FAIpQLSdfr1BwUTYepVmmvfVUDRCwALejZ-TUva2YujNpvrEmPAX2pg/viewform",
-        "https://cauldron.pretoriaresearchlab.io/baklava-faucet"
-      ]
+      "infoUrl": "https://zora.energy",
+      "faucets": []
     }
   },
   "base": {
@@ -515,6 +477,42 @@
       ],
       "infoUrl": "https://base.org",
       "faucets": []
+    }
+  },
+  "smartchain": {
+    "mainnet": {
+      "chainId": 56,
+      "name": "Binance SmartChain Mainnet",
+      "currency": {
+        "name": "BNB",
+        "symbol": "BNB",
+        "decimals": 18
+      },
+      "rpc": [
+        "https://bsc-dataseed1.binance.org",
+        "https://bsc-dataseed2.binance.org",
+        "https://bsc-dataseed3.binance.org",
+        "https://bsc-dataseed4.binance.org",
+        "https://bsc.publicnode.com",
+        "https://binance.llamarpc.com"
+      ]
+    },
+    "testnet": {
+      "chainId": 97,
+      "name": "Binance SmartChain Testnet",
+      "currency": {
+        "name": "BNB",
+        "symbol": "BNB",
+        "decimals": 18
+      },
+      "rpc": [
+        "https://data-seed-prebsc-1-s1.binance.org:8545",
+        "https://data-seed-prebsc-2-s1.binance.org:8545",
+        "https://data-seed-prebsc-1-s2.binance.org:8545",
+        "https://data-seed-prebsc-2-s2.binance.org:8545",
+        "https://bsc-testnet.publicnode.com",
+        "https://bsc-testnet.public.blastapi.io"
+      ]
     }
   }
 }

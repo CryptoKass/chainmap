@@ -5,36 +5,36 @@ import { asProxyWithChainId } from "./utils";
 import chainIds from "./chainIds";
 
 // Supported Networks
-import fantom from "./fantom";
-import cronos from "./cronos";
-import smartchain from "./smartchain";
-import harmony from "./harmony";
+import ethereum from "./ethereum";
 import arbitrum from "./arbitrum";
 import klayton from "./klayton";
-import avalanche from "./avalanche";
-import ethereum from "./ethereum";
-import moonbeam from "./moonbeam";
-import zora from "./zora";
-import gnosis from "./gnosis";
-import optimism from "./optimism";
-import polygon from "./polygon";
 import celo from "./celo";
+import polygon from "./polygon";
+import moonbeam from "./moonbeam";
+import harmony from "./harmony";
+import avalanche from "./avalanche";
+import optimism from "./optimism";
+import gnosis from "./gnosis";
+import cronos from "./cronos";
+import fantom from "./fantom";
+import zora from "./zora";
 import base from "./base";
+import smartchain from "./smartchain";
 
 export default asProxyWithChainId({
-  fantom,
-  cronos,
-  smartchain,
-  harmony,
+  ethereum,
   arbitrum,
   klayton,
-  avalanche,
-  ethereum,
-  moonbeam,
-  zora,
-  gnosis,
-  optimism,
-  polygon,
   celo,
+  polygon,
+  moonbeam,
+  harmony,
+  avalanche,
+  optimism,
+  gnosis,
+  cronos,
+  fantom,
+  zora,
   base,
+  smartchain,
 }, chainIds);
