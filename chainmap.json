@@ -388,7 +388,8 @@
         "https://rpc.gnosischain.com",
         "https://rpc.gnosis.gateway.fm",
         "https://gnosis-mainnet.public.blastapi.io",
-        "https://gnosis.api.onfinality.io/public"
+        "https://gnosis.api.onfinality.io/public",
+        "https://gnosis.oat.farm"
       ]
     }
   },
@@ -511,8 +512,7 @@
         "https://data-seed-prebsc-2-s1.binance.org:8545",
         "https://data-seed-prebsc-1-s2.binance.org:8545",
         "https://data-seed-prebsc-2-s2.binance.org:8545",
-        "https://bsc-testnet.publicnode.com",
-        "https://bsc-testnet.public.blastapi.io"
+        "https://bsc-testnet.publicnode.com"
       ]
     }
   }
