@@ -454,9 +454,7 @@
         "symbol": "ETH",
         "decimals": 18
       },
-      "rpc": [
-        "https://rpc.zora.energy/"
-      ],
+      "rpc": [],
       "infoUrl": "https://zora.energy",
       "faucets": []
     }
