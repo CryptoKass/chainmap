@@ -436,9 +436,7 @@
         "symbol": "FTM",
         "decimals": 18
       },
-      "rpc": [
-        "https://fantom.publicnode.com"
-      ],
+      "rpc": [],
       "infoUrl": "https://fantom.foundation",
       "faucets": []
     },
@@ -452,8 +450,7 @@
         "decimals": 18
       },
       "rpc": [
-        "https://rpc.testnet.fantom.network",
-        "https://fantom-testnet.publicnode.com"
+        "https://rpc.testnet.fantom.network"
       ],
       "infoUrl": "https://docs.fantom.foundation/quick-start/short-guide#fantom-testnet",
       "faucets": [
