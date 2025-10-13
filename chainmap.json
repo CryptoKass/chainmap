@@ -274,7 +274,8 @@
         "https://api.harmony.one",
         "https://a.api.s0.t.hmny.io",
         "https://api.s0.t.hmny.io",
-        "https://1rpc.io/one"
+        "https://1rpc.io/one",
+        "https://api.s1.t.hmny.io"
       ],
       "infoUrl": "https://www.harmony.one/",
       "faucets": []
@@ -288,7 +289,9 @@
         "symbol": "ONE",
         "decimals": 18
       },
-      "rpc": [],
+      "rpc": [
+        "https://api.s0.b.hmny.io"
+      ],
       "infoUrl": "https://www.harmony.one/",
       "faucets": [
         "https://faucet.pops.one"
@@ -469,8 +472,7 @@
         "https://bsc-dataseed2.binance.org",
         "https://bsc-dataseed3.binance.org",
         "https://bsc-dataseed4.binance.org",
-        "https://bsc.publicnode.com",
-        "https://binance.llamarpc.com"
+        "https://bsc.publicnode.com"
       ]
     },
     "testnet": {
