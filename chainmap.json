@@ -472,7 +472,8 @@
         "https://bsc-dataseed2.binance.org",
         "https://bsc-dataseed3.binance.org",
         "https://bsc-dataseed4.binance.org",
-        "https://bsc.publicnode.com"
+        "https://bsc.publicnode.com",
+        "https://binance.llamarpc.com"
       ]
     },
     "testnet": {
@@ -508,7 +509,6 @@
         "https://rpc.gnosischain.com",
         "https://rpc.gnosis.gateway.fm",
         "https://gnosis-mainnet.public.blastapi.io",
-        "https://gnosis.api.onfinality.io/public",
         "https://gnosis.oat.farm"
       ]
     }
