@@ -10,6 +10,7 @@
         "decimals": 18
       },
       "rpc": [
+        "https://mainnet.base.org/",
         "https://developer-access-mainnet.base.org/",
         "https://base.gateway.tenderly.co",
         "https://base.publicnode.com"
@@ -464,7 +465,8 @@
         "https://bsc-dataseed3.binance.org",
         "https://bsc-dataseed4.binance.org",
         "https://bsc.publicnode.com",
-        "https://binance.llamarpc.com"
+        "https://binance.llamarpc.com",
+        "https://bsc.meowrpc.com"
       ]
     },
     "testnet": {
