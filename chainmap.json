@@ -12,7 +12,8 @@
       "rpc": [
         "https://mainnet.base.org/",
         "https://developer-access-mainnet.base.org/",
-        "https://base.gateway.tenderly.co"
+        "https://base.gateway.tenderly.co",
+        "https://base.publicnode.com"
       ],
       "infoUrl": "https://base.org",
       "faucets": []
@@ -225,7 +226,8 @@
       "rpc": [
         "https://ethereum.publicnode.com",
         "https://eth.llamarpc.com",
-        "https://eth-mainnet.public.blastapi.io"
+        "https://eth-mainnet.public.blastapi.io",
+        "https://rpc.flashbots.net/"
       ]
     },
     "goerli": {
@@ -305,6 +307,7 @@
       "explorerUrl": "https://arbiscan.io",
       "rpc": [
         "https://arb1.arbitrum.io/rpc",
+        "https://arbitrum-one.publicnode.com",
         "https://arbitrum-one.public.blastapi.io"
       ]
     },
