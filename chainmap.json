@@ -363,7 +363,8 @@
       },
       "explorerUrl": "https://polygonscan.com",
       "rpc": [
-        "https://polygon-bor.publicnode.com"
+        "https://polygon-bor.publicnode.com",
+        "https://1rpc.io/matic"
       ]
     },
     "zkevm": {
