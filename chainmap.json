@@ -188,8 +188,7 @@
         "decimals": 18
       },
       "rpc": [
-        "https://cronos-evm.publicnode.com",
-        "https://evm.cronos.org"
+        "https://cronos-evm.publicnode.com"
       ],
       "explorerUrl": "https://cronoscan.com"
     }
@@ -270,7 +269,8 @@
         "https://api.harmony.one",
         "https://a.api.s0.t.hmny.io",
         "https://api.s0.t.hmny.io",
-        "https://1rpc.io/one"
+        "https://1rpc.io/one",
+        "https://api.s1.t.hmny.io"
       ],
       "infoUrl": "https://www.harmony.one/",
       "faucets": []
