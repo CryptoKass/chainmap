@@ -267,8 +267,6 @@
         "decimals": 18
       },
       "rpc": [
-        "https://api.harmony.one",
-        "https://a.api.s0.t.hmny.io",
         "https://api.s0.t.hmny.io",
         "https://1rpc.io/one"
       ],
